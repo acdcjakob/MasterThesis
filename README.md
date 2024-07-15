@@ -1,4 +1,5 @@
-# Outlining the Thesis
+# Tasks
+## Outlining the Thesis
 
 Tasks to do:
 - [ ] reading through some related thesis ToC's and collect:
