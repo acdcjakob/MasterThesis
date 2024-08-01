@@ -1,18 +1,48 @@
-\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
 
+%% images
+\usepackage{graphicx}
+\graphicspath{
+    {fastImages}
+}
+%% layout
+\usepackage{lmodern} % thicker font (?)
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
 
-
+%% Text and Writing
 % chemistry
 \usepackage[version=4]{mhchem}
 
+% units
+\usepackage{siunitx}
+    \DeclareSIUnit{\angstrom}{\textup{\AA}}
+    \sisetup{range-units=single}
 
+% greek
+\usepackage{textgreek}
 
+% quotes
+\usepackage{csquotes}
 
+%% Referencing
+% Glossary
+\usepackage[acronym]{glossaries}
+    \newacronym{vbm}{VBM}{Valence Band Maximum}
+    \newacronym{cbm}{CBM}{Conduction Band Minimum}
+    \newacronym{dft}{DFT}{Density Functional Theory}
+    \newacronym{DOS}{DOS}{density of states}
+
+    \newacronym{cvd}{CVD}{Chemical Vapor Deposition}
+    \newacronym{pld}{PLD}{Pulsed Laser Deposition}
+    \newacronym{rf}{RF}{radio-frequency}
+    \newacronym{dc}{DC}{direct current}
+
+    \newacronym{UV}{UV}{ultra-violet}
 
 
 
 
 
 % --- Library stuff ---
-\usepackage{biblatex}
+\usepackage[style=numeric-comp,sorting=none]{biblatex} %numeric-comp summerizes entries in \cite
 \addbibresource{C:/Users/acdcj/OneDrive/Documents/Bibliothek/My Library.bib}
