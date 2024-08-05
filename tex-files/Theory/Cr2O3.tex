@@ -1,7 +1,8 @@
 % ----------------------
 % --- chromium oxide ---
 % ----------------------
-Chromia (\ce{Cr2O3}) is a sesquioxide composed of the transition metal chro\-mi\-um and oxygen.
+
+\enquote{Chromia} or \enquote{Eskolaite} is a sesquioxide composed of the transition metal chro\-mi\-um and oxygen with formula unit \ce{Cr2O3}.
 Among other chromium oxides (e.g. metallic \ce{CrO2}, toxic \ce{CrO3} etc.), it is the thermodynamically most stable phase 
     \cite{lebreau2014,robbert1998,al-kuhaili2007},
 making it the abundant chromium oxide on earth
@@ -12,8 +13,8 @@ Henceforth, \enquote{\ce{Cr2O3}} will refer to the \textalpha-phase.
 
 % Miscellaneous
 As coating material, \ce{Cr2O3} is commonly used due to its high hardness and resistance against corrison \cite{singh2019,al-kuhaili2007}, also explaining its use-case as component of stainless steel to form passive films \cite{lebreau2014}.
-\ce{Cr2O3} absorbs electromagnetic waves with wavelengths smaller than \qty{400}{\nm}, making it opaque in the \acrshort{UV}-spectrum \cite{cheng1996,guillen2021}.
-It is transparent in the visible spectrum with a transmittance of \qty{50}{\percent} at \qty{800}{\nm} \cite{cheng1996}.
+\ce{Cr2O3} thin films absorb electromagnetic waves with wavelengths smaller than \qty{400}{\nm}, making it opaque in the \acrshort{UV}-spectrum \cite{cheng1996,guillen2021}.
+It is transparent in the visible spectrum with, e.g., a reported transmittance of \qty{40}{\percent} at \qty{700}{\nm} for \qty{0.5}{\um} thick films by \citeauthor{cheng1996}~(\citeyear{cheng1996}) \cite{cheng1996}.
 
 % crystal structure
 \ce{Cr2O3} crystallizes in the corundum structure, which has trigonal symmetry (space group $R\bar{3}c$) and belongs to the hexagonal crystal family.
@@ -21,14 +22,14 @@ One unit cell contains six formula units, i.e. 12 chromium cations and 18 oxygen
     \cite{lebreau2014}.
 The oxygen atoms arrange in a hexagonal close-packed manner, where two thirds of the formed octahedrons are filled with \ce{Cr} atoms
     \cite{catti1996}.
-The unit cell is spanned by a principal axis, called \textit{c}-axis\footnote{The spins of the \ce{Cr} atoms along this direction are alternating $\uparrow$ and $\downarrow$, making the crystal antiferromagnetic.}, and a hexagonal basal plane with lattice constant \textit{a}.
-The numerical values for those lattice parameters differ depending on the publication \cite{mi2018,stepanov2021,finger1980}, and we will use the values in Tab.~\ref{Tab:sesquiLatticeConstants}.
+The unit cell is spanned by a principal axis, called \textit{c}-axis\footnote{The spins of the \ce{Cr} atoms along this direction are alternating $3\uparrow$ and $3\downarrow$ \cite{kehoe2016}, making the crystal antiferromagnetic \cite{catti1996,lebreau2014}.}, and a hexagonal basal plane with lattice constant \textit{a}.
+The numerical values for those lattice parameters differ depending on the publication \cite{finger1980,arca2013,kehoe2016,mi2018,stepanov2021}, and we will use the values in Tab.~\ref{Tab:sesquiLatticeConstants}.
 \begin{table}
     \centering
     \begin{tabular}{ccc|l}
         &\textit{a}&\textit{c}&Ref.\\\hline
         \textalpha-\ce{Al2O3}&&&\\
-        \textalpha-\ce{Cr2O3}&$\qty{4.96}{\angstrom}$&$\qty{13.59}{\angstrom}$&\citeauthor{mi2018} \citeyear{mi2018}\\
+        \textalpha-\ce{Cr2O3}&$\qty{4.96}{\angstrom}$&$\qty{13.59}{\angstrom}$&\citeauthor{mi2018} (\citeyear{mi2018}) \cite{mi2018}\\
         \textalpha-\ce{Ga2O3}&&
     \end{tabular}
     \caption{Lattice constants of selected corundum structured compounds.}
@@ -37,21 +38,37 @@ The numerical values for those lattice parameters differ depending on the public
 
 % growth techniques
 Several techniques were applied for depositing chromia thin films, including:
-\gls{cvd} \cite{cheng2000,cheng2001a,cheng2001} on silicon and glass,
-thermal evaporation on platinum \cite{robbert1998},
-electron-beam evaporation on glass \cite{al-kuhaili2007},
-\gls{rf} sputtering on sapphire \cite{stepanov2021,polyakov2022a,polyakov2022},
-reactive \gls{dc} sputtering on glass \cite{guillen2021}, and
-reactive \cite{caricato2010} and non-reactive \cite{singh2019} \gls{pld} on silicon and glass, respectively.
+\gls{cvd}
+    \cite{cheng2000,cheng2001a,cheng2001}
+    on silicon and glass,
+\gls{mbe} on sapphire
+    \cite{farrell2015,kehoe2016},
+thermal evaporation on platinum
+    \cite{robbert1998},
+electron-beam evaporation on glass
+    \cite{al-kuhaili2007},
+spray porylisis on glass
+    \cite{arca2011},
+\gls{rf} sputtering on sapphire
+    \cite{stepanov2021,polyakov2022a,polyakov2022},
+reactive \gls{dc} sputtering on glass
+    \cite{guillen2021},
+reactive \gls{pld} on silicon
+    \cite{caricato2010}
+and sapphire
+    \cite{punugupati2015},
+and non-reactive \gls{pld} on sapphire
+    \cite{singh2019,arca2017,kehoe2016}.
 
 % ----------------------------
 % --- electronic structure ---
 % ----------------------------
 \paragraph{Electronic Structure}
 Experimental and theoretical studies reveal that chromia exhibits a band gap of \qtyrange{3.2}{3.4}{\eV}
-    \cite{mi2018,robbert1998,lebreau2014}.
+    \cite{mi2018,robbert1998,lebreau2014,arca2013}
+making it a wide band gap material.
 % Numerical calculations locate the smallest direct band gap at the $M$-point (Brillouin zone edge in $\langle10.0\rangle$-direction).
-This predicts insulating behavior, classified as both Mott-Hubbard type and charge-transfer type, which are models to describe the electronic behavior of compounds containing transition metals with partly filled $3d^n$ orbitals\footnote{$n=5$ for \ce{Cr}}
+This predicts insulating behavior \cite{arca2013}, classified as both Mott-Hubbard type and charge-transfer type, which are models to describe the electronic behavior of compounds containing transition metals with partly filled $3d^n$ orbitals\footnote{$n=5$ for \ce{Cr}}
     \cite{catti1996,mi2018,lebreau2014}:
 \gls{dft} calculations show that the \ce{Cr}-$3d$ states are almost solely responsible for electronic states in the conduction band and that they are also present in the valence band
     \cite{mi2018,lebreau2014}.
@@ -61,7 +78,12 @@ Furthermore, the \ce{O}-$2p$ states are mainly present in the valence band, at s
     \cite{lebreau2014}.
 
 % p-type of undoped Cr2O3 due to defects
-However, several studies agree on \ce{Cr2O3} being a semiconductor with \textit{p}-type conductivity\footnote{\citeauthor{cheng2001a} (\citeyear{cheng2001a}) actually find \ce{Cr2O3} to be insulating. It is noted that they examined \ce{Cr2O3} as an \qty{2}{\nm} thick oxide surface on \ce{CrO2} films deposited by \gls{cvd}.} at room temperature and atmospheric conditions
+However, several studies agree on \ce{Cr2O3} being a semiconductor with \textit{p}-type conductivity\footnote{
+    \citeauthor{cheng2001a} (\citeyear{cheng2001a}) actually find \ce{Cr2O3} to be insulating. It is noted that they examined \ce{Cr2O3} as an \qty{2}{\nm} thick oxide surface on \ce{CrO2} films deposited by \gls{cvd} \cite{cheng2001a}.
+    \citeauthor{farrell2015} (\citeyear{farrell2015}) also find that their high quality epitaxial films of \ce{Cr2O3} grown by \gls{mbe} exhibit no \textit{p}-type conductivity \cite{farrell2015}.
+    Similar results were found by \citeauthor{kehoe2016} (\citeyear{kehoe2016}) for \gls{mbe} and \gls{pld} deposited films \cite{kehoe2016}.
+}
+at room temperature and atmospheric conditions
     \cite{kofstad1980,cheng1996,caricato2010,lebreau2014,mi2018,singh2019,polyakov2022a}.
 Calculating the impact of different crystal point defects on the band structure may give insight into these observations.
 Indeed, when considering a missing chromium atom (\enquote{vacancy} $V_{\ce{Cr}}$) the band structure changes in two ways:
@@ -81,10 +103,37 @@ From a more intuitive point of view, a missing neutral chromium atom effectively
 \end{figure}
 
 Note that there are also other possible defects with different effects:
-a chromium Frenkel point defect describes a \ce{Cr} atom leaving it's position and occupying a formerly unoccupied oxygen-octahedron.
+a chromium Frenkel point defect describes a \ce{Cr} atom leaving it's position and occupying a formerly unoccupied cavity in one of the oxygen-octahedrons.
 This Frenkel defect actually creates a new band right below the Fermi level, acting as an occupied donor level
     \cite{lebreau2014}.
 A similar defect state is introduced by oxygen vacancies
     \cite{mi2018}.
 But note that the Fermi level is located only slightly above the \gls{vbm} and thus the new occupied donor level is not significantly closer to the \gls{cbm}, which means that electrons still have to overcome the band gap energy to get into conducting states.
 This favors the formation of holes via \ce{Cr} vacancies (\ce{O}-$2p$ acceptor states) rather than electrons via \ce{Cr} Frenkel defects and \ce{O} vacancies (\ce{Cr}-$3d$ donor states).
+
+% --- Doping ---
+\paragraph{Doping}
+Several attempts have been made to alter the conductivity of chromia thin films, including incorporation of magnesium, nickel, or lithium to achieve better \textit{p}-type conductivity
+    \cite{farrell2015}.
+On the other hand, incorporating titanium seems to yield electrons as majority carriers 
+    \cite{holt1994}
+due to the higher valent state of \ce{Ti} when substituting \ce{Cr} sites (\ce{Ti_{Cr}})
+    \cite{kofstad1980}.
+
+Due to interest in the electrical properties of \textit{p}-type \glspl{tco}, the influence on \ce{Mg}-doped \ce{Cr2O3} thin films has been investigated by several studies
+    \cite{holt1994,uekawa1996,arca2011,arca2013,farrell2015,arca2017,kehoe2016}.
+Substituting \ce{Cr} atoms with less valent hole providers -- compared to structural defects of pure \ce{Cr2O3} -- does not only allow for a more controlled defect incorporation, but is also energetically more favorable due to a lower formation energy of \ce{Mg_{Cr}} compared to $V_{\ce{Cr}}$
+    \cite{kehoe2016}.
+\citeauthor{uekawa1996} (\citeyear{uekawa1996}) report an increase in conductivity of five orders of magnitude for \ce{Cr2O3{:}Mg} thin films
+    \cite{uekawa1996}.
+This result can be further improved by postannealing
+    \cite{farrell2015}
+and deposition at higher oxygen partial pressures
+    \cite{holt1994,farrell2015}.
+These effects are attributed to homogenization of magnesium inside the thin films and increased \ce{MgO} incorporation during deposition, respectively.
+An observed side-effect of \ce{Mg}-doping is a color change to a brownish tint
+    \cite{uekawa1996,arca2013}.
+\Citeauthor{uekawa1996} (\citeyear{uekawa1996}) discuss that this may be the result of a mixed valence state of chromium (\ce{Cr^4+} or \ce{Cr^6+}), formed upon doping, as observed by \gls{xps}.
+This may establish an unoccupied state, favoring charge-transfer transitions from \ce{O}-$2p$ orbitals to this low-energetic state, resulting in a different visual appearence of the thin films.
+However, it has been shown that the overall transparency can be increased by codoping of \ce{Mg} with nitrogen which also reduces the decolorization substantially
+    \cite{arca2011,arca2013}.

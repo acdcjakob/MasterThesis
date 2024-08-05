@@ -1,5 +1,8 @@
 \usepackage[utf8]{inputenc}
 
+%% Colors
+\usepackage{xcolor}
+
 %% images
 \usepackage{graphicx}
 \graphicspath{
@@ -27,6 +30,11 @@
 %% Referencing
 % Glossary
 \usepackage[acronym]{glossaries}
+% \makeglossaries % run `makeglossaries main' in terminal then compile again
+    \newacronym{tco}{TCO}{Transparent Conductive Oxide}
+
+    \newacronym{xps}{XPS}{X-ray Photoelectron Spectroscopy}
+
     \newacronym{vbm}{VBM}{Valence Band Maximum}
     \newacronym{cbm}{CBM}{Conduction Band Minimum}
     \newacronym{dft}{DFT}{Density Functional Theory}
@@ -34,12 +42,14 @@
 
     \newacronym{cvd}{CVD}{Chemical Vapor Deposition}
     \newacronym{pld}{PLD}{Pulsed Laser Deposition}
+    \newacronym{mbe}{MBE}{Molecular Beam Epitaxy}
     \newacronym{rf}{RF}{radio-frequency}
     \newacronym{dc}{DC}{direct current}
 
     \newacronym{UV}{UV}{ultra-violet}
 
-
+% interactive
+\usepackage{hyperref}
 
 
 
