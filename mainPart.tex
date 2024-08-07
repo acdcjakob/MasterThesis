@@ -1,10 +1,17 @@
 % !TEX root = mainPart.tex
-\documentclass[12pt]{article}
+\documentclass[12pt]{book}
 \input{preamble.tex}
 
 \begin{document}
-\input{tex-files/Theory/Cr2O3}
+\chapter{Theory}
+\section{Sesquioxides}
+\input{tex-files/Theory/sesquioxides.tex}
+\subsection{Chromium Oxide}\label{Sec:Cr2O3}
+\input{tex-files/Theory/Cr2O3.tex}
+\subsection{Gallium Oxide}
+\input{tex-files/Theory/Ga2O3.tex}
 
-\pagebreak
+\newpage
+\sloppy % increases probability of hyphenation
 \printbibliography
 \end{document}

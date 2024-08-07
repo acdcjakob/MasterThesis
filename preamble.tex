@@ -32,6 +32,7 @@
 \usepackage[acronym]{glossaries}
 % \makeglossaries % run `makeglossaries main' in terminal then compile again
     \newacronym{tco}{TCO}{Transparent Conductive Oxide}
+    \newacronym{uwbg}{UWBG}{Ultrawide-bandgap}
 
     \newacronym{xps}{XPS}{X-ray Photoelectron Spectroscopy}
 
@@ -43,16 +44,22 @@
     \newacronym{cvd}{CVD}{Chemical Vapor Deposition}
     \newacronym{pld}{PLD}{Pulsed Laser Deposition}
     \newacronym{mbe}{MBE}{Molecular Beam Epitaxy}
+    \newacronym{hvpe}{HVPE}{Halide Vapor Phase Epitaxy}
     \newacronym{rf}{RF}{radio-frequency}
     \newacronym{dc}{DC}{direct current}
 
     \newacronym{UV}{UV}{ultra-violet}
 
 % interactive
-\usepackage{hyperref}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=violet]{hyperref}
 
-
+% --- own abbrev. ---
+\newcommand{\agao}{\textalpha-\ce{Ga2O3}}
 
 % --- Library stuff ---
 \usepackage[style=numeric-comp,sorting=none]{biblatex} %numeric-comp summerizes entries in \cite
 \addbibresource{C:/Users/acdcj/OneDrive/Documents/Bibliothek/My Library.bib}
+    \AtEveryBibitem{\clearfield{month}}
+    \AtEveryCitekey{\clearfield{month}}
+    \AtEveryBibitem{\clearfield{day}}
+    \AtEveryCitekey{\clearfield{day}}
