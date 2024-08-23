@@ -2,15 +2,23 @@
 
 %% Colors
 \usepackage{xcolor}
+    \definecolor{shadecolor}{gray}{0.95}
 
 %% images
 \usepackage{graphicx}
 \graphicspath{
     {fastImages}
 }
+\usepackage{wrapfig}
+\usepackage{}
 %% layout
 \usepackage{lmodern} % thicker font (?)
 \usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{booktabs}
+% \usepackage{ctable}
+\usepackage{framed}
+\usepackage{fancyhdr}
+    \pagestyle{fancy}
 
 %% Text and Writing
 % chemistry
@@ -27,6 +35,9 @@
 % quotes
 \usepackage{csquotes}
 
+% figures
+\usepackage[labelfont=bf]{caption}
+
 %% Referencing
 % Glossary
 \usepackage[acronym]{glossaries}
@@ -35,6 +46,7 @@
     \newacronym{uwbg}{UWBG}{Ultrawide-bandgap}
 
     \newacronym{xps}{XPS}{X-ray Photoelectron Spectroscopy}
+    \newacronym{XRD}{XRD}{X-ray diffraction}
 
     \newacronym{vbm}{VBM}{Valence Band Maximum}
     \newacronym{cbm}{CBM}{Conduction Band Minimum}
@@ -48,7 +60,19 @@
     \newacronym{rf}{RF}{radio-frequency}
     \newacronym{dc}{DC}{direct current}
 
+    \newacronym{oop}{\textit{oop}}{out-of-plane}
+    \newacronym{ip}{\textit{ip}}{in-plane}
+
     \newacronym{UV}{UV}{ultra-violet}
+
+    \newglossaryentry{pseudomorphic}{
+        name = {pseudomorphic},
+        description = {\tbd}
+    }
+    \newglossaryentry{bv}{
+        name = {\textsc{Burger}'s vector},
+        description = {\tbd}
+    }
 
 % interactive
 \usepackage[colorlinks=true,citecolor=blue,linkcolor=violet]{hyperref}
@@ -56,10 +80,29 @@
 % --- own abbrev. ---
 \newcommand{\agao}{\textalpha-\ce{Ga2O3}}
 
+% !working on
+\newcommand{\tbd}{\colorbox{magenta}{\emph{tbd}}}
+\newcommand{\comment}[1]{
+    \begin{shaded}
+        \textsf{\underline{Comment}:
+        \itshape\color{darkgray}
+        #1
+        }
+    \end{shaded}
+}
+
 % --- Library stuff ---
 \usepackage[style=numeric-comp,sorting=none]{biblatex} %numeric-comp summerizes entries in \cite
 \addbibresource{C:/Users/acdcj/OneDrive/Documents/Bibliothek/My Library.bib}
-    \AtEveryBibitem{\clearfield{month}}
-    \AtEveryCitekey{\clearfield{month}}
-    \AtEveryBibitem{\clearfield{day}}
-    \AtEveryCitekey{\clearfield{day}}
+    \AtEveryBibitem{%
+        \clearfield{month}%
+        \clearfield{day}%
+        \clearfield{urlyear}%
+        \clearfield{urlmonth}%
+        }
+    \AtEveryCitekey{%
+        \clearfield{month}%
+        \clearfield{day}%
+        \clearfield{urlyear}%
+        \clearfield{urlmonth}%
+        }
