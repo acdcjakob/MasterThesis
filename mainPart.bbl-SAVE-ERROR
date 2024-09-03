@@ -231,6 +231,7 @@
       \verb{file}
       \verb C:\Users\acdcj\Zotero\storage\UFKW9X53\Petersen et al. - 2023 - PLD of α -Ga2O3 on m-plane Al2O3 Growth re.pdf
       \endverb
+      \keyw{todo}
     \endentry
     \entry{stepanov2021}{article}{}{}
       \name{author}{8}{}{%
@@ -1000,7 +1001,7 @@
       \field{langid}{english}
       \field{month}{3}
       \field{number}{5}
-      \field{title}{Bond Lengths in the {$\alpha$}-Ga2O3 Structure and the High-Pressure Phase of Ga2- {\emph{x}} Fe {\emph{x}} O3}
+      \field{title}{Bond lengths in the {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} structure and the high-pressure phase of Ga{\textsubscript{2-{\emph{x}}}}Fe{\textsubscript{{\emph{x}}}}O{\textsubscript{3}}}
       \field{volume}{46}
       \field{year}{1967}
       \field{dateera}{ce}
@@ -1009,7 +1010,7 @@
       \verb{doi}
       \verb 10.1063/1.1840945
       \endverb
-      \keyw{minor}
+      \keyw{incorporated,minor}
     \endentry
     \entry{cheng2000}{article}{}{}
       \name{author}{3}{}{%
@@ -1943,7 +1944,63 @@
       \verb{file}
       \verb C:\Users\acdcj\Zotero\storage\KF4TUFKC\Schewski et al. - 2015 - Epitaxial stabilization of pseudomorphic α-Ga sub.pdf
       \endverb
-      \keyw{minor}
+      \keyw{grinded,incorporated,minor}
+    \endentry
+    \entry{kaneko2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=2ed3190482b619fc11c72ce265806d47}{%
+           family={Kaneko},
+           familyi={K\bibinitperiod},
+           given={Kentaro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=220a0d818485a635badb20ead54fd92a}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Shizuo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f8aa3105d211b2617ccf4a4bc3602f2b}{%
+           family={Shinohe},
+           familyi={S\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=22b06512748ddd12d1a44e2328103eb5}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Katsuhisa},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{fullhash}{ef4ba6c48af56daed2ab29f725191c09}
+      \strng{fullhashraw}{ef4ba6c48af56daed2ab29f725191c09}
+      \strng{bibnamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{authorbibnamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{authornamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{authorfullhash}{ef4ba6c48af56daed2ab29f725191c09}
+      \strng{authorfullhashraw}{ef4ba6c48af56daed2ab29f725191c09}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Recent progress in {$\alpha$} -phase gallium oxide ( {$\alpha$} -Ga 2 O 3 ) grown on sapphire for low-cost and practical device applications is reviewed. This review focuses on (i) dislocations formed by heteroepitaxy, (ii) p-type conductivity (a common issue with {$\beta$} -Ga 2 O 3 ), and (iii) thermal instability due to the metastable phase of {$\alpha$} -Ga 2 O 3 , and discusses efforts aimed at overcoming these issues. The results reveal guidelines for the dislocation density ({$<$}1 \texttimes{} 10 8 cm -2 ) so that the dislocation scattering is veiled in the electron transport, and for this purpose we mentioned buffer layers and epitaxial lateral overgrowth. Quasi-vertical Schottky barrier diodes (SBDs) show defect-insensitive behavior in current--voltage characteristics under a low current density. We also demonstrate the heterojunction pn diodes with {$\alpha$} -phase iridium oxide ( {$\alpha$} -Ir 2 O 3 ) or {$\alpha$} -(Ir,Ga) 2 O 3 and the ways to improve thermal stability of {$\alpha$} -Ga 2 O 3 . The up-to-date device characteristics, that is, low on-resistance and large current SBDs, and high reverse voltage of 1400 V of a pn junction suggest promising development in {$\alpha$} -Ga 2 O 3 -based devices.}
+      \field{issn}{0021-4922, 1347-4065}
+      \field{issue}{SF}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{langid}{english}
+      \field{shortjournal}{Jpn. J. Appl. Phys.}
+      \field{title}{Progress in {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} for practical device applications}
+      \field{volume}{62}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{SF0803}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.35848/1347-4065/acd125
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\HBGVKUWC\Kaneko et al. - 2023 - Progress in α-Ga 2 O 3 for p.pdf
+      \endverb
+      \keyw{grinded,incorporated}
     \endentry
     \entry{pearton2018}{article}{}{}
       \name{author}{7}{}{%
@@ -2002,7 +2059,7 @@
       \field{langid}{english}
       \field{month}{3}
       \field{number}{1}
-      \field{title}{A review of Ga2O3 materials, processing, and devices}
+      \field{title}{A review of Ga{\textsubscript{2}}O{\textsubscript{3}} materials, processing, and devices}
       \field{volume}{5}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -2014,60 +2071,7 @@
       \verb{file}
       \verb C:\Users\acdcj\Zotero\storage\XVNUM4CC\Pearton et al. - 2018 - A review of Ga2O3 materials, processing, and devic.pdf
       \endverb
-    \endentry
-    \entry{kaneko2023}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=2ed3190482b619fc11c72ce265806d47}{%
-           family={Kaneko},
-           familyi={K\bibinitperiod},
-           given={Kentaro},
-           giveni={K\bibinitperiod}}}%
-        {{hash=220a0d818485a635badb20ead54fd92a}{%
-           family={Fujita},
-           familyi={F\bibinitperiod},
-           given={Shizuo},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f8aa3105d211b2617ccf4a4bc3602f2b}{%
-           family={Shinohe},
-           familyi={S\bibinitperiod},
-           given={Takashi},
-           giveni={T\bibinitperiod}}}%
-        {{hash=22b06512748ddd12d1a44e2328103eb5}{%
-           family={Tanaka},
-           familyi={T\bibinitperiod},
-           given={Katsuhisa},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{ea6da25bf5f6d7b35b067714b49bfd48}
-      \strng{fullhash}{ef4ba6c48af56daed2ab29f725191c09}
-      \strng{fullhashraw}{ef4ba6c48af56daed2ab29f725191c09}
-      \strng{bibnamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
-      \strng{authorbibnamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
-      \strng{authornamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
-      \strng{authorfullhash}{ef4ba6c48af56daed2ab29f725191c09}
-      \strng{authorfullhashraw}{ef4ba6c48af56daed2ab29f725191c09}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract Recent progress in {$\alpha$} -phase gallium oxide ( {$\alpha$} -Ga 2 O 3 ) grown on sapphire for low-cost and practical device applications is reviewed. This review focuses on (i) dislocations formed by heteroepitaxy, (ii) p-type conductivity (a common issue with {$\beta$} -Ga 2 O 3 ), and (iii) thermal instability due to the metastable phase of {$\alpha$} -Ga 2 O 3 , and discusses efforts aimed at overcoming these issues. The results reveal guidelines for the dislocation density ({$<$}1 \texttimes{} 10 8 cm -2 ) so that the dislocation scattering is veiled in the electron transport, and for this purpose we mentioned buffer layers and epitaxial lateral overgrowth. Quasi-vertical Schottky barrier diodes (SBDs) show defect-insensitive behavior in current--voltage characteristics under a low current density. We also demonstrate the heterojunction pn diodes with {$\alpha$} -phase iridium oxide ( {$\alpha$} -Ir 2 O 3 ) or {$\alpha$} -(Ir,Ga) 2 O 3 and the ways to improve thermal stability of {$\alpha$} -Ga 2 O 3 . The up-to-date device characteristics, that is, low on-resistance and large current SBDs, and high reverse voltage of 1400 V of a pn junction suggest promising development in {$\alpha$} -Ga 2 O 3 -based devices.}
-      \field{issn}{0021-4922, 1347-4065}
-      \field{issue}{SF}
-      \field{journaltitle}{Japanese Journal of Applied Physics}
-      \field{langid}{english}
-      \field{shortjournal}{Jpn. J. Appl. Phys.}
-      \field{title}{Progress in {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} for practical device applications}
-      \field{volume}{62}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{pages}{SF0803}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.35848/1347-4065/acd125
-      \endverb
-      \verb{file}
-      \verb C:\Users\acdcj\Zotero\storage\HBGVKUWC\Kaneko et al. - 2023 - Progress in α-Ga 2 O 3 for p.pdf
-      \endverb
+      \keyw{grinded,incorporated}
     \endentry
     \entry{yang2022}{article}{}{}
       \name{author}{5}{}{%
@@ -2116,8 +2120,8 @@
       \field{month}{3}
       \field{number}{2}
       \field{shortjournal}{Electron. Mater. Lett.}
-      \field{shorttitle}{Epitaxial Growth of Alpha Gallium Oxide Thin Films on Sapphire Substrates for Electronic and Optoelectronic Devices}
-      \field{title}{Epitaxial Growth of Alpha Gallium Oxide Thin Films on Sapphire Substrates for Electronic and Optoelectronic Devices: Progress and Perspective}
+      \field{shorttitle}{Epitaxial growth of alpha gallium oxide thin films on sapphire substrates for electronic and optoelectronic devices}
+      \field{title}{Epitaxial growth of alpha gallium oxide thin films on sapphire substrates for electronic and optoelectronic devices: progress and perspective}
       \field{volume}{18}
       \field{year}{2022}
       \field{dateera}{ce}
@@ -2129,7 +2133,65 @@
       \verb{file}
       \verb C:\Users\acdcj\Zotero\storage\WFVWCKY4\Yang et al. - 2022 - Epitaxial Growth of Alpha Gallium Oxide Thin Films.pdf
       \endverb
-      \keyw{todo}
+      \keyw{grinded,incorporated}
+    \endentry
+    \entry{kaneko2012}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=2ed3190482b619fc11c72ce265806d47}{%
+           family={Kaneko},
+           familyi={K\bibinitperiod},
+           given={Kentaro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4a7b4fd9057d785a9fdb5bb4f8c22047}{%
+           family={Kawanowa},
+           familyi={K\bibinitperiod},
+           given={Hitoshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fdfb36a68a86730c24df3e43eadb3c1a}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=220a0d818485a635badb20ead54fd92a}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Shizuo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{fullhash}{56cf25bb5d6960565f39ad785ff86c98}
+      \strng{fullhashraw}{56cf25bb5d6960565f39ad785ff86c98}
+      \strng{bibnamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{authorbibnamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{authornamehash}{ea6da25bf5f6d7b35b067714b49bfd48}
+      \strng{authorfullhash}{56cf25bb5d6960565f39ad785ff86c98}
+      \strng{authorfullhashraw}{56cf25bb5d6960565f39ad785ff86c98}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Corundum-structured {$\alpha$}-Ga 2 O 3 epitaxial thin films were grown on c -plane {$\alpha$}-Al 2 O 3 (sapphire) substrates by a mist chemical vapor deposition method. To reveal the defect structures, the {$\alpha$}-Ga 2 O 3 film was observed by high-resolution transmission electron microscopy (TEM). We found that the {$\alpha$}-Ga 2 O 3 thin film was in-plane compressive stressed from the {$\alpha$}-Al 2 O 3 substrate. Although misfit dislocations were periodically generated at the {$\alpha$}-Ga 2 O 3 /{$\alpha$}-Al 2 O 3 interface owing to the large lattice mismatches between {$\alpha$}-Ga 2 O 3 and {$\alpha$}-Al 2 O 3 , 3.54\% ( c -axis) and 4.81\% ( a -axis), most of the misfit dislocations did not thread through the layer. An extra-half plane was \{\=2110\} consisting only of Ga. Screw dislocations were not confirmed, i.e., the density was under 10 7 cm -2 . The threading dislocation density was 7 \texttimes 10 10 cm -2 .}
+      \field{day}{1}
+      \field{issn}{0021-4922, 1347-4065}
+      \field{issue}{2R}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shortjournal}{Jpn. J. Appl. Phys.}
+      \field{title}{Evaluation of misfit relaxation in {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} epitaxial growth on {$\alpha$}-Al{\textsubscript{2}}O{\textsubscript{3}} substrate}
+      \field{volume}{51}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{020201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1143/JJAP.51.020201
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\DPK6GHUA\Kaneko et al. - 2012 - Evaluation of Misfit Relaxation in α-Ga 2su.pdf
+      \endverb
+      \keyw{grinded,incorporated}
     \endentry
     \entry{jinno2016}{article}{}{}
       \name{author}{4}{}{%
@@ -2162,8 +2224,9 @@
       \strng{authornamehash}{20a521627bcb8e885f89d6a400cbcfad}
       \strng{authorfullhash}{d29385626f0a35334a846ddda27aa50d}
       \strng{authorfullhashraw}{d29385626f0a35334a846ddda27aa50d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Efforts have been made to reduce the density of defects in corundum-structured {$\alpha$}-Ga 2 O 3 thin films on sapphire substrates by applying quasi-graded {$\alpha$}-(Al x Ga 1- x ) 2 O 3 buffer layers. Transmission electron microscopy images revealed that most strains were located in the {$\alpha$}-(Al x Ga 1- x ) 2 O 3 buffer layers, and that the total density of dislocations in the {$\alpha$}-Ga 2 O 3 thin films was successfully decreased by more than one order of magnitude compared with that without buffer layers, that is, the screw and edge dislocation densities were about 3 \texttimes{} 10 8 and 6 \texttimes{} 10 8 cm -2 , respectively.}
@@ -2173,7 +2236,7 @@
       \field{month}{7}
       \field{number}{7}
       \field{shortjournal}{Appl. Phys. Express}
-      \field{title}{Reduction in edge dislocation density in corundum-structured {$\alpha$}-Ga {\textsubscript{2}} O {\textsubscript{3}} layers on sapphire substrates with quasi-graded {$\alpha$}-(Al,Ga) {\textsubscript{2}} O {\textsubscript{3}} buffer layers}
+      \field{title}{Reduction in edge dislocation density in corundum-structured {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} layers on sapphire substrates with quasi-graded {$\alpha$}-(Al,Ga){\textsubscript{2}}O{\textsubscript{3}} buffer layers}
       \field{volume}{9}
       \field{year}{2016}
       \field{dateera}{ce}
@@ -2182,6 +2245,658 @@
       \verb{doi}
       \verb 10.7567/APEX.9.071101
       \endverb
+      \keyw{incorporated}
+    \endentry
+    \entry{jinno2021}{article}{}{}
+      \name{author}{13}{}{%
+        {{hash=a42871b2ac863482716e115d684b842a}{%
+           family={Jinno},
+           familyi={J\bibinitperiod},
+           given={Riena},
+           giveni={R\bibinitperiod}}}%
+        {{hash=068eeb57ff1dde4c68d7e032d2a6f8ea}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Celesta\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=82cf01b21ddd31259bf359b83ec5a6dc}{%
+           family={Onuma},
+           familyi={O\bibinitperiod},
+           given={Takeyoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d4df2b68e0af80a8c343878693aa8c5a}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Yongjin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9fddc8362070f62366d53c1b71230a37}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Shao-Ting},
+           giveni={S\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=3a9d30b9388553ca8126f87237361f15}{%
+           family={Rowe},
+           familyi={R\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4f985f7fc516f594ee965b4321e7350a}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=664fb7d9369a022d4742e6d2f1615905}{%
+           family={Protasenko},
+           familyi={P\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bd1204517fe796e256893737ac8e14bc}{%
+           family={Schlom},
+           familyi={S\bibinitperiod},
+           given={Darrell\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3f9410a153ffa5ccba18d0e041f5c1b9}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=580f6a4473acfab04368cb36f29caf9d}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Huili\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=50760d90002fc6627611f17ded35618a}{%
+           family={Jena},
+           familyi={J\bibinitperiod},
+           given={Debdeep},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{20a521627bcb8e885f89d6a400cbcfad}
+      \strng{fullhash}{a4059c940a95d92194e82d9ce58089fc}
+      \strng{fullhashraw}{a4059c940a95d92194e82d9ce58089fc}
+      \strng{bibnamehash}{20a521627bcb8e885f89d6a400cbcfad}
+      \strng{authorbibnamehash}{20a521627bcb8e885f89d6a400cbcfad}
+      \strng{authornamehash}{20a521627bcb8e885f89d6a400cbcfad}
+      \strng{authorfullhash}{a4059c940a95d92194e82d9ce58089fc}
+      \strng{authorfullhashraw}{a4059c940a95d92194e82d9ce58089fc}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Crystalline oxides spanning very broad 5.4- to 8.6-eV bandgaps are successfully grown on sapphire by MBE. , Ultrawide-bandgap semiconductors are ushering in the next generation of high-power electronics. The correct crystal orientation can make or break successful epitaxy of such semiconductors. Here, it is found that single-crystalline layers of {$\alpha$}-(AlGa) 2 O 3 alloys spanning bandgaps of 5.4 to 8.6 eV can be grown by molecular beam epitaxy. The key step is found to be the use of m-plane sapphire crystal. The phase transition of the epitaxial layers from the {$\alpha$}- to the narrower bandgap {$\beta$}-phase is catalyzed by the c-plane of the crystal. Because the c-plane is orthogonal to the growth front of the m-plane surface of the crystal, the narrower bandgap pathways are eliminated, revealing a route to much wider bandgap materials with structural purity. The resulting energy bandgaps of the epitaxial layers span a broad range, heralding the successful epitaxial stabilization of the largest bandgap materials family to date.}
+      \field{day}{8}
+      \field{issn}{2375-2548}
+      \field{journaltitle}{Science Advances}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shortjournal}{Sci. Adv.}
+      \field{title}{Crystal orientation dictated epitaxy of ultrawide-bandgap 5.4- to 8.6-eV {$\alpha$}-(AlGa){\textsubscript{2}}O{\textsubscript{3}} on m-plane sapphire}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{eabd5891}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.abd5891
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\YMGWRZX2\Jinno et al. - 2021 - Crystal orientation dictated epitaxy of ultrawide-.pdf
+      \endverb
+      \keyw{grinded,incorporated}
+    \endentry
+    \entry{hassa2020}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=1525a94b2757c9ba896bbc4073e86840}{%
+           family={Hassa},
+           familyi={H\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5be3c0e5f4fe6c211ec3468fe0c81d0c}{%
+           family={Wouters},
+           familyi={W\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f1b211277ed985bf700e3ac7db987ba2}{%
+           family={Kneiß},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71af42797eb626c7af089608aea090de}{%
+           family={Splith},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c5e6e06ea26c2f97869ec063ca77210c}{%
+           family={Sturm},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d2738b86b01992c89bf72787ded0d2da}{%
+           family={Von\bibnamedelima Wenckstern},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bfa5b978405182b4406fd6a5d0e4b281}{%
+           family={Albrecht},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5ff57a10231fe037479ab6022a573fc0}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{336fcd8bf04d3ec70d9c4dab756bc178}
+      \strng{fullhash}{621af232ed4230fac8acf449c3fafb01}
+      \strng{fullhashraw}{621af232ed4230fac8acf449c3fafb01}
+      \strng{bibnamehash}{336fcd8bf04d3ec70d9c4dab756bc178}
+      \strng{authorbibnamehash}{336fcd8bf04d3ec70d9c4dab756bc178}
+      \strng{authornamehash}{336fcd8bf04d3ec70d9c4dab756bc178}
+      \strng{authorfullhash}{621af232ed4230fac8acf449c3fafb01}
+      \strng{authorfullhashraw}{621af232ed4230fac8acf449c3fafb01}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, the growth of orthorhombic and monoclinic (AlxGa1 - x)2O3 thin films on (00.1) Al2O3 by tin-assisted pulsed laser deposition is investigated as a function of oxygen pressure p(O2) and substrate temperature Tg. For certain growth conditions, defined by Tg {$\geq$} 580\textopenbullet{} C and p(O2) {$\leq$} 0.016 mbar, the orthorhombic {$\kappa$}-polymorph is stabilized. For Tg = 540\textopenbullet{} C and p(O2) {$\leq$} 0.016 mbar, the {$\kappa$}-, and the {$\beta$}-, as well as the spinel {$\gamma$}-polymorph coexist, as illustrated by XRD 2\texttheta -{$\omega$}-scans. Further employed growth parameters result in thin films with a monoclinic {$\beta$}-gallia structure. For all polymorphs, p(O2) and Tg affect the formation and desorption of volatile suboxides, and thereby the growth rate and the cation composition. For example, low oxygen pressures lead to low growth rates and enhanced Al incorporation. This facilitates the structural engineering of polymorphic, ternary (Al,Ga)2O3 via selection of the relevant process parameters. Transmission electron microscopy (TEM) studies of a {$\kappa$} - (Al0.13Ga0.87)2O3 thin film reveal a more complex picture compared to that derived from x-ray diffraction measurements. Furthermore, this study presents the possibility of controlling the phase formation, as well as the Al-content, of thin films based on the choice of their growth conditions.}
+      \field{day}{25}
+      \field{issn}{0022-3727, 1361-6463}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{48}
+      \field{shortjournal}{J. Phys. D: Appl. Phys.}
+      \field{title}{Control of phase formation of (Al{\textsubscript{x}}Ga{\textsubscript{1-x}}){\textsubscript{2}}O{\textsubscript{3}} thin films on c-plane Al{\textsubscript{2}}O{\textsubscript{3}}}
+      \field{volume}{53}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{485105}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6463/abaf7d
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\M4IMIR66\Hassa et al. - 2020 - Control of phase formation of (Al x Ga .pdf
+      \endverb
+      \keyw{grinded,incorporated,minor}
+    \endentry
+    \entry{landau1970}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=ab77fc1405f1025268c1fed8c4fe3104}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1e5737ddc6200d0118261e7bc577ab25}{%
+           family={Lifshitz},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon Press Ltd.}%
+      }
+      \strng{namehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{fullhash}{0c0920d244a4ef518dc023815875721c}
+      \strng{fullhashraw}{0c0920d244a4ef518dc023815875721c}
+      \strng{bibnamehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authorbibnamehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authornamehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authorfullhash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authorfullhashraw}{0c0920d244a4ef518dc023815875721c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A comprehensive textbook covering not only the ordinary theory of the deformation of solids, but also some topics not usually found in textbooks on the subject, such as thermal conduction and viscosity in solids.}
+      \field{isbn}{978-0-08-057069-3}
+      \field{langid}{english}
+      \field{number}{vol. 7}
+      \field{pagetotal}{165}
+      \field{series}{Course of Theoretical Physics}
+      \field{shorttitle}{Theory of Elasticity}
+      \field{title}{Theory of Elasticity}
+      \field{year}{1970}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\acdcj\\Zotero\\storage\\EK7S4RXS\\Lifshitz et al. - 1986 - I Fundamental equations.pdf;C\:\\Users\\acdcj\\Zotero\\storage\\EVWMRIFA\\Landau et al. - 2012 - Theory of Elasticity Volume 7.pdf
+      \endverb
+    \endentry
+    \entry{grundmann2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{fullhash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{fullhashraw}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{bibnamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorbibnamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authornamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorfullhash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorfullhashraw}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We calculate analytically the strain tensor for epitaxial, pseudomorphic heterostructures of arbitrary growth plane for monoclinic and rhombohedral crystals. As numerical examples, we treat heterostructures from sesquioxides, namely, monoclinic (Ga-rich) (Al,Ga)2O3 on {$\beta$}-Ga2O3 and rhombohedral (Al-rich) (Al,Ga)2O3 on {$\alpha$}-Al2O3 using realistic material parameters. We predict the strains in laboratory and crystal coordinates and derive properties such as lattice constants and tilt of lattice planes for comparison with X-ray data. Our theory also applies to any higher symmetric structure such as orthorhombic, tetragonal, cubic, and hexagonal heterostructures.}
+      \field{day}{14}
+      \field{issn}{0021-8979, 1089-7550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{18}
+      \field{title}{Elastic theory of pseudomorphic monoclinic and rhombohedral heterostructures}
+      \field{volume}{124}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{185302}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5045845
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\JB9I5I6R\Grundmann - 2018 - Elastic theory of pseudomorphic monoclinic and rho.pdf
+      \endverb
+      \keyw{important,incorporated,read}
+    \endentry
+    \entry{ashcroft1976}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a2b8f29a9323ac2977edd5b5e7888a84}{%
+           family={Ashcroft},
+           familyi={A\bibinitperiod},
+           given={Neil\bibnamedelima W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=711617251066ebdd9d8e58c101e03ed3}{%
+           family={Mermin},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi David},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Saunders College Publishing}%
+      }
+      \strng{namehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{fullhash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{fullhashraw}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{bibnamehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authorbibnamehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authornamehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authorfullhash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authorfullhashraw}{f60683403a92a32e002be743cb4a5e4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{826}
+      \field{title}{Solid State Physics}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\3YSM2Y7G\ashcroft mermin.pdf
+      \endverb
+    \endentry
+    \entry{alberts1976}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=024f4de073e8905cbed822fcb5c974fe}{%
+           family={Alberts},
+           familyi={A\bibinitperiod},
+           given={H.L.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ff2076213f5ee6180a5ce1b8fefb9420}{%
+           family={Boeyens},
+           familyi={B\bibinitperiod},
+           given={J.C.A.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{fullhash}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{fullhashraw}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{bibnamehash}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{authorbibnamehash}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{authornamehash}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{authorfullhash}{fa34602d63bb013fb3c37c41ece5146a}
+      \strng{authorfullhashraw}{fa34602d63bb013fb3c37c41ece5146a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03048853}
+      \field{journaltitle}{Journal of Magnetism and Magnetic Materials}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Magnetism and Magnetic Materials}
+      \field{title}{The elastic constants and distance dependence of the magnetic interactions of Cr{\textsubscript{2}}O{\textsubscript{3}}}
+      \field{volume}{2}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{327\bibrangedash 333}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/0304-8853(76)90044-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\8NMKXDZQ\Alberts and Boeyens - 1976 - The elastic constants and distance dependence of t.pdf
+      \endverb
+      \keyw{incorporated}
+    \endentry
+    \entry{grundmann2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{fullhash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{fullhashraw}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{bibnamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorbibnamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authornamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorfullhash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorfullhashraw}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general approach to the calculation of heteroepitaxial strain for arbitrary crystal symmetry (including triclinic) and arbitrary interface plane is presented. The formulas are easily implemented into an algebraic math program. Particular results are derived for rhombohedral heterostructures.}
+      \field{issn}{0370-1972, 1521-3951}
+      \field{journaltitle}{physica status solidi (b)}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{Physica Status Solidi (b)}
+      \field{title}{A most general and facile recipe for the calculation of heteroepitaxial strain}
+      \field{volume}{257}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{2000323}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/pssb.202000323
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\ZXBNB4ZH\Grundmann - 2020 - A Most General and Facile Recipe for the Calculati.pdf
+      \endverb
+    \endentry
+    \entry{kneiss2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f1b211277ed985bf700e3ac7db987ba2}{%
+           family={Kneiß},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71af42797eb626c7af089608aea090de}{%
+           family={Splith},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2738b86b01992c89bf72787ded0d2da}{%
+           family={Von\bibnamedelima Wenckstern},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5ff57a10231fe037479ab6022a573fc0}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eeb9f5bddc0c6dc7b64ba9f6ea0c1df4}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9ec322b7d1d36b7103f763965aac1b23}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140024942cede8c5a01da555c62638c7}
+      \strng{fullhash}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{fullhashraw}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{bibnamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authorbibnamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authornamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authorfullhash}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{authorfullhashraw}{fdc446de45b379431b60eba4fed39a8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Pseudomorphic and relaxed \$\$\textbackslash alpha\$\$ {$\alpha$} -(Al \$\$\_x\$\$ x Ga \$\$\_\{1-x\}\$\$ 1 - x ) \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 thin films are grown by combinatorial pulsed laser deposition in the entire composition range on prismatic a- and m-plane \$\$\textbackslash alpha\$\$ {$\alpha$} -Al \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 substrates. Pseudomorphic growth on m-plane sapphire has been achieved for \$\$x \textbackslash ge 0.45\$\$ x {$\geq$} 0.45 . A distinct difference between the a- and m-epitaxial plane is observed in reciprocal space map measurements being in agreement with continuum elasticity theory for rhombohedral heterostructures. While pseudomorphic layers on m-plane sapphire show a pronounced shear strain \$\$e'\_5\$\$ e 5 {$\prime$} along the c -axis direction, relaxed layers exhibit a global lattice tilt in the same direction. Both effects are not present on the a-epitaxial plane. Out-of-plane lattice constants as well as \$\$e'\_5\$\$ e 5 {$\prime$} are modeled as function of x employing elasticity theory, confirming theoretical values of the elastic stiffness tensor for \$\$\textbackslash alpha\$\$ {$\alpha$} -Ga \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 , especially the non-zero value of the \$\$C\_\{14\}\$\$ C 14 component. Possible pyramidal slip systems for strain relaxation in c -axis direction are examined to explain and numerically model the difference in lattice tilt for the two substrate orientations. Graphic abstract}
+      \field{day}{14}
+      \field{issn}{0884-2914, 2044-5326}
+      \field{journaltitle}{Journal of Materials Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{23}
+      \field{shortjournal}{Journal of Materials Research}
+      \field{shorttitle}{Strain states and relaxation for \$\$\textbackslash alpha\$\$-(Al\$\$\_x\$\$Ga\$\$\_\{1-x\}\$\$)\$\$\_2\$\$O\$\$\_3\$\$ thin films on prismatic planes of \$\$\textbackslash alpha\$\$-Al\$\$\_2\$\$O\$\$\_3\$\$ in the full composition range}
+      \field{title}{Strain states and relaxation for {$\alpha$}-(Al{\textsubscript{{\emph{x}}}}Ga{\textsubscript{1-{\emph{x}}}}){\textsubscript{2}}O{\textsubscript{3}} thin films on prismatic planes of {$\alpha$}-Al{\textsubscript{2}}O{\textsubscript{3}} in the full composition range: Fundamental difference of a- and m-epitaxial planes in the manifestation of shear strain and lattice tilt}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{4816\bibrangedash 4831}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1557/s43578-021-00375-3
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\29PHQ5KJ\Kneiß et al. - 2021 - Strain states and relaxation for $$alpha$$-(Al$$_.pdf
+      \endverb
+      \keyw{important,incorporated,read}
+    \endentry
+    \entry{grundmann2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{fullhash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{fullhashraw}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{bibnamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorbibnamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authornamehash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorfullhash}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \strng{authorfullhashraw}{b815c67d32eb9aac829f9b1fbf4f1bb8}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-319-23879-1 978-3-319-23880-7}
+      \field{langid}{english}
+      \field{series}{Graduate Texts in Physics}
+      \field{shorttitle}{The Physics of Semiconductors}
+      \field{title}{The Physics of Semiconductors: An Introduction Including Nanophysics and Applications}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\G4ZZMHY6\Grundmann - 2016 - The Physics of Semiconductors An Introduction Inc.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-319-23880-7
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-23880-7
+      \endverb
+      \keyw{important}
+    \endentry
+    \entry{hull2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5af5aeab2ba94ecf197ecdf7f2f3f886}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0efabf8f404baa4fad9b9844e1f0c05e}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd.}%
+      }
+      \strng{namehash}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{fullhash}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{fullhashraw}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{bibnamehash}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{authorbibnamehash}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{authornamehash}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{authorfullhash}{e9acb6de1c350f9658c591ab20fa1abd}
+      \strng{authorfullhashraw}{e9acb6de1c350f9658c591ab20fa1abd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In materials science, dislocations are irregularities within the crystal structure or atomic scale of engineering materials, such as metals, semi-conductors, polymers, and composites. Discussing this specific aspect of materials science and engineering, Introduction to Dislocations is a key resource for students. The book provides students and practitioners with the fundamental principles required to understand dislocations. Comprised of 10 chapters, the text includes advanced computer modeling and very high-resolution electron microscopy to help readers better understand the structure of atoms close to the core of dislocations. It shows that atomic arrangement has a significant effect on the formation of dislocations and thereby on the properties of solids. The first two chapters of the book present an overview of dislocations. The crystal structures and the various defects and dislocations are discussed, and methods of observation and diagnosis of dislocations are covered. Chapters 3 to 5 discuss the behavior of dislocations and explain how changes in the structure and arrangement of atoms can affect the behavior of dislocations. The three chapters also discuss the mechanical properties of dislocations. The remaining chapters offer a detailed discussion of the mechanisms of dislocations and the mechanical strength of crystalline solids. The book is written for undergraduate- and graduate-level students in both materials science and mechanical engineering. Non-experts and novices working on mechanical properties, mechanisms of deformation and fracture, and properties of materials, as well as industrial and academic researchers, will find this book invaluable. Long-established academic reference by an expert author team, highly regarded for their contributions to the field. Uses minimal mathematics to present theory and applications in a detailed yet easy-to-read manner, making this an understandable introduction to a complex topic. Unlike the main competition, this new edition includes recent developments in the subject and up-to-date references to further reading and research sources.}
+      \field{edition}{5}
+      \field{isbn}{978-0-08-096673-1}
+      \field{langid}{english}
+      \field{pagetotal}{268}
+      \field{title}{Introduction to Dislocations}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\DU6TV7W7\Hull and Bacon - 2011 - Introduction to Dislocations.pdf
+      \endverb
+      \keyw{doing,grinded}
+    \endentry
+    \entry{grundmann2020b}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b6459564958af1471f80b9c6b4658ef7}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=344675ed10a03cba8850e1e562e28239}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{fullhash}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{fullhashraw}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{bibnamehash}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{authorbibnamehash}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{authornamehash}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{authorfullhash}{3dec5f4b55ed030595ee655914ca3815}
+      \strng{authorfullhashraw}{3dec5f4b55ed030595ee655914ca3815}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pseudomorphic and partially relaxed layers of corundum phase (Al, Ga)2O3 epilayers on (01.2)-oriented Al2O3 fabricated by pulsed laser deposition (PLD) are investigated. An exact analytical (continuum elasticity) strain theory for rhombohedral heterostructures as a function of the two substrate orientation angles fits the strain state of pseudomorphic and relaxed samples very well. From reciprocal space maps and a quantitative analysis of x-ray diffraction peaks and tilts using the strain theory, it is concluded that in the present samples grown below 800 {$^\circ$}C, plastic strain relaxation above the critical thickness occurs first through slip on the prismatic a-plane glide system and subsequently via the basal c-plane system. We also present a general PLD stoichiometry transfer model simultaneously explaining the epilayer alloy composition and growth rate in the entire composition range.}
+      \field{day}{1}
+      \field{issn}{2166-532X}
+      \field{journaltitle}{APL Materials}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Anisotropic strain relaxation through prismatic and basal slip in {$\alpha$}-(Al, Ga){\textsubscript{2}}O{\textsubscript{3}} on R-plane Al{\textsubscript{2}}O{\textsubscript{3}}}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{021108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5144744
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\TDM478X9\Grundmann and Lorenz - 2020 - Anisotropic strain relaxation through prismatic an.pdf
+      \endverb
+      \keyw{important,incorporated,read}
+    \endentry
+    \entry{grundmann2020a}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b6459564958af1471f80b9c6b4658ef7}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0aac8cb512f51a4d4cb28fa9e03bbafb}{%
+           family={Stralka},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=344675ed10a03cba8850e1e562e28239}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{386043c5230708ac476afa2d5f5b4250}
+      \strng{fullhash}{386043c5230708ac476afa2d5f5b4250}
+      \strng{fullhashraw}{386043c5230708ac476afa2d5f5b4250}
+      \strng{bibnamehash}{386043c5230708ac476afa2d5f5b4250}
+      \strng{authorbibnamehash}{386043c5230708ac476afa2d5f5b4250}
+      \strng{authornamehash}{386043c5230708ac476afa2d5f5b4250}
+      \strng{authorfullhash}{386043c5230708ac476afa2d5f5b4250}
+      \strng{authorfullhashraw}{386043c5230708ac476afa2d5f5b4250}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate the epitaxial growth of (Al,Ga)2O3 alloy thin films in the corundum phase on r-plane (01.2) Al2O3 substrates. We compare films grown by pulsed laser deposition at substrate temperatures of 750\,{$^\circ$}C and 1000\,{$^\circ$}C. The initial strongly anisotropic plastic strain relaxation through the a-plane prismatic glide system is directly evidenced by imaging the associated slip lines. We find enhanced plastic relaxation at the higher substrate temperature. Details of the stoichiometry transfer from the target to the film are discussed.}
+      \field{day}{14}
+      \field{issn}{0003-6951, 1077-3118}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{24}
+      \field{title}{Epitaxial growth and strain relaxation of corundum-phase (Al,Ga){\textsubscript{2}}O{\textsubscript{3}} thin films from pulsed laser deposition at 1000 {$^\circ$}C on r-plane Al{\textsubscript{2}}O{\textsubscript{3}}}
+      \field{volume}{117}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{242102}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0030675
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\5C4HEVCI\Grundmann et al. - 2020 - Epitaxial growth and strain relaxation of corundum.pdf
+      \endverb
+      \keyw{incorporated,minor,read}
     \endentry
   \enddatalist
 \endrefsection
