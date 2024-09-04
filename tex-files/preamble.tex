@@ -103,7 +103,7 @@
 }
 
 % --- Library stuff ---
-\usepackage[style=numeric-comp,sorting=none]{biblatex} %numeric-comp summerizes entries in \cite
+\usepackage[style=numeric-comp,maxcitenames=2,sorting=none]{biblatex} %numeric-comp summerizes entries in \cite
 \addbibresource{C:/Users/acdcj/OneDrive/Documents/Bibliothek/My Library.bib}
     \AtEveryBibitem{%
         \clearfield{month}%
@@ -117,3 +117,11 @@
         \clearfield{urlyear}%
         \clearfield{urlmonth}%
         }
+
+\usepackage{xpatch}
+
+\xpatchbibmacro{textcite}
+{\printnames{labelname}}
+{\printnames{labelname} (\printfield{year})}
+{}
+{}

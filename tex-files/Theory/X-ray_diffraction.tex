@@ -1,6 +1,6 @@
 \subsection{Scattering at Lattices}
 To elucidate the working principles behind \gls{XRD} as a measurement method, a brief description of reciprocal space and constructive interference will be provided.
-Those derivations are based on Ref.~\cite{ashcroft1976}.
+Those derivations are based on \textcite{ashcroft1976}.
 
 A periodic point-like structure with translational symmetry (\enquote{\gls{bl}}) can be described by three vectors $\mathbf{a}_i$ that span a so-called \enquote{unit cell}.
 Every lattice point $\mathbf{R}$ is a linear combination of those unit cell vectors.
@@ -24,6 +24,7 @@ A major application of reciprocal space vectors is their ability to describe lat
 Any lattice plane can be described by the shortest possible reciprocal space vector $\mathbf{K}_{hkl}$ perpendicular to it.
 Consequently, the lattice plane is denoted by $(hkl)$.
 The distance between equivalent lattice planes can be calculated via $d_{hkl}=|\mathbf{K}_{hkl}|^{-1}$.
+Note that for non-cubic crystals, the lattice plane (hkl) is in general \textit{not} perpendicular to the lattice direction [hkl].
 
 With those preliminarities, the conditions for constructive interference during dif\-frac\-tion of radiation at \glspl{bl} can be derived.
 Consider two scattering centers separated by $\mathbf{d}$.
@@ -34,16 +35,25 @@ Now consider incoming radiation with wave vector $\mathbf{k}$:
 with wavelength $\lambda$ and direction $\hat{\mathbf{n}}$.
 For the case of elastic scattering, the outcoming wave vector $\mathbf{k}'$ has the same wavelength $\lambda$ but different direction $\hat{\mathbf{n}}'$.
 The phase difference of two photons scattered at the 1st and 2nd scattering center, respectively, can be calculated from their path difference, which reads
-\begin{equation}
+\begin{equation}\label{Equ:Theory_PathDifference}
     \langle\mathbf{d},\hat{\mathbf{n}}\rangle+\langle-\mathbf{d},\hat{\mathbf{n}}'\rangle\,.
 \end{equation}
+\begin{figure}
+    \centering
+    \includegraphics[width=.5\textwidth]{example-image-a}
+    \caption{\textit{Here comes an ashcroft-like image for the scattering geometry to derive Equ.~(\ref{Equ:Theory_PathDifference})}}
+\end{figure}
 Constructive interference occurs, if the phase difference is an integral multiple of the wavelength, so it must follow that
 \begin{align}
     \langle\mathbf{d},(\hat{\mathbf{n}}-\hat{\mathbf{n}}')\rangle&=m\lambda\\
     \Leftrightarrow\langle\mathbf{d},(\hat{\mathbf{k}}-\hat{\mathbf{k}}')\rangle&=2\pi m\,,
+    \label{Equ:Theory_ConstructiveInterference}
 \end{align}
 with $m\in\mathbb{N}$.
 Comparing with (\ref{equ:Theory_DefReciprocal}) reveals that $\hat{\mathbf{k}}-\hat{\mathbf{k}}'$ is a reciprocal space vector, because the separation $\mathbf{d}$ of the two scattering centers is a lattice vector.
+So constructive interference (observing a reflex) occurs if and only if the scattering geometry (determined by angle of incidence and refraction, as well as wavelength) matches the lattice symmetry in the sense that there is a corresponding lattice translation vector $\mathbf{d}$ fulfilling Equ.~(\ref{Equ:Theory_ConstructiveInterference}).
+So from the \enquote{position} of reflexes, one can deduce the lattice symmetry.
+
 Note that this description of X-ray scattering is equivalent to the \gls{bc}:
 \begin{equation}\label{Equ:Theory_BraggCondition}
     m\lambda=2d_{hkl}\sin(\theta)\,,
@@ -56,15 +66,18 @@ They are described with a conventional hexagonal unit cell, although not every p
 \subsection{X-rays}
 Atomic distances in solids are of the order of several \si{\angstrom}, so the radiation for probing those structures must have a similar wavelength, which turns out to be X-rays
     \cite{harrington2021}.
-The following description of X-rays is based on Ref.~\cite{spiess2009}.
+The following description of X-rays is based on \textcite{spiess2009}.
 
-The basis of any X-ray tube are high-energy electrons which are produced by thermionic emission in a cathode, which is usally made out of tungsten.
+The basis of any X-ray tube are high-energy electrons which are produced by thermionic emission in a cathode, which is usally made out of tungsten\footnote{
+    Tungsten is the element with the second highest melting point of around \qty{3400}{\celsius}.
+    This ensures a low contamination of the anode with cathode material.
+}.
 An electric field of several \si{\kV} accelerates the electrons to the anode, where they are stopped such that around \qty{99}{\percent} of their kinetic energy dissipates.
 The momentum change of electrons, which are charged particles, leads to emission of \textit{bremsstrahlung}.
 Furthermore, the electrons ionize atoms of the anode material which leads to unoccupied electron states.
 If those states are filled by electrons with higher quantum number $n$, the difference in energy of those levels is emitted as radiation with a discrete spectrum, called characteristic X-ray.
 Important for this work is a part of the characteristic spectrum, called K-radiation, which originates in occupation of empty $1s$-orbitals.
-The occupying electron must come from an orbital with angular momentum quantum number $l=1$, because $\Delta l\neq0$.
+The occupying electron must come from an orbital with angular momentum quantum number $l=1$, i.e. a \textit{p}-orbital, because $\Delta l$ cannot be zero.
 The radiation is termed K\textalpha- or K\textbeta-radiation, if the previous orbital was $2p$ or $3p$, respectively.
 Furthermore, one distinguishes K\textalpha\textsubscript{1}- and K\textalpha\textsubscript{2}-radiation, depending on the magnetic quantum number of the previous orbital, which can be $\frac{3}{2}$ or $\frac{1}{2}$, respectively.
 K\textalpha-radiation is desired for probing crystal structures.
