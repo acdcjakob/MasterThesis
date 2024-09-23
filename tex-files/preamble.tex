@@ -5,7 +5,10 @@
     \definecolor{shadecolor}{gray}{0.95}
 
 %% images
-\usepackage{graphicx}
+\usepackage{graphbox}
+    % loads graphics
+    % allows for "align=c" argument in includegraphics for aligning vertically
+% \usepackage{graphicx}
 \graphicspath{
     {fastImages}
 }
@@ -30,10 +33,14 @@
 % units
 \usepackage{siunitx}
     \DeclareSIUnit{\angstrom}{\textup{\AA}}
+    \DeclareSIUnit{\bar}{bar}
     \sisetup{range-units=single}
 
 % greek
 \usepackage{textgreek}
+
+% lists
+\usepackage{enumitem}
 
 % quotes
 \usepackage{csquotes}
@@ -65,6 +72,8 @@
 
     \newacronym{oop}{\textit{oop}}{out-of-plane}
     \newacronym{ip}{\textit{ip}}{in-plane}
+
+    \newacronym{VCCS}{VCCS}{Vertical Continuous Composition Spread}
 
     \newacronym{UV}{UV}{ultra-violet}
 
