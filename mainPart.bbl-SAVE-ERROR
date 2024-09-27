@@ -109,7 +109,7 @@
       \field{month}{7}
       \field{number}{7}
       \field{shortjournal}{Physica Status Solidi (b)}
-      \field{title}{A Review of the Segmented-Target Approach to Combinatorial Material Synthesis by Pulsed-Laser Deposition}
+      \field{title}{A review of the segmented-target approach to combinatorial material synthesis by pulsed-laser deposition}
       \field{volume}{257}
       \field{year}{2020}
       \field{dateera}{ce}
@@ -122,6 +122,176 @@
       \verb C:\Users\acdcj\Zotero\storage\KEFZ4NZQ\Von Wenckstern et al. - 2020 - A Review of the Segmented‐Target Approach to Combi.pdf
       \endverb
       \keyw{read}
+    \endentry
+    \entry{harrington2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6a070f91ad23cd59d0b7e491cddd70bc}{%
+           family={Harrington},
+           familyi={H\bibinitperiod},
+           given={George\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1d50ed018bd1b6160983887a0b8402ec}{%
+           family={Santiso},
+           familyi={S\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{fullhash}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{fullhashraw}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{bibnamehash}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{authorbibnamehash}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{authornamehash}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{authorfullhash}{59aab2e7e71e0a246480cb34a59860c4}
+      \strng{authorfullhashraw}{59aab2e7e71e0a246480cb34a59860c4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{X-ray diffraction (XRD) is an indispensable tool for characterising thin films of electroceramic materials. For the beginner, however, it can be a daunting technique at first due to the number of operation modes and measurements types, as well as the interpretation of the resultant patterns and scans. In this tutorial article, we provide a foundation for the thin-film engineer/scientist conducting their first measurements using XRD. We give a brief introduction of the principle of diffraction and description of the instrument, detailing the relevant operation modes. Next, we introduce five types of measurements essential for thin film characterisation: 2 / scans, grazing-incidence scans, rocking curves, pole figures, and azimuth scans (or {$\phi$} scans). Practical guidelines for selecting the appropriate optics, mounting and aligning the sample, and selecting scan conditions are given. Finally, we discuss some of the basics of data analysis, and give recommendations on the presentation of data. The aim of this article is to ultimately lower the barrier for researchers to perform meaningful XRD analysis, and, building on this foundation, find the existing literature more accessible, enabling more advanced XRD investigations.}
+      \field{issn}{1385-3449, 1573-8663}
+      \field{journaltitle}{Journal of Electroceramics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{J Electroceram}
+      \field{shorttitle}{Back-to-Basics tutorial}
+      \field{title}{Back-to-Basics tutorial: X-ray diffraction of thin films}
+      \field{volume}{47}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{141\bibrangedash 163}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/s10832-021-00263-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\4JLQZXYV\Harrington and Santiso - 2021 - Back-to-Basics tutorial X-ray diffraction of thin.pdf
+      \endverb
+      \keyw{important,read}
+    \endentry
+    \entry{srikant1997}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=16f6a7ba4dfa4ee00483c8fd7c28062d}{%
+           family={Srikant},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0f6aa82b55ef05756a53afd66a8f6e3c}{%
+           family={Speck},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3c46fa61cbefae1003458d25e0810337}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1eff4a4704de6fe7c06a4c087b12bce9}
+      \strng{fullhash}{583d49de105931ec6476f014d302b573}
+      \strng{fullhashraw}{583d49de105931ec6476f014d302b573}
+      \strng{bibnamehash}{583d49de105931ec6476f014d302b573}
+      \strng{authorbibnamehash}{583d49de105931ec6476f014d302b573}
+      \strng{authornamehash}{1eff4a4704de6fe7c06a4c087b12bce9}
+      \strng{authorfullhash}{583d49de105931ec6476f014d302b573}
+      \strng{authorfullhashraw}{583d49de105931ec6476f014d302b573}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Epitaxial films having a large lattice mismatch with their substrate invariably form a mosaic structure of slightly misoriented sub-grains. The mosaic structure is usually characterized by its x-ray rocking curve on a surface normal reflection but this is limited to the out-of-plane component unless off-axis or transmission experiments are performed. A method is presented by which the in-plane component of the mosaic misorientation can be determined from the rocking curves of substrate normal and off-axis reflections. Results are presented for two crystallographically distinct heteroepitaxial systems, ZnO, AlN, and GaN (wurtzite crystal structure) on c-plane sapphire and MgO (rock salt crystal structure) on (001) GaAs. The differences in the mosaic structure of these films are attributed to the crystallographic nature of their lattice dislocations.}
+      \field{day}{1}
+      \field{issn}{0021-8979, 1089-7550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{9}
+      \field{title}{Mosaic structure in epitaxial thin films having large lattice mismatch}
+      \field{volume}{82}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{pages}{4286\bibrangedash 4295}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1063/1.366235
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\ERMJUKUE\Srikant et al. - 1997 - Mosaic structure in epitaxial thin films having la.pdf
+      \endverb
+    \endentry
+    \entry{kneiss2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f1b211277ed985bf700e3ac7db987ba2}{%
+           family={Kneiß},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71af42797eb626c7af089608aea090de}{%
+           family={Splith},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2738b86b01992c89bf72787ded0d2da}{%
+           family={Von\bibnamedelima Wenckstern},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5ff57a10231fe037479ab6022a573fc0}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eeb9f5bddc0c6dc7b64ba9f6ea0c1df4}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9ec322b7d1d36b7103f763965aac1b23}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140024942cede8c5a01da555c62638c7}
+      \strng{fullhash}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{fullhashraw}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{bibnamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authorbibnamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authornamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authorfullhash}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{authorfullhashraw}{fdc446de45b379431b60eba4fed39a8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Pseudomorphic and relaxed \$\$\textbackslash alpha\$\$ {$\alpha$} -(Al \$\$\_x\$\$ x Ga \$\$\_\{1-x\}\$\$ 1 - x ) \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 thin films are grown by combinatorial pulsed laser deposition in the entire composition range on prismatic a- and m-plane \$\$\textbackslash alpha\$\$ {$\alpha$} -Al \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 substrates. Pseudomorphic growth on m-plane sapphire has been achieved for \$\$x \textbackslash ge 0.45\$\$ x {$\geq$} 0.45 . A distinct difference between the a- and m-epitaxial plane is observed in reciprocal space map measurements being in agreement with continuum elasticity theory for rhombohedral heterostructures. While pseudomorphic layers on m-plane sapphire show a pronounced shear strain \$\$e'\_5\$\$ e 5 {$\prime$} along the c -axis direction, relaxed layers exhibit a global lattice tilt in the same direction. Both effects are not present on the a-epitaxial plane. Out-of-plane lattice constants as well as \$\$e'\_5\$\$ e 5 {$\prime$} are modeled as function of x employing elasticity theory, confirming theoretical values of the elastic stiffness tensor for \$\$\textbackslash alpha\$\$ {$\alpha$} -Ga \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 , especially the non-zero value of the \$\$C\_\{14\}\$\$ C 14 component. Possible pyramidal slip systems for strain relaxation in c -axis direction are examined to explain and numerically model the difference in lattice tilt for the two substrate orientations. Graphic abstract}
+      \field{day}{14}
+      \field{issn}{0884-2914, 2044-5326}
+      \field{journaltitle}{Journal of Materials Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{23}
+      \field{shortjournal}{Journal of Materials Research}
+      \field{shorttitle}{Strain states and relaxation for \$\$\textbackslash alpha\$\$-(Al\$\$\_x\$\$Ga\$\$\_\{1-x\}\$\$)\$\$\_2\$\$O\$\$\_3\$\$ thin films on prismatic planes of \$\$\textbackslash alpha\$\$-Al\$\$\_2\$\$O\$\$\_3\$\$ in the full composition range}
+      \field{title}{Strain states and relaxation for {$\alpha$}-(Al{\textsubscript{{\emph{x}}}}Ga{\textsubscript{1-{\emph{x}}}}){\textsubscript{2}}O{\textsubscript{3}} thin films on prismatic planes of {$\alpha$}-Al{\textsubscript{2}}O{\textsubscript{3}} in the full composition range: Fundamental difference of a- and m-epitaxial planes in the manifestation of shear strain and lattice tilt}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{4816\bibrangedash 4831}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1557/s43578-021-00375-3
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\29PHQ5KJ\Kneiß et al. - 2021 - Strain states and relaxation for $$alpha$$-(Al$$_.pdf
+      \endverb
+      \keyw{important,incorporated,read}
     \endentry
   \enddatalist
 \endrefsection

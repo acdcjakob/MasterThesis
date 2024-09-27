@@ -1,5 +1,5 @@
 \subsection{Scattering at Lattices}
-To elucidate the working principles behind \gls{XRD} as a measurement method, a brief description of reciprocal space and constructive interference will be provided.
+To elucidate the working principles behind \gls{XRD} as a measurement method (cf.~\ref{Sec:Methods_XRD}), a brief description of reciprocal space and constructive interference will be provided.
 Those derivations are based on \textcite{ashcroft1976}.
 
 A periodic point-like structure with translational symmetry (\enquote{\gls{bl}}) can be described by three vectors $\mathbf{a}_i$ that span a so-called \enquote{unit cell}.
@@ -23,7 +23,10 @@ with the \textsc{Kronecker} delta $\delta_{ij}$.
 A major application of reciprocal space vectors is their ability to describe lattice planes.
 Any lattice plane can be described by the shortest possible reciprocal space vector $\mathbf{K}_{hkl}$ perpendicular to it.
 Consequently, the lattice plane is denoted by $(hkl)$.
-The distance between equivalent lattice planes can be calculated via $d_{hkl}=|\mathbf{K}_{hkl}|^{-1}$.
+The distance between equivalent lattice planes can be calculated via
+\begin{equation}\label{Equ:Theory_planeDistance}
+    d_{hkl}=|\mathbf{K}_{hkl}|^{-1}\,.
+\end{equation}
 Note that for non-cubic crystals, the lattice plane (hkl) is in general \textit{not} perpendicular to the lattice direction [hkl].
 
 With those preliminarities, the conditions for constructive interference during dif\-frac\-tion of radiation at \glspl{bl} can be derived.
@@ -63,7 +66,7 @@ Furthermore, when a lattice point is not equivalent to a single atom, but repres
 This is important, e.g., for structures with trigonal symmetry. 
 They are described with a conventional hexagonal unit cell, although not every plane $(hkl)$ exhibits constructive interference.
 
-\subsection{X-rays}
+\subsection{X-rays}\label{Sec:Theory_XRays}
 Atomic distances in solids are of the order of several \si{\angstrom}, so the radiation for probing those structures must have a similar wavelength, which turns out to be X-rays
     \cite{harrington2021}.
 The following description of X-rays is based on \textcite{spiess2009}.
