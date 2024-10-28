@@ -1,4 +1,4 @@
-\gls{pld} is a physical vapour deposition technique, which essentially utilizes absorption of laser energy by a target and subsequent condensation of evaporated target material on a substrate.
+\gls{pld} is a \gls{pvd} technique, which essentially utilizes absorption of laser energy by a target and subsequent condensation of evaporated target material on a substrate.
 Like \gls{mbe} or \gls{cvd}, it is used for deposition of thin film materials.
 Although not true in general \cite{lorenz2019}, a stoichiometric transfer of target composition to the substrate is attributed to \gls{pld}.
 In the following, the \gls{pld} setup used for this work (Fig.~\ref{Fig:Methods_pld}a) is described.
@@ -68,14 +68,14 @@ It becomes clear, that \gls{pld} is a non-equilibrium process, making empirical 
     \cite{lorenz2019}.
 
 \subsection{Segmented Target Approach}\label{Sec:Methods_VCCS}
-To provide a discrete material library -- a set of different samples with homogeneous composition each --, a segmented target approach as described in \textcite{vonwenckstern2020} is applied.
+To provide a discrete material library -- a set of different samples with homogeneous composition each --, a segmented target approach as described in \textcite{wenckstern2020} is applied.
 Specifically, the \gls{VCCS} method utilizes a segmented target, i.e.\ a target with distinct regions of different material composition.
 By varying the laser spot position on the target, different plasma compositions can be achieved.
 Because the target is rotating during \gls{pld}, the material distribution must be in such a way that when the radial position $R$ of the laser on the target changes, the average ablated composition $\chi(R)$ changes.
 This can be realized with an elliptical segmentation, i.e.\ a target pellet with overall composition \ce{A_yB_{1-y}}, but containing an inner ellipse with composition \ce{A_xB_{1-x}} (Fig.~\ref{Fig:Methods_pld}b).
 By this means, any homogeneous composition \ce{A_$\chi$B_{1-$\chi$}} with $\chi$ between $x$ and $y$ can be realized with only one target.
 $\chi$ is related to the path lengths of the moving laser spot on the inner and outer segment, respectively.
-The composition in the plasma can be calculated via \cite{vonwenckstern2020}:
+The composition in the plasma can be calculated via \cite{wenckstern2020}:
 \begin{equation}\label{Equ:Methods_composition}
     \chi(R) = y-(y-x)\frac{2}{\pi}\arccos\left[\frac{1}{\delta}\sqrt{1-\left(\frac{b}{R}\right)^2}\,\right]\,
 \end{equation}

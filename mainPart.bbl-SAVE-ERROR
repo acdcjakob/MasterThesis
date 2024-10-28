@@ -43,7 +43,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Encyclopedia of Applied Physics}
-      \field{title}{Pulsed Laser Deposition}
+      \field{title}{Pulsed laser deposition}
       \field{year}{2019}
       \field{dateera}{ce}
       \verb{file}
@@ -56,13 +56,15 @@
       \verb http://dx.doi.org/10.1002/3527600434.eap810
       \endverb
     \endentry
-    \entry{vonwenckstern2020}{article}{}{}
+    \entry{wenckstern2020}{article}{}{}
       \name{author}{6}{}{%
-        {{hash=d2738b86b01992c89bf72787ded0d2da}{%
-           family={Von\bibnamedelima Wenckstern},
-           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+        {{useprefix=false,hash=841dbc008a3dd151d01825f38b782fbd}{%
+           family={Wenckstern},
+           familyi={W\bibinitperiod},
            given={Holger},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
         {{hash=f1b211277ed985bf700e3ac7db987ba2}{%
            family={Kneiß},
            familyi={K\bibinitperiod},
@@ -89,14 +91,14 @@
            given={Marius},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{879783feca2f094610e77343b4a55d9a}
-      \strng{fullhash}{fd76b9709e24e758439531886b6f3704}
-      \strng{fullhashraw}{fd76b9709e24e758439531886b6f3704}
-      \strng{bibnamehash}{879783feca2f094610e77343b4a55d9a}
-      \strng{authorbibnamehash}{879783feca2f094610e77343b4a55d9a}
-      \strng{authornamehash}{879783feca2f094610e77343b4a55d9a}
-      \strng{authorfullhash}{fd76b9709e24e758439531886b6f3704}
-      \strng{authorfullhashraw}{fd76b9709e24e758439531886b6f3704}
+      \strng{namehash}{0bcc3b4f953c1986f8b85dc8c07c3888}
+      \strng{fullhash}{343ba5bf1adbb35c41ea985feeda6248}
+      \strng{fullhashraw}{343ba5bf1adbb35c41ea985feeda6248}
+      \strng{bibnamehash}{0bcc3b4f953c1986f8b85dc8c07c3888}
+      \strng{authorbibnamehash}{0bcc3b4f953c1986f8b85dc8c07c3888}
+      \strng{authornamehash}{0bcc3b4f953c1986f8b85dc8c07c3888}
+      \strng{authorfullhash}{343ba5bf1adbb35c41ea985feeda6248}
+      \strng{authorfullhashraw}{343ba5bf1adbb35c41ea985feeda6248}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -292,6 +294,115 @@
       \verb C:\Users\acdcj\Zotero\storage\29PHQ5KJ\Kneiß et al. - 2021 - Strain states and relaxation for $$alpha$$-(Al$$_.pdf
       \endverb
       \keyw{important,incorporated,read}
+    \endentry
+    \entry{vogt2023}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=2d8d8ddcdbcd7132afdbdd6e43a7aa24}{%
+           family={Vogt},
+           familyi={V\bibinitperiod},
+           given={Sofie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=968ce735ab987d579cb196953cc79a52}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f1b211277ed985bf700e3ac7db987ba2}{%
+           family={Kneiß},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71af42797eb626c7af089608aea090de}{%
+           family={Splith},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eeb9f5bddc0c6dc7b64ba9f6ea0c1df4}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d2738b86b01992c89bf72787ded0d2da}{%
+           family={Von\bibnamedelima Wenckstern},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9ec322b7d1d36b7103f763965aac1b23}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{51c686882907816f73698fd92a779bb4}
+      \strng{fullhash}{9c0205ba0d96e98d7435d87aa025fce7}
+      \strng{fullhashraw}{9c0205ba0d96e98d7435d87aa025fce7}
+      \strng{bibnamehash}{51c686882907816f73698fd92a779bb4}
+      \strng{authorbibnamehash}{51c686882907816f73698fd92a779bb4}
+      \strng{authornamehash}{51c686882907816f73698fd92a779bb4}
+      \strng{authorfullhash}{9c0205ba0d96e98d7435d87aa025fce7}
+      \strng{authorfullhashraw}{9c0205ba0d96e98d7435d87aa025fce7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural and electrical properties of undoped and doped {$\alpha$} -Ga 2 O 3 thin films grown by pulsed laser deposition on m -plane sapphire in a two-step process are presented. A buffer layer of undoped {$\alpha$} -Ga 2 O 3 is introduced below the electrically active thin film to improve the crystal quality and enable the stabilization of the {$\alpha$} -phase at lower substrate temperatures for sufficient dopant incorporation. Donor doping of the active layers with tin, germanium, and silicon, respectively, is realized below a critical substrate temperature of 600\,{$^\circ$}C. Depth-resolved X-ray photoelectron spectroscopy measurements on tin-doped samples reveal a lower amount of tin in the bulk thin film compared to the surface and a lower tin incorporation for higher substrate temperatures, indicating desorption or float-up processes that determine the dopant incorporation. Electron mobilities as high as 17\,cm 2 \,V -1 \,s -1 (at ) and 37\,cm 2 \,V -1 \,s -1 (at ) are achieved for tin- and germanium doping, respectively. Further, a narrow window of suitable annealing temperature from 680 to 700\,K for obtaining ohmic Ti/Al/Au layer stacks is identified. For higher annealing temperatures, a deterioration of the electrical properties of the thin films is observed suggesting the need for developing low temperature contacting procedures for {$\alpha$} -Ga 2 O 3 -based devices.}
+      \field{issn}{1862-6300, 1862-6319}
+      \field{journaltitle}{physica status solidi (a)}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{3}
+      \field{shortjournal}{Physica Status Solidi (a)}
+      \field{title}{Realization of Conductive n-Type Doped {\emph{{$\alpha$}}}-Ga{\textsubscript{2}}O{\textsubscript{3}} on {\emph{m}}-Plane Sapphire Grown by a Two-Step Pulsed Laser Deposition Process}
+      \field{volume}{220}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{2200721}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/pssa.202200721
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\8WAMYFW9\Vogt et al. - 2023 - Realization of Conductive n‐Type Doped α ‐G.pdf
+      \endverb
+    \endentry
+    \entry{pauw1958}{article}{}{}
+      \name{author}{1}{}{%
+        {{useprefix=false,hash=8c0321533be59af7ad2971df5cfff09f}{%
+           family={Pauw},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{fullhash}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{fullhashraw}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{bibnamehash}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{authorbibnamehash}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{authornamehash}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{authorfullhash}{8c0321533be59af7ad2971df5cfff09f}
+      \strng{authorfullhashraw}{8c0321533be59af7ad2971df5cfff09f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philips Research Reports}
+      \field{number}{1}
+      \field{title}{A method of measuring specific resistivity and Hall effect of discs of arbitrary shape}
+      \field{volume}{13}
+      \field{year}{1958}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\NQUUTRYN\Pauw - 1958 - A method of measuring specific resistivity and Hal.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

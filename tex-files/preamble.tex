@@ -11,6 +11,7 @@
 % \usepackage{graphicx}
 \graphicspath{
     {fastImages}
+    {../Plots/Thesis/1/}
 }
 \usepackage{wrapfig}
 \usepackage{}
@@ -36,6 +37,7 @@
     \DeclareSIUnit{\angstrom}{\textup{\AA}}
     \DeclareSIUnit{\bar}{bar}
     \sisetup{range-units=single}
+    \sisetup{range-phrase = \,--\,}
 
 % greek
 \usepackage{textgreek}
@@ -65,13 +67,15 @@
     \newacronym{DOS}{DOS}{density of states}
 
     \newacronym{cvd}{CVD}{Chemical Vapor Deposition}
+    \newacronym{pvd}{PVD}{Physical Vapor Deposition}
     \newacronym{pld}{PLD}{Pulsed Laser Deposition}
     \newacronym{mbe}{MBE}{Molecular Beam Epitaxy}
     \newacronym{hvpe}{HVPE}{Halide Vapor Phase Epitaxy}
     \newacronym{rf}{RF}{radio-frequency}
     \newacronym{dc}{DC}{direct current}
 
-    \newacronym{oop}{\textit{oop}}{out-of-plane}
+    % \newacronym{oop}{\textit{oop}}{out-of-plane}
+    \newacronym{oop}{o.o.p.\ }{out-of-plane}
     \newacronym{ip}{\textit{ip}}{in-plane}
     \newacronym{FWHM}{FWHM}{Full Width at Half Maximum}
     \newacronym{RSM}{RSM}{Reciprocal Space Map}
@@ -102,6 +106,7 @@
 
 % --- own abbrev. ---
 \newcommand{\agao}{\textalpha-\ce{Ga2O3}}
+\newcommand{\cro}{\ce{Cr2O3}}
 
 % !working on
 \newcommand{\tbd}{\colorbox{magenta}{\emph{tbd}}}

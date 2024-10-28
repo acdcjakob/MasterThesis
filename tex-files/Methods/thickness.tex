@@ -1,0 +1,35 @@
+The optical constants and thickness $t$ of a thin film can be measured by the change of polarization state upon light reflection.
+If the probing light covers several wavelengths at once, one refers to spectroscopic ellipsometry, which will be presented in the following, based on \textcite{fujiwara2007}.
+The incoming light can be represented by an electromagnetic wave, decomposed into two components being parallel (p) and perpendicular (s) to the scattering plane:
+\begin{equation}
+    \mathcal{E} = \mathcal{E}_\mathrm{ip} + \mathcal{E}_\mathrm{is}\,.
+\end{equation}
+In general, the amplitudes of p- and s-polarized light change in a different manner after reflection, so the overall polarization of the reflected light is changed.
+This change is described by the fraction
+\begin{equation}
+    \rho=\frac{r_\mathrm{p}}{r_\mathrm{s}}:=\tan\Psi\cdot\exp(i\Delta)\,,
+\end{equation}
+where $r_\mathrm{p}$ and $r_\mathrm{s}$ are the amplitude reflection coefficients\footnote{
+    They are defined by the amplitude of incoming (i) and reflected (r) radiation: $r=|\mathcal{E}_\mathrm{r}|/|\mathcal{E}_\mathrm{i}|$.
+} for the p- and s-polarized component, respectively.
+For simple structures, $\Psi$ is essentially the refractive index $n$, and $\Delta$ represents the extinction coefficient $k$.
+In general, they can be calculated from the \textsc{Jones}-matrix -- representing the reflection -- and depend on the angle of incidence as well as the photon energy.
+
+To determine the sample thickness, the spectra of $\Psi$ and $\Delta$ can be generated using a model for the sample structure, which is then fitted to the experimental data.
+In this work, this model consists of an \ce{Al2O3} substrate without backscattering from the backside (infinite thickness); a \cro\ thin film of thickness $t$; and a mixed layer of air and \cro, approximating the roughness of the sample.
+Because the measured spectra were confined to the visible regime of the thin film (approx. $<\qty{2.8}{\eV}$), one can apply the \textsc{Cauchy} model
+    \cite{fujiwara2007},
+approximating the refractive index by
+\begin{equation}
+    n(\lambda)=A+\frac{B}{\lambda^2}+\frac{C}{\lambda^4}+\mathcal{O}\left(\lambda^{-6}\right)\quad,\quad k=0\,.
+\end{equation}
+
+The spectroscopic ellipsometry measurements are done with an \textit{M-2000VI} (J.A.\ Woolam Co., Inc.) and the data is analyzed using the software \textit{WVASE} (J.A.\ Woolam).
+The angles of incidence are chosen to be \qty{50}{\degree}, \qty{60}{\degree} and \qty{70}{\degree}, and the modelled spectral range is \qtyrange{0.75}{2.8}{\eV}.
+If samples of different orientation were fabricated in the same process, one can assume similar thicknesses, and a measurement with three angles was conducted only for one sample of the batch.
+The other samples were measured with only one angle, if the determined thickness did not differ significantly from the more accurately measured one.
+
+Note that the investigated thin films are not isotropic in general, which is why the validity of the determined thickness is checked by profilometer measurements with a \textit{Dektak XT Stylus Profiler} (Bruker Corporation).
+The edges of the quadratic substrates are masked by the sample holder during deposition, which is why they are not deposited with the target material.
+Consequently, measuring the height profile ranging from an edge to coated regions of the sample yields an approximation for $t$ by the height of the observed step edge.
+

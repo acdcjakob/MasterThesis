@@ -1,4 +1,4 @@
-As described in \ref{Sec:Theory_X-ray_diffraction}, constructive interference of incoming and scattered X-rays may give insight in the symmetry of exposed crystals structures.
+As described in \ref{Sec:Theory_X-ray_diffraction}, constructive interference of incoming and scattered X-rays may give insight in the symmetry of exposed crystal structures.
 This can be utilized for thin film investigation and is called \gls{XRD}.
 The \gls{XRD} device used for this work, namely an \textit{X'Pert Pro} (\textit{Malvern Panalytical Ltd.}), as well as the applied scanning techniques will be presented in the following.
 
@@ -75,9 +75,10 @@ In particular, recording Rocking curves of symmetric and asymmetric lattice plan
     \cite{srikant1997}.
 % ---
 \subsection{\textphi-scans}
+    \label{Sec:Methods_phiScan}
 % ---
 A 2\texttheta-\textomega-scan is not capable of resolving in-plane rotations of crystal domains, because the distance of lattice planes parallel to the surface are not affected.
-Those rotational domains can be visualized by probing for lattice planes which are inclined with respect to the surface, i.e.\ by fixing $2\theta$ to the expected lattice plane distance and $\omega_0$ to the inclination angle (cf. Fig.~\ref{Fig:Methods_XRD_geometry}b).
+Those rotational domains can be detected by probing for lattice planes which are inclined with respect to the surface, i.e.\ by fixing $2\theta$ to the expected lattice plane distance and $\omega_0$ to the inclination angle (cf. Fig.~\ref{Fig:Methods_XRD_geometry}b).
 Depending on the symmetry of the inspected material, constructive interference should only appear for distinct values of $\phi$.
 So by rotating the sample by \qty{360}{\degree} and simultaneously recording the X-ray intensity, a so-called \textphi-scan (also called \enquote{Azimuth-scan}) can yield information about the existence of rotational domains.
 If the number of observed peaks in the \textphi-scan diffraction pattern exceeds the theoretically expected number for a single crystal, rotational domains are present
@@ -104,24 +105,24 @@ From the definition of angles, it follows that
     &=\frac{1}{\lambda}
     \begin{pmatrix}
         \cos\alpha_\mathrm{out}\\
-        \sin\omega
+        \sin\alpha_\mathrm{out}
     \end{pmatrix}
     -\frac{1}{\lambda}
     \begin{pmatrix}
-        -\cos\alpha_\mathrm{out}\\
-        \sin\omega
+        \cos\omega\\
+        -\sin\omega
     \end{pmatrix}\\
     &=\frac{1}{\lambda}
     \begin{pmatrix}
         \cos(2\theta-\omega)-\cos(\omega)\\
         \sin(2\theta-\omega)+\sin(\omega)
-    \end{pmatrix}
+    \end{pmatrix}\,.
     \label{Equ:Methods_qDef}
 \end{align}
 From Equ.~(\ref{Equ:Methods_qDef}), two properties follow for the scattering vector:
 \begin{align}
     -q_\parallel/q_\perp&=-\tan\left(\omega-\frac{2\theta}{2}\right)=\tan\omega_0
-        \label{Equ:Methods_qDir}\\
+        \label{Equ:Methods_qDir}\,,\\
     \left|\mathbf{q}\right|&=\sqrt{q_\parallel^2+q_\perp^2}=\frac{1}{\lambda}2\sin\theta\overset{\mathrm{Bragg}}{=}\frac{1}{d_{hkl}}\,,
     \label{Equ:Methods_qAbs}
 \end{align}
@@ -141,7 +142,7 @@ The scattering vector, together with the corresponding \gls{XRD} geometry is dep
     \label{Fig:Methods_qDef}
 \end{figure} 
 Because $2\theta$ and $\omega$ can simultaneously be represented by $\mathbf{q}$, it is possible to measure intensities for several $\mathbf{q}$, such that a part of the reciprocal space $Q\ni\mathbf{q}$ is mapped.
-This is called a \gls{RSM}.
+Consequently, this is called a \gls{RSM}.
 According to Equ.~(\ref{Equ:Theory_ConstructiveInterference}), a peak in 2D reciprocal space $Q$ should be observed if $\mathbf{q}$ is a reciprocal space vector.
 In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \enquote{reflection}.
 With Equ.~(\ref{Equ:Methods_qDir}) one can determine $\omega_0$ -- the direction of the corresponding lattice planes\footnote{
@@ -149,14 +150,15 @@ With Equ.~(\ref{Equ:Methods_qDir}) one can determine $\omega_0$ -- the direction
 }, and with Equ.~(\ref{Equ:Methods_qAbs}) the lattice plane distance $d_{hkl}$ can be calculated.
 
 A 2\texttheta-\textomega-scan corresponds to a set of $\mathbf{q}$ with fixed direction in reciprocal space, but varying length.
+For scanning symmetric reflections, $\mathbf{q}$ is parallel to the surface normal (as in Fig.~\ref{Fig:Methods_qDef}a).
 On the other hand, an \textomega-scan corresponds to a set $\mathbf{q}$ with fixed length but varying direction.
 The mosaicity can therefore approximately quantified by the broadening of a reflection perpendicular to the direction of $\mathbf{K}_{hkl}$.
 Because anisotropic strain has an effect on direction and length of inclined lattice planes, asymmetric reflections, i.e.\ $\omega_0\neq0$, can be deconvoluted into an in-plane and out-of-plane component.
 By this means, \glspl{RSM} enable the calculation of lattice constants.
 To precisely calculate the latter, several corrections are applied to the recorded \glspl{RSM}, as proposed in \textcite{kneiss2021}:
 \begin{enumerate}
-    \item High-quality substrates are used for deposition of thin films.
-    It can be assumed that they have the expected crystal structure for bulk \textalpha-\ce{Al2O3}.
+    \item High-quality sapphire substrates are used for deposition of thin films.
+    It can be assumed that they have the expected crystal structure of bulk \textalpha-\ce{Al2O3} (cf. Tab.~\ref{Tab:sesquiLatticeConstants}).
     So any deviation of the observed reflection $\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}$ from the expected peak position $\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}$ is corrected by a rotation $\mathbf{R}$ and scaling $\rho$ of reciprocal space $Q$:
     \begin{equation}
         \mathbf{q}^\mathrm{cor}=\rho\mathbf{R}\cdot\mathbf{q}^\mathrm{obs}\quad,\quad\mathbf{q}^\mathrm{obs}\in Q\,,
@@ -165,10 +167,16 @@ To precisely calculate the latter, several corrections are applied to the record
     \begin{align}
         \label{Equ:Methods_rotation}
         \mathbf{R}&=\begin{pmatrix}
-            \cos\gamma&-\sin\gamma\\
+            \cos\gamma&-\sin\gamma\,,\\
             \sin\gamma&\cos\gamma
         \end{pmatrix}\quad,\quad
-        \gamma=\arccos\left(\frac{\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}\cdot \mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}}{|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}|\cdot|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}|}\right)\\
+        \gamma=\arccos\left(
+            \frac
+                {\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}
+                    \cdot\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}}
+                {\left|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}\right|
+                    \cdot\left|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}\right|}
+            \right)\\
         \rho&=\frac{\left|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}\right|}{\left|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}\right|}\,.
     \end{align}
 
@@ -199,3 +207,68 @@ To precisely calculate the latter, several corrections are applied to the record
     \end{equation}
     To correct the shear, a rotation around the corresponding symmetric reciprocal lattice point $\mathbf{q}_{\tilde{h}\tilde{k}\tilde{l}}^\mathrm{film}$ with the same expected out-of-plane component must be applied.
 \end{enumerate}
+
+\subsection{Technical Aspects}
+The radiation is produced by an copper anode, resulting in a wavelength of $\lambda=\qty{1.5406}{\angstrom}$ for \ce{Cu}-K\textalpha\textsubscript{1} radiation.
+Note that \ce{Cu}-K\textalpha\textsubscript{2} and \ce{Cu}-K\textbeta\ radiation is not filtered out, resulting in additional low-intensity peaks in the diffractograms.
+Furthermore, contamination of the anode with tungsten results in an observable \ce{W}-L\textalpha\textsubscript{1} contribution with energy between \ce{Cu}-K\textalpha- and \ce{Cu}-K\textbeta-radiation.
+During the course of the conducted experiments, the contaminated anode has been replaced, so the peaks corresponding to \ce{W}-L\textalpha\textsubscript{1}-radiation are not present in every diffractogram.
+
+The diffracted radiation is detected with a \textit{PIXcel\textsuperscript{3D}} (\textit{Malvern Panalytical Ltd.}) detector.
+For 2\texttheta-\textomega-scans (cf.~\ref{Sec:Methods_2ThetaOmega}), the detecor is operating in \enquote{Scanning Line} mode.
+For scans fixing the 2\texttheta\ position, i.e.\ \textomega- (cf.~\ref{Sec:Methods_omegaScan}) and \textphi-scans (cf.~\ref{Sec:Methods_phiScan}), the detector is operated in \enquote{Receiving Slit} mode.
+\glspl{RSM} are recorded with the \enquote{Frame Based} mode.
+The settings for the various scans are listed in Tab.~\ref{Tab:Methods_XRDSettings}.
+Note that it is distinguished between scans and optimizations.
+The latter were applied for aligning the sample correctly, depending on the measurement.
+For example, before a 2\texttheta-\textomega-scan of \textit{m}-plane oriented rhombohedral samples, a \textphi-scan has been applied for the inclined (30.6) reflection to find the correct azimuth of the \textit{c}-axis, which is called \textphi-optimization.
+Afterwards, a Rocking curve has been recorded and $\omega$ set to the maximum of the peak to compensate for the expected lattice tilt (cf.~\ref{Sec:Theory_Relaxed}), called an \textomega-optimization.
+
+\begin{table}
+    \centering
+    \caption{Configurations for the applied \gls{XRD} scans.}
+    \label{Tab:Methods_XRDSettings}
+    \begin{tabular}{cllll}
+        \toprule
+        scan type
+            & detector mode
+            & step size (\unit{\degree})
+            & active channels
+            & effective width \\
+        \midrule
+        2\texttheta-\textomega-scan
+            & 1D Scanning Line
+            & 0.005
+            & 255
+            & \qty{2.51}{\degree} \\
+        \cmidrule{1-2}
+        \textomega-scan
+            & 0D Receiving Slit
+            & 0.005
+            & 55
+            & \qty{3.025}{\mm} \\
+        \textomega-optimization
+            & 0D Receiving Slit
+            & 0.02
+            & 37
+            & \qty{2.035}{\mm} \\
+        \cmidrule{1-2}
+        \textphi-scan 
+            & 0D Receiving Slit
+            & 0.05
+            & 55
+            & \qty{3.025}{\mm} \\
+        \textphi-optimization
+            & 0D Receiving Slit
+            & 0.5
+            & 55
+            & \qty{3.025}{\mm} \\
+        \cmidrule{1-2}
+        RSMs
+            & 1D Frame Based
+            & 0.005
+            & 255
+            & \qty{2.51}{\degree} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
