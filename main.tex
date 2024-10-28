@@ -1,6 +1,16 @@
+% .!TEX root = mainPart.tex
+% remove dot before "!"
 \documentclass[12pt]{book}
-\input{preamble.tex}
+\input{tex-files/preamble.tex}
+
+% \includeonly{tex-files/chapters/methods}
 
 \begin{document}
-Hello World! Test 2
+    \include{tex-files/chapters/theory}
+
+    \include{tex-files/chapters/methods}
+
+\newpage
+\sloppy % increases probability of hyphenation
+\printbibliography
 \end{document}
