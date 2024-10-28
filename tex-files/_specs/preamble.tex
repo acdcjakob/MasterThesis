@@ -1,0 +1,104 @@
+\usepackage[utf8]{inputenc}
+
+%! Colors
+\usepackage{xcolor}
+    \definecolor{shadecolor}{gray}{0.95}
+
+%! images and figures
+\usepackage{graphbox}
+    % already loads graphicx package!
+    % allows for "align=c" argument in includegraphics for aligning vertically
+
+    \graphicspath{
+        {fastImages}
+        {../Plots/Thesis/1/}
+        {../Plots/Thesis/2/}
+        {../Plots/Thesis/3/}
+        {../Plots/graphics/}
+        {../Plots/photographs/}
+    }
+\usepackage{wrapfig}
+    % allows wrapping text around figure; but has not so good performance
+\usepackage[labelfont=bf]{caption}
+
+%! layout
+\usepackage{lmodern} % thicker font (?)
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{multirow}
+% \usepackage{ctable}
+\usepackage{framed}
+    % allows framing of text
+% \usepackage{fancyhdr}
+%     \pagestyle{fancy}
+\vbadness=3000 % no warnings vor \vbox with badness < 2000
+
+%! Typography
+\usepackage[version=4]{mhchem}
+    % chemistry
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+% units
+\usepackage{siunitx}
+    \DeclareSIUnit{\angstrom}{\textup{\AA}}
+    \DeclareSIUnit{\bar}{bar}
+    \sisetup{range-units=single}
+    \sisetup{range-phrase = \,--\,}
+
+% greek
+\usepackage{textgreek}
+% lists
+\usepackage{enumitem}
+    % allows roman numbering
+% quotes
+\usepackage{csquotes}
+    % convenient quotes
+
+%! Referencing
+% Glossary
+\usepackage[acronym]{glossaries}
+% \makeglossaries % run `makeglossaries main' in terminal then compile again
+    \input{tex-files/_specs/glos.tex}
+
+% Links
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=violet]{hyperref}
+
+%! own abbreviations
+\input{tex-files/_specs/abbrev.tex}
+
+%! commenting in draft
+\newcommand{\tbd}{\colorbox{magenta}{\emph{tbd}}}
+\newcommand{\comment}[1]{
+    \begin{shaded}
+        \textsf{\underline{Comment}:
+        \itshape\color{darkgray}
+        #1
+        }
+    \end{shaded}
+}
+
+%! Library
+\usepackage[style=numeric-comp,maxcitenames=2,sorting=none]{biblatex}
+    %numeric-comp summerizes entries in \cite
+\addbibresource{C:/Users/acdcj/OneDrive/Documents/Bibliothek/My Library.bib}
+    \AtEveryBibitem{%
+        \clearfield{month}%
+        \clearfield{day}%
+        \clearfield{urlyear}%
+        \clearfield{urlmonth}%
+        }
+    \AtEveryCitekey{%
+        \clearfield{month}%
+        \clearfield{day}%
+        \clearfield{urlyear}%
+        \clearfield{urlmonth}%
+        }
+
+% Change the textcite command to "Name (year) [#]"
+\usepackage{xpatch}
+\xpatchbibmacro{textcite}
+{\printnames{labelname}}
+{\printnames{labelname} (\printfield{year})}
+{}
+{}
