@@ -1,4 +1,5 @@
-\usepackage[utf8]{inputenc}
+% \usepackage[utf8]{inputenc}
+    % only relevant for pdflatex
 
 %! Colors
 \usepackage{xcolor}
@@ -23,7 +24,10 @@
 
 %! layout
 \usepackage{lmodern} % thicker font (?)
-\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+% \usepackage[inner=2.5cm,outer=3.5cm,top=2cm,bottom=2cm]{geometry}
+%   for book style
+\usepackage[inner=3cm,outer=3cm,top=2cm,bottom=2cm]{geometry}
+%   for article style
 \usepackage{booktabs}
 \usepackage{multirow}
 % \usepackage{ctable}
@@ -43,8 +47,9 @@
 \usepackage{siunitx}
     \DeclareSIUnit{\angstrom}{\textup{\AA}}
     \DeclareSIUnit{\bar}{bar}
+    \DeclareSIUnit{\pulse}{pulse}
     \sisetup{range-units=single}
-    \sisetup{range-phrase = \,--\,}
+    % \sisetup{range-phrase = \,--\,}
 
 % greek
 \usepackage{textgreek}
@@ -56,6 +61,12 @@
     % convenient quotes
 
 %! Referencing
+% Table of contents
+\setcounter{tocdepth}{3}
+    % show subsubsection in ToC, 2 would only show until subsection
+% \setcounter{secnumdepth}{3}
+    % numering also subsubsections
+
 % Glossary
 \usepackage[acronym]{glossaries}
 % \makeglossaries % run `makeglossaries main' in terminal then compile again

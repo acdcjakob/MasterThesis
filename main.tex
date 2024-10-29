@@ -1,13 +1,19 @@
-\documentclass[12pt]{book}
+\documentclass[12pt,oneside]{book}
+% twoside for book style
+%! compile with xelatex to allow reading the .eps files from parent directory
+% when compiling with pdflatex, "epstopdf" cannot work on ../Plots/ due to
+% security restrictions --> if pdflatex is needed (compiler error etc), copy
+% Plots folder to this dir, then it should work
+
 \input{tex-files/_specs/preamble.tex}
 
-% \includeonly{tex-files/chapters/methods}
+\includeonly{tex-files/_chapters/results}
 
 \begin{document}
-    \includegraphics{3_misc_pulseEnergy_omegaPattern_c.eps}
+\tableofcontents
     \include{tex-files/_chapters/theory}
-
     \include{tex-files/_chapters/methods}
+    \include{tex-files/_chapters/results}
 
 \newpage
 \sloppy % increases probability of hyphenation in the bibliography
