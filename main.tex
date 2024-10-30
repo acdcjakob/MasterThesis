@@ -1,13 +1,13 @@
-\documentclass[12pt,oneside]{book}
+\documentclass[12pt,twoside]{book}
 % twoside for book style
 %! compile with xelatex to allow reading the .eps files from parent directory
 % when compiling with pdflatex, "epstopdf" cannot work on ../Plots/ due to
 % security restrictions --> if pdflatex is needed (compiler error etc), copy
-% Plots folder to this dir, then it should work
+% Plots folder to this dir, then it should work.
 
 \input{tex-files/_specs/preamble.tex}
 
-\includeonly{tex-files/_chapters/results}
+% \includeonly{tex-files/_chapters/results}
 
 \begin{document}
 \tableofcontents

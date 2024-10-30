@@ -1,0 +1,336 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{farrell2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=1a4d822f39d23085e972b1331093c88b}{%
+           family={Farrell},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=907514092caa0fefa061806c255fe33e}{%
+           family={Fleischer},
+           familyi={F\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3b4dfc6be5b13bb7336d247359345ba5}{%
+           family={Caffrey},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8b95c21178edddd4c4755687aa76e37c}{%
+           family={Mullarkey},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ce8f0c3ea950499e6e3cffa96e0acdd0}{%
+           family={Norton},
+           familyi={N\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d78604cdb7eda432f5208654d70c2535}{%
+           family={Shvets},
+           familyi={S\bibinitperiod},
+           given={I.\bibnamedelimi V.},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{49a98b411bb688e4a506e10c2f7299d7}
+      \strng{fullhash}{a5f373d641857bc5622d69a67af06c10}
+      \strng{fullhashraw}{a5f373d641857bc5622d69a67af06c10}
+      \strng{bibnamehash}{49a98b411bb688e4a506e10c2f7299d7}
+      \strng{authorbibnamehash}{49a98b411bb688e4a506e10c2f7299d7}
+      \strng{authornamehash}{49a98b411bb688e4a506e10c2f7299d7}
+      \strng{authorfullhash}{a5f373d641857bc5622d69a67af06c10}
+      \strng{authorfullhashraw}{a5f373d641857bc5622d69a67af06c10}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{issn}{1098-0121, 1550-235X}
+      \field{journaltitle}{Physical Review B}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{12}
+      \field{shortjournal}{Phys. Rev. B}
+      \field{shorttitle}{Conducting mechanism in the epitaxial p -type transparent conducting oxide C r 2 O 3}
+      \field{title}{Conducting mechanism in the epitaxial {\emph{p}}-type transparent conducting oxide Cr{\textsubscript{2}}O{\textsubscript{3}}:Mg}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{125202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.91.125202
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\TVMEH8YF\Farrell et al. - 2015 - Conducting mechanism in the epitaxial p -type tran.pdf
+      \endverb
+      \keyw{important,incorporated,read}
+    \endentry
+    \entry{mi2018}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=0c9e9ba96d03d7fcb093fe6efdd86ae1}{%
+           family={Mi},
+           familyi={M\bibinitperiod},
+           given={Zhishan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=685d97480ebafb5a158e7c3dfdcb69a8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ab36e55c127d79dae5c1703928cfdf5d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Changmin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3b1d31e1cbeef54ef6dda26bdc87d7be}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fd65be89f0c26daf659d7e3939c218a0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dongchao},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0ec7567d9ffdd419dfc69116077749be}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaolong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=877ca1d3e3cb65288789ce78e76d4cb4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hongmei},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a98bd2bc6c9105e77e097c224f6bb056}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Lijie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c623177fb66dc70a6c9fc114c74e4fcb}
+      \strng{fullhash}{c1c9f4771105509694d96da99ae39f42}
+      \strng{fullhashraw}{c1c9f4771105509694d96da99ae39f42}
+      \strng{bibnamehash}{c623177fb66dc70a6c9fc114c74e4fcb}
+      \strng{authorbibnamehash}{c623177fb66dc70a6c9fc114c74e4fcb}
+      \strng{authornamehash}{c623177fb66dc70a6c9fc114c74e4fcb}
+      \strng{authorfullhash}{c1c9f4771105509694d96da99ae39f42}
+      \strng{authorfullhashraw}{c1c9f4771105509694d96da99ae39f42}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study, density functional theory calculations have been carried out to investigate the electronic structure of Cr2O3 after applying strain and doping vacancy defects. Results indicate that the tensile strain will decrease the gap, while the compressive strain will increase the gap and the planar biaxial strain has more remarkable effects on electronic structure modulation than that of out-of-plane strain. With respect to the vacancy defects, we find both the Cr vacancy and O vacancy will introduce extra energy bands into the band gap, and the Cr vacancy could reduce the band gap remarkably. Cr vacancy leads to conduction band states closing to Fermi level and accounting for a pronounced narrowing band gap. Tensile strain draw conduction band minimum with t2g (dxy, dxz, dyz) and dx2Ày2 orbitals nearer to EF, while compressive strain pushes dxy, dxz, dyz and dx2Ày2 orbitals away EF, which are responsible for the pronounced narrowing band gap under tensile strain and increasing under compressive strain. In addition, both the strain and vacancy could also influence the magnetic moments of Cr2O3. Interestingly the O vacancy migration appears in Cr2O3 under the planar biaxial tensile strain ranging from 5\% to 8\%.}
+      \field{issn}{09270256}
+      \field{journaltitle}{Computational Materials Science}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Computational Materials Science}
+      \field{title}{The effects of strain and vacancy defects on the electronic structure of Cr{\textsubscript{2}}O{\textsubscript{3}}}
+      \field{volume}{144}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{64\bibrangedash 69}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.commatsci.2017.12.012
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\LSC9LYBZ\Mi et al. - 2018 - The effects of strain and vacancy defects on the e.pdf
+      \endverb
+      \keyw{important,incorporated,read}
+    \endentry
+    \entry{cheng1996}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1312b176dd589e63ee8c0948ad2e86cd}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Chun-Shen},
+           giveni={C\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=c2e0d8d49b3cb306d3317acfd5005333}{%
+           family={Gomi},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9188f7967e0b0d69257aa1ead06dd88a}{%
+           family={Sakata},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1de9a009e8da085f2bd1b429cc75322}
+      \strng{fullhash}{9b5422511bd9bc5ab804bb8279ce1e18}
+      \strng{fullhashraw}{9b5422511bd9bc5ab804bb8279ce1e18}
+      \strng{bibnamehash}{9b5422511bd9bc5ab804bb8279ce1e18}
+      \strng{authorbibnamehash}{9b5422511bd9bc5ab804bb8279ce1e18}
+      \strng{authornamehash}{e1de9a009e8da085f2bd1b429cc75322}
+      \strng{authorfullhash}{9b5422511bd9bc5ab804bb8279ce1e18}
+      \strng{authorfullhashraw}{9b5422511bd9bc5ab804bb8279ce1e18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{issn}{00318965, 1521396X}
+      \field{journaltitle}{Physica Status Solidi (a)}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{Phys. Stat. Sol. (a)}
+      \field{title}{Electrical and Optical Properties of Cr{\textsubscript{2}}O{\textsubscript{3}} Films Prepared by Chemical Vapour Deposition}
+      \field{volume}{155}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{417\bibrangedash 425}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1002/pssa.2211550215
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\IWHNZ5P2\Cheng et al. - 1996 - Electrical and Optical Properties of Cr2O3 Films P.pdf
+      \endverb
+      \keyw{incorporated,read}
+    \endentry
+    \entry{al-kuhaili2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9848c263a3149a67da3aec50a9dde3e5}{%
+           family={Al-Kuhaili},
+           familyi={A\bibinithyphendelim K\bibinitperiod},
+           given={M.F.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=542d92b641bff5feec40780b23d1d314}{%
+           family={Durrani},
+           familyi={D\bibinitperiod},
+           given={S.M.A.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{fullhash}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{fullhashraw}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{bibnamehash}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{authorbibnamehash}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{authornamehash}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{authorfullhash}{5e386f6a95d9129d448a790d5f08c817}
+      \strng{authorfullhashraw}{5e386f6a95d9129d448a790d5f08c817}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09253467}
+      \field{journaltitle}{Optical Materials}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{6}
+      \field{shortjournal}{Optical Materials}
+      \field{title}{Optical properties of chromium oxide thin films deposited by electron-beam evaporation}
+      \field{volume}{29}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{709\bibrangedash 713}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.optmat.2005.11.020
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\YCP2PKPZ\Al-Kuhaili and Durrani - 2007 - Optical properties of chromium oxide thin films de.pdf
+      \endverb
+      \keyw{incorporated,minor,read}
+    \endentry
+    \entry{kneiss2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f1b211277ed985bf700e3ac7db987ba2}{%
+           family={Kneiß},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71af42797eb626c7af089608aea090de}{%
+           family={Splith},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2738b86b01992c89bf72787ded0d2da}{%
+           family={Von\bibnamedelima Wenckstern},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5ff57a10231fe037479ab6022a573fc0}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eeb9f5bddc0c6dc7b64ba9f6ea0c1df4}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9ec322b7d1d36b7103f763965aac1b23}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b815c67d32eb9aac829f9b1fbf4f1bb8}{%
+           family={Grundmann},
+           familyi={G\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140024942cede8c5a01da555c62638c7}
+      \strng{fullhash}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{fullhashraw}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{bibnamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authorbibnamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authornamehash}{140024942cede8c5a01da555c62638c7}
+      \strng{authorfullhash}{fdc446de45b379431b60eba4fed39a8c}
+      \strng{authorfullhashraw}{fdc446de45b379431b60eba4fed39a8c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Pseudomorphic and relaxed \$\$\textbackslash alpha\$\$ {$\alpha$} -(Al \$\$\_x\$\$ x Ga \$\$\_\{1-x\}\$\$ 1 - x ) \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 thin films are grown by combinatorial pulsed laser deposition in the entire composition range on prismatic a- and m-plane \$\$\textbackslash alpha\$\$ {$\alpha$} -Al \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 substrates. Pseudomorphic growth on m-plane sapphire has been achieved for \$\$x \textbackslash ge 0.45\$\$ x {$\geq$} 0.45 . A distinct difference between the a- and m-epitaxial plane is observed in reciprocal space map measurements being in agreement with continuum elasticity theory for rhombohedral heterostructures. While pseudomorphic layers on m-plane sapphire show a pronounced shear strain \$\$e'\_5\$\$ e 5 {$\prime$} along the c -axis direction, relaxed layers exhibit a global lattice tilt in the same direction. Both effects are not present on the a-epitaxial plane. Out-of-plane lattice constants as well as \$\$e'\_5\$\$ e 5 {$\prime$} are modeled as function of x employing elasticity theory, confirming theoretical values of the elastic stiffness tensor for \$\$\textbackslash alpha\$\$ {$\alpha$} -Ga \$\$\_2\$\$ 2 O \$\$\_3\$\$ 3 , especially the non-zero value of the \$\$C\_\{14\}\$\$ C 14 component. Possible pyramidal slip systems for strain relaxation in c -axis direction are examined to explain and numerically model the difference in lattice tilt for the two substrate orientations. Graphic abstract}
+      \field{day}{14}
+      \field{issn}{0884-2914, 2044-5326}
+      \field{journaltitle}{Journal of Materials Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{23}
+      \field{shortjournal}{Journal of Materials Research}
+      \field{shorttitle}{Strain states and relaxation for \$\$\textbackslash alpha\$\$-(Al\$\$\_x\$\$Ga\$\$\_\{1-x\}\$\$)\$\$\_2\$\$O\$\$\_3\$\$ thin films on prismatic planes of \$\$\textbackslash alpha\$\$-Al\$\$\_2\$\$O\$\$\_3\$\$ in the full composition range}
+      \field{title}{Strain states and relaxation for {$\alpha$}-(Al{\textsubscript{{\emph{x}}}}Ga{\textsubscript{1-{\emph{x}}}}){\textsubscript{2}}O{\textsubscript{3}} thin films on prismatic planes of {$\alpha$}-Al{\textsubscript{2}}O{\textsubscript{3}} in the full composition range: Fundamental difference of a- and m-epitaxial planes in the manifestation of shear strain and lattice tilt}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{4816\bibrangedash 4831}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1557/s43578-021-00375-3
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\29PHQ5KJ\Kneiß et al. - 2021 - Strain states and relaxation for $$alpha$$-(Al$$_.pdf
+      \endverb
+      \keyw{important,incorporated,read}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
