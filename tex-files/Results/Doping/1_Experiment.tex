@@ -1,0 +1,39 @@
+%! Doped targets
+To fabricate doped thin films, three different PLD targets were applied.
+Each target was eliptically segmented (cf.~\ref{Sec:Methods_pld}), with the outer region consisting of pure \ce{Cr2O3}.
+The inner region (ellipse) was also \cro\ but with a fraction of dopant, namely:
+\begin{enumerate}
+    \item \qty{0.01}{\wtpercent} \ce{CuO}, called \enquote{CuO-doped},
+    \item \qty{0.01}{\wtpercent} \ce{ZnO}, called \enquote{ZnO-doped (low)} and
+    \item \qty{1}{\wtpercent} \ce{ZnO}, called \enquote{ZnO-doped (high)}.
+\end{enumerate}
+For each target, several processes were done with the laser spot position varying on the target.
+For each process, deposition was done on all of the 4 aforementioned substrate orientations to check whether the conductivity of the prismatic orientations could be improved.
+The composition of the ablated material can be calculated via Equ.\,\ref{Equ:Methods_composition}, but this does not account for the finite area illuminated by the laser pulse.
+A simple model for including this effect can be achieved by simulating $N$ several randomly distributed points $r_i$ in the range $\Delta r$ around a radial laser position $r_\mathrm{PLD}$.
+Then, the composition $x_D$ can be calculated as the mean of the $N$ calculated compositions for each $r_i$.
+The resulting dependence of $x_D$ on $r_\mathrm{PLD}$ is visualized in Fig.\,\ref{Fig:Results_2_yToComposition}, where a higher value of $\Delta r$ results in more smeared out graphs.
+A target with inner concentration of \qty{0.01}{\wtpercent} dopant was assumed (Cu-doped target or Zn-doped (low) target).
+The Monto Carlo simulations can further be approximated by a linear fit, which was done for $\Delta r=\qty{2}{\mm}$ (blue dotted line in Fig.\,\ref{Fig:Results_2_yToComposition}).
+Henceforth, the different samples fabricated with different radial laser spot positions $r_\mathrm{PLD}$ are characterized by the expected composition $x_D$ calculated from this linear fit.
+The reason for this is that according to Equ.\,\ref{Equ:Methods_composition}, when applying $r_\mathrm{PLD}$ smaller than the length of the semi-minor axis of the inner ellipse, no variation in composition would be observed, even though the real finite laser spot size results in a different result.
+\begin{figure}
+    \centering
+    \includegraphics{g_yToComposition.eps}
+    \caption{
+        Predictions for the plasma plume composition $x_D$ using Monte Carlo simulations with $N=\qty{10 000}{}$ and different values for $\Delta r$.
+    }
+    \label{Fig:Results_2_yToComposition}
+\end{figure}
+
+%! contacts
+To improve the contacts for resistivity measurements, samples were produced using the ZnO-doped (low) target and a fixed $r_\mathrm{PLD}=\qty{3}{\mm}$.
+Only \textit{c}- and \textit{r}-plane sapphire substrates were used and the deposition temperature was varied between \qty{560}{\degreeCelsius} and \qty{680}{\degreeCelsius}.
+For each growth temperature, subsequent contacting was done with Ti-Al-Au for a \textit{c}-plane and an \textit{r}-plane sample, as well as Ti-Au for a \textit{c}-plane and an \textit{r}-plane sample.
+Furthermore, the \textit{c}-plane samples contacted with Ti-Al-Au were compared before and after annealing at \qty{210}{\degreeCelsius} in nitrogen atomosphere.
+
+%! measurements
+\thetaomega-scans were performed for every sample, but \textomega-scans for \textit{c}- and \textit{r}-plane samples only.
+The thickness was determined using spectroscopic ellipsometry.
+Resistivity measurements at room temperature were done using the \textsc{Pauw} method, which was also applied when conducting temperature dependent resistivity measurements on one \textit{c}-plane sample of each target.
+Note that the effect of infrequent cleaning of the laser entrance window that was described in \ref{Sec:Results_Preliminary} was discovered during the execution of those experiments, which is why the samples produced from the ZnO-doped (high) target were the only ones for which this effect could be prevented.
