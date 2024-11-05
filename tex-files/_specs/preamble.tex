@@ -1,5 +1,5 @@
 % \usepackage[utf8]{inputenc}
-    % only relevant for pdflatex
+%%     only relevant for pdflatex
 
 %! Colors
 \usepackage{xcolor}
@@ -9,26 +9,32 @@
 \usepackage{graphbox}
     % already loads graphicx package!
     % allows for "align=c" argument in includegraphics for aligning vertically
+\usepackage{epstopdf}
+    % needed for converting eps files when compiling with pdflatex
 
-    \graphicspath{
-        {fastImages}
-        {../Plots/Thesis/1/}
-        {../Plots/Thesis/2/}
-        {../Plots/Thesis/3/}
-        {../Plots/graphics/}
-        {../Plots/photographs/}
-    }
-\usepackage{wrapfig}
+
+% \usepackage{wrapfig}
     % allows wrapping text around figure; but has not so good performance
 \usepackage[margin=10pt,font=small,labelfont={bf}]{caption}
+
+\graphicspath{
+    {fastImages}
+    {../Plots/Thesis/1/}
+    {../Plots/Thesis/2/}
+    {../Plots/Thesis/3/}
+    {../Plots/graphics/}
+    {../Plots/photographs/}
+}
 
 %! layout
 \usepackage{lmodern} % thicker font (?)
 % \usepackage[inner=2.5cm,outer=3.5cm,top=2cm,bottom=2cm]{geometry}
-%   for book style
+%TODO   book style --> for final document!
+
 \usepackage[inner=3cm,outer=3cm,top=2cm,bottom=2cm]{geometry}
 %   for article style
 \usepackage{booktabs}
+%   better tables, toprule etc.
 \usepackage{multirow}
 % \usepackage{ctable}
 \usepackage{framed}
@@ -62,19 +68,22 @@
     % convenient quotes
 
 %! Referencing
-% Table of contents
+%* Table of contents
 \setcounter{tocdepth}{3}
     % show subsubsection in ToC, 2 would only show until subsection
 % \setcounter{secnumdepth}{3}
     % numering also subsubsections
 
-% Glossary
+%* Appendix
+\usepackage[toc,page]{appendix}
+
+%* Glossary
 \usepackage[acronym]{glossaries}
 % \makeglossaries % run `makeglossaries main' in terminal then compile again
     \input{tex-files/_specs/glos.tex}
 
-% Links
-\usepackage[colorlinks=true,citecolor=blue,linkcolor=violet]{hyperref}
+%* Links
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=black,urlcolor=violet]{hyperref}
 
 %! own abbreviations
 \input{tex-files/_specs/abbrev.tex}

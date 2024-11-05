@@ -7,14 +7,20 @@
 
 \input{tex-files/_specs/preamble.tex}
 
-\includeonly{tex-files/_chapters/results}
+\includeonly{tex-files/Results/Energy/Energy}
 
 \begin{document}
 \tableofcontents
+
+%! main text
     \include{tex-files/_chapters/theory}
     \include{tex-files/_chapters/methods}
-    \include{tex-files/_chapters/results}
-\newpage
+    \input{tex-files/_chapters/results}
+
+%! Appendix
+\include{tex-files/Appendix/appendix}
+%! bibliography
+\clearpage
 \sloppy % increases probability of hyphenation in the bibliography
 \printbibliography
 \end{document}
