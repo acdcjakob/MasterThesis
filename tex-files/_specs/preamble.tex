@@ -49,7 +49,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 
-% units
+%* units
 \usepackage{siunitx}
     \DeclareSIUnit{\angstrom}{\textup{\AA}}
     \DeclareSIUnit{\bar}{bar}
@@ -66,6 +66,15 @@
 % quotes
 \usepackage{csquotes}
     % convenient quotes
+%* footnotes
+\usepackage{fmtcount} % For formatting numbers
+\usepackage[hang]{footmisc}
+    % "flushmargin" as argument: align to margin
+    % "hang" as argument: nice :)
+
+% Define a new footnote command with numbers in parentheses
+\renewcommand{\thefootnote}{(\arabic{footnote})}
+
 
 %! Referencing
 %* Table of contents
@@ -73,6 +82,9 @@
     % show subsubsection in ToC, 2 would only show until subsection
 % \setcounter{secnumdepth}{3}
     % numering also subsubsections
+\usepackage{minitoc}
+    \noptcrule 
+    % allows making TOC at begin of chapters
 
 %* Appendix
 \usepackage[toc,page]{appendix}

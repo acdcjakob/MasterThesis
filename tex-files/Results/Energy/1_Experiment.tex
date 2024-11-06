@@ -1,0 +1,128 @@
+%! Sample Fabrication
+\subsubsection{Sample Fabrication}
+For all following depositions, the laser entrance window was cleaned before each process.
+A pure \cro\ target was used for deposition of thin films on $5\times\qty{5}{\mm\squared}$ sapphire substrates in the four aforementioned orientations.
+The first batch of samples was produced by only varying the pulse number to achieve a series of thin films with varying thickness but constant laser fluence during deposition\footnote{
+    The series of thicknesses that was achieved in the prior experiments was correlated to a series of growth rates.
+}.
+The pulse energy was set to \qty{650}{\milli\joule} and the lens position\footnote{
+    Note that the values for the lens position have an arbitrary offset; a value of \qty{0}{\cm} does not correspond to the position where the target surface is in focus.
+}
+to \qty{-2}{\cm}, the resulting fluence is approx.\ \qty{2}{\joule\per\cm\squared}.
+This corresponds to the standard configuration during all previous processes (pink square in Fig.\,\ref{Fig:Methods_fluence}).
+This was repeated with fewer pulse number variations for three other lens positions, namely \qtylist{0;1;2}{\cm}, resulting in lower fluences:
+In Fig.\,\ref{Fig:Methods_fluence}, the yellow circles represent the probed laser fluences.
+This set of samples is referred to as the 1st batch.
+
+To investigate the influence of fluence independent of ablation area, a 2nd batch of samples was fabricated with a fixed lens position (\qty{-1}{\cm}) but varying laser pulse energy:
+\qtylist{300;450;650;800}{\milli\joule}.
+The pulse number was adjusted to achieve approximately same thicknesses.
+The achieved fluences are visualized as red triangles in Fig.\,\ref{Fig:Methods_fluence}.
+
+%! Measurements
+\subsubsection{Measurements}
+For all samples, \thetaomega-scans as well as \textomega-scans were performed.
+The reflections probed by the latter were (00.6), (02.4), (30.0) and (22.0) for \textit{c}-, \textit{r}-, \textit{m}- and \textit{a}-plane, respectively.
+For some selected samples of different thickness and fluence from the 1st batch, transmission measurements have been performed.
+The thickness of all samples was determined by spectroscopic ellipsometry measurements.
+To obtain more information about the relation between in-plane and out-of-plane lattice constants, \glspl{RSM} were performed on selected samples:
+
+\paragraph{\textit{c}-plane}
+    For \textit{c}-plane samples, the thickness series of the 1st batch that was fabricated with the largest laser spot size (lowest fluence) was investigated.
+    The asymmetric reflection that was used for probing the relaxation process is (02.10), which has an inclination angle of approx.\ \qty{32}{\degree} with respect to the sample surface.
+\paragraph{\textit{r}-plane}
+    All \textit{r}-plane samples fabricated in the 2nd batch with different laser pulse energies were investigated.
+    For each sample, the $x$-axis of the sample -- containing the projection of the \textit{c}-axis -- is found by performing a \textphi-scan on the (03.0) reflection:
+    This set of lattice planes has an inclination with respect to the surface, so the position of the peak in the diffraction pattern of the \textphi-scan reveals the $x$-axis.
+    In this azimuth, an \gls{RSM} is recorded around the asymmetric (03.0) reflection and the symmetric (02.4) reflection.
+    By rotating $\Delta\phi=\qty{90}{\degree}$, the $y$-axis lays in the scattering plane and another \gls{RSM} is performed around the symmetric (02.4) reflection.
+    The twofold measurement of the symmetric reflection is necessary to calculate a possible lattice plane tilt for both $x$- and $y$-direction.
+    Note that no shear is calculated due to the asymmetric nature of the (03.0) reflection with respect to the \textit{r}-orientation\footnote{
+        For \textit{m}- and \textit{a}-plane rhombohedral structures, the crystal is symmetric under the transformation $\phi\rightarrow\phi+\qty{180}{\degree}$, which is not the case for \textit{r}-plane.
+    }.
+    After performing the various corrections described in \ref{Sec:Methods_RSM}, the tilt angles can be calculated for both azimuths by
+    \begin{eqnarray}
+        \theta = \arccos\left(
+            \frac{q_\perp}{|\mathbf{q}|}
+        \right) \cdot\mathrm{sgn}\left(q_\parallel\right)\,,
+        \label{Equ:Results_3_tiltAngle}
+    \end{eqnarray}
+    with $q_\perp$ and $q_\parallel$ being the \gls{oop}\ and \gls{ip}\ components of the scattering vector $\mathbf{q}$, respectively.
+    The \gls{ip}\ and \gls{oop}\ strains are determined by comparing the observed scattering vector to the expected scattering vector for the (03.0) reflection:
+    \begin{equation}
+        \mathbf{q}_\mathrm{(03.0)} = 
+        \left|\mathbf{q}_\mathrm{(03.0)}\right|\cdot
+        \begin{pmatrix}
+            \cos\alpha_{(03.0)|r}\\
+            \sin\alpha_{(03.0)|r}
+        \end{pmatrix}\,,
+    \end{equation}
+    with $|\mathbf{q}_{(03.0)}|$ calculated from Equ.\,\ref{Equ:Methods_qAbs} and Equ.\,\ref{Equ:Methods_dhkl}.
+    $\alpha_{(03.0)|r}$ denotes the angle between the (03.0) reflection and the normal of the \textit{r}-planes; it can be calculated from Equ.\,\ref{Equ:Methods_angleWRTc}:
+    \begin{equation}
+        \alpha_{(03.0)|r}
+        = \qty{90}{\degree}-\left(
+            \alpha_{(03.0)|c}-\alpha_{(01.2)|c}
+        \right)
+        = \alpha_{(01.2)|c}
+        = \qty{57.62}{\degree}\,.
+    \end{equation}
+\paragraph{\textit{m}-plane}
+    Similar to above, all \textit{m}-plane samples from the 2nd batch were investigated.
+    The samples were aligned to the $x$-axis by performing a \textphi-scan on the asymmetric (30.6) reflection, and an \gls{RSM} was recorded afterwards.
+    By rotating $\Delta\phi=\qty{180}{\degree}$ while maintaining $2\theta$ and $\omega$, the scattering condition for $(30.\overline{6})$ is probed and an \gls{RSM} was recorded.
+    The symmetric reflection (30.0) was also measured in this azimuth.
+    The tilt angle and shear angle can be calculated according to Equ.\,\ref{Equ:Results_3_tiltAngle} and Equ.\,\ref{Equ:Methods_shearAngle}, respectively.
+    The lattice constants can be calculated from the components of the scattering vectors:
+    \begin{align}
+        a_\perp &= \frac{\sqrt{12}}{q_\perp^{(30.\pm6)}} \,,\\
+        a_\perp &= \frac{\sqrt{12}}{q_\perp^{(03.0)}}\,,\\
+        c &= \frac{6}{q_\parallel^{(30.\pm6)}} \,.
+    \end{align}
+    $a_\perp$ denotes the $a$ lattice constant in direction of the normal to the sample surface.
+    By rotating $\Delta\phi=\qty{90}{\degree}$, the \textit{y}-axis can be probed via asymmetric reflections $(\overline{4}2.0)$ and (22.0), which differ in the azimuth by $\Delta\phi=\qty{180}{\degree}$.
+    A second symmetric reflection (30.0) is recorded in this azimuth.
+    Similar to the $x$-axis, the tilt and shear angles, as well as the lattice constants can be calculated:
+    \begin{align}
+        (4\overline{2}.0):&\quad
+            a_\perp = \frac{\sqrt{12}}{q_\perp^{(4\overline{2}.0)}}
+            \quad,\quad
+            a_\parallel = \frac{2}{q_\parallel^{(4\overline{2}.0)}}\,,\\
+        (22.0):&\quad
+            a_\perp = \frac{\sqrt{12}}{q_\perp^{(22.0)}}
+            \quad,\quad
+            a_\parallel = \frac{2}{q_\parallel^{(22.0)}}\,,\\
+        (30.0):&\quad
+            a_\perp = \frac{\sqrt{12}}{q_\perp^{(03.0)}}\,.
+    \end{align}
+    $a_\parallel$ denotes the $a$ lattice constant parallel to the $y$-axis.
+    For detailed calculations of the former equations, see\ \ref{Sec:App_Calc_mPlane}.
+    Note that all 6 measured reflections yield a value for $a_\perp$, and 2 measured reflections each yield 2 values for $c$ and $a_\parallel$, respectively.
+    Therefore, for each lattice constant, the mean value is evaluated and the error is estimated by the standard deviation.
+\paragraph{\textit{a}-plane}
+    All \textit{a}-plane samples from the 2nd batch were investigated and the method is similar to the one applied to the \textit{m}-plane samples.
+    The azimuth of the \textit{x}-axis is found by performing a \textphi-scan on the (22.6) reflection, which also served for an \gls{RSM}.
+    Rotating by $\Delta\phi=\qty{180}{\degree}$ yields the $(22.\overline{6})$ reflection and (22.0) is also measured.
+    Similar to above, the sample is rotated by \qty{90}{\degree} to align to the $y$-axis and two more asymmetric reflections are recorded: (30.0) and (03.0).
+    A second \gls{RSM} of (22.0) is also performed.
+    This yields the following lattice constants for the $x$-axis:
+    \begin{align}
+        a_\perp &= \frac{4}{q_\perp^{(22.\pm6)}} \,,\\
+        a_\perp &= \frac{4}{q_\perp^{(22.0)}}\,,\\
+        c &= \frac{6}{q_\parallel^{(22.\pm6)}} \,,
+    \end{align}
+    and for the $y$-axis:
+    \begin{align}
+        (30.0):&\quad
+            a_\perp = \frac{2}{q_\perp^{(30.0)}}\cdot\frac{3}{2}
+            \quad,\quad
+            a_\parallel = \frac{2}{\sqrt{3}q_\parallel^{(30.0)}}\cdot\frac{3}{2}\,,\\
+        (03.0):&\quad
+            a_\perp = \frac{2}{q_\perp^{(03.0)}}\cdot\frac{3}{2}
+            \quad,\quad
+            a_\parallel = \frac{2}{\sqrt{3}q_\parallel^{(03.0)}}\cdot\frac{3}{2}\,,\\
+        (22.0):&\quad
+            a_\perp = \frac{4}{q_\perp^{(22.0)}}\,.
+    \end{align}
+    For detailed calculations and the origin of the factor $\frac{3}{2}$, see\ \ref{Sec:App_Calc_aPlane}.
+    Again, lattice constants obtained from several reflections, the mean and standard deviation are calculated.
