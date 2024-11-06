@@ -7,7 +7,7 @@ A sample with surface normal parallel to the $z$-axis of the laboratory system i
 The diffracted radiation is measured at an angle $\alpha_\mathrm{out}$ between sample surface and detector.
 $2\theta$ is used to describe the angle between outgoing beam and the extension of the incoming beam, which both span the scattering plane.
 It follows that $2\theta=\omega+\alpha_\mathrm{out}$.
-Note that $\theta$ in Equ.\,(\ref{Equ:Theory_BraggCondition}) is the same angle as half of $2\theta$.
+Note that $\theta$ in \eqref{Equ:Theory_BraggCondition} is the same angle as half of $2\theta$.
 The scattering plane is depicted in Fig.\,\ref{Fig:Methods_XRD_geometry}a.
 The sample can be rotated by $\phi$ (\enquote{azimuth}) and $\psi$ around an axis parallel to the surface normal and parallel to the intersection of sample surface and scattering plane, respectively.
 
@@ -27,7 +27,7 @@ The sample can be rotated by $\phi$ (\enquote{azimuth}) and $\psi$ around an axi
 \end{figure}
 When probing for lattice plane distances using the \gls{bc} in its simplest form, it is assumed that the scattering planes are parallel to the sample surface (cf. Fig.\,\ref{Fig:Methods_XRD_geometry}a).
 It is necessary that $\omega=\alpha_\mathrm{out}$ which implies $2\theta=2\omega$.
-So the angle of incidence $\omega$ is coupled to $2\theta$ which represents the distance between lattice planes (cf. Equ.\,(\ref{Equ:Theory_BraggCondition})).
+So the angle of incidence $\omega$ is coupled to $2\theta$ which represents the distance between lattice planes (cf. \eqref{Equ:Theory_BraggCondition}).
 Measuring the diffracted X-ray intensity while varying $2\theta$ and maintaining the condition $2\theta=2\omega$, is called a 2\texttheta-\textomega-scan.
 This results in a so-called 2\texttheta-\textomega\ diffraction pattern, where peaks correspond to constructive interference and thus to certain lattice plane distances.
 
@@ -120,14 +120,14 @@ From the definition of angles, it follows that
     \end{pmatrix}\,.
     \label{Equ:Methods_qDef}
 \end{align}
-From Equ.\,(\ref{Equ:Methods_qDef}), two properties follow for the scattering vector:
+From \eqref{Equ:Methods_qDef}, two properties follow for the scattering vector:
 \begin{align}
     -q_\parallel/q_\perp&=-\tan\left(\omega-\frac{2\theta}{2}\right)=\tan\omega_0
         \label{Equ:Methods_qDir}\,,\\
     \left|\mathbf{q}\right|&=\sqrt{q_\parallel^2+q_\perp^2}=\frac{1}{\lambda}2\sin\theta\overset{\mathrm{Bragg}}{=}\frac{1}{d_{hkl}}\,,
     \label{Equ:Methods_qAbs}
 \end{align}
-where the last equality of Equ.\,(\ref{Equ:Methods_qAbs}) holds, if $\mathbf{q}$ is a reciprocal lattice vector $\mathbf{K}_{hkl}$.
+where the last equality of \eqref{Equ:Methods_qAbs} holds, if $\mathbf{q}$ is a reciprocal lattice vector $\mathbf{K}_{hkl}$.
 The scattering vector, together with the corresponding \gls{XRD} geometry is depicted in Fig.\,\ref{Fig:Methods_qDef}a.
 \begin{figure}
     \centering
@@ -136,7 +136,7 @@ The scattering vector, together with the corresponding \gls{XRD} geometry is dep
         \includegraphics{reciprocalDef.pdf}
         &\includegraphics{correctReciprocal.pdf}
     \end{tabular}
-    \caption{\textbf{(a)} Construction of the scattering vector (magenta) from incoming (red) and outgoing (green) beam, according to Equ.\,(\ref{Equ:Methods_qDef}).
+    \caption{\textbf{(a)} Construction of the scattering vector (magenta) from incoming (red) and outgoing (green) beam, according to \eqref{Equ:Methods_qDef}.
     The reciprocal lattice points are visualized together with the lattice planes.
     It has to be noted that the distances between lattice planes and between reciprocal lattice points have different dimensions.\ 
     \textbf{(b)}\tbd}
@@ -144,11 +144,11 @@ The scattering vector, together with the corresponding \gls{XRD} geometry is dep
 \end{figure} 
 Because $2\theta$ and $\omega$ can simultaneously be represented by $\mathbf{q}$, it is possible to measure intensities for several $\mathbf{q}$, such that a part of the reciprocal space $Q\ni\mathbf{q}$ is mapped.
 Consequently, this is called a \gls{RSM}.
-According to Equ.\,(\ref{Equ:Theory_ConstructiveInterference}), a peak in 2D reciprocal space $Q$ should be observed if $\mathbf{q}$ is a reciprocal space vector.
+According to \eqref{Equ:Theory_ConstructiveInterference}, a peak in 2D reciprocal space $Q$ should be observed if $\mathbf{q}$ is a reciprocal space vector.
 In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \enquote{reflection}.
-With Equ.\,(\ref{Equ:Methods_qDir}) one can determine $\omega_0$ -- the direction of the corresponding lattice planes\footnote{
+With \eqref{Equ:Methods_qDir} one can determine $\omega_0$ -- the direction of the corresponding lattice planes\footnote{
     Note that the \enquote{$-$} in $-q_\parallel/q_\perp$ is necessary, such that this fraction is the tangens the angle between $\mathbf{q}$ and surface normal with correct sense of rotation. 
-}, and with Equ.\,(\ref{Equ:Methods_qAbs}) the lattice plane distance $d_{hkl}$ can be calculated.
+}, and with \eqref{Equ:Methods_qAbs} the lattice plane distance $d_{hkl}$ can be calculated.
 Note that for rhombohedral crystals, $d_{hkl}$ can also be predicted from the lattice constants $a$ and $c$ with the following equation \cite{grundmann2018}:
 \begin{equation}
     d_{hkl}=\left(
@@ -201,11 +201,11 @@ To precisely calculate the latter, several corrections are applied to the record
     \end{align}
 
     \item If the thin film grows tilted (e.g.\ due to slip systems, cf.~\ref{Sec:Theory_Relaxed}), a symmetric reflection -- having scattering vector parallel to the surface normal in theory -- will exhibit an in-plane component $q_{\parallel,hkl}^\mathrm{film}\neq0$.
-    The tilt angle can be calculated by Equ.\,(\ref{Equ:Methods_qDir}): 
+    The tilt angle can be calculated by \eqref{Equ:Methods_qDir}: 
     \begin{equation}
         \theta_\mathrm{tilt}=\arctan\left(-\frac{q_{\parallel,hkl}^\mathrm{film}}{q_{\perp,hkl}^\mathrm{film}}\right)\,.
     \end{equation}
-    To determine the lattice constants from asymmetric peaks, the reciprocal space is again rotated as in Equ.\,(\ref{Equ:Methods_rotation}) but with rotation angle $-\theta_\mathrm{tilt}$.
+    To determine the lattice constants from asymmetric peaks, the reciprocal space is again rotated as in \ref{Equ:Methods_rotation} but with rotation angle $-\theta_\mathrm{tilt}$.
     This scenario is depicted in Fig.\,\ref{Fig:Methods_qDef}b, where the magenta colored reflection deviates from the expected symmetric position.
 
     \item If the thin film is sheared, a symmetric reflection $\mathbf{q}_{\tilde{h}\tilde{k}\tilde{l}}^\mathrm{film}$ will be unaffected.

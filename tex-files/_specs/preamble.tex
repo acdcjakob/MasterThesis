@@ -86,6 +86,10 @@
     \noptcrule 
     % allows making TOC at begin of chapters
 
+%* Equation referencing
+\usepackage{xpatch}
+\xpretocmd{\eqref}{Equ.\,}{}{}
+    % this alters the \eqref command and I got still the list of labels as suggestions
 %* Appendix
 \usepackage[toc,page]{appendix}
 
