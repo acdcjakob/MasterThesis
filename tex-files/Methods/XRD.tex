@@ -148,6 +148,25 @@ In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \enquote{reflection}.
 With Equ.\,(\ref{Equ:Methods_qDir}) one can determine $\omega_0$ -- the direction of the corresponding lattice planes\footnote{
     Note that the \enquote{$-$} in $-q_\parallel/q_\perp$ is necessary, such that this fraction is the tangens the angle between $\mathbf{q}$ and surface normal with correct sense of rotation. 
 }, and with Equ.\,(\ref{Equ:Methods_qAbs}) the lattice plane distance $d_{hkl}$ can be calculated.
+Note that for rhombohedral crystals, $d_{hkl}$ can also be predicted from the lattice constants $a$ and $c$ with the following equation \cite{grundmann2018}:
+\begin{equation}
+    d_{hkl}=\left(
+        \frac{4}{3}\frac{h^2+k^2+hk}{a^2}
+        +\frac{l^2}{c^2}
+    \right)^{-1/2}\,.
+    \label{Equ:Methods_dhkl}
+\end{equation}
+The inclination with respect to the \textit{c}-axis can be determined via \cite{grundmann2020b}
+\begin{equation}
+    \alpha_{hkl|c}
+    \arccos\left(
+        \frac{l}{\sqrt{
+            \frac{4c^2}{3}\frac{h^2+k^2+hk}{a^2}+l^2
+        }}
+    \right)\,.
+    \label{Equ:Methods_angleWRTc}
+\end{equation}
+
 
 A 2\texttheta-\textomega-scan corresponds to a set of $\mathbf{q}$ with fixed direction in reciprocal space, but varying length.
 For scanning symmetric reflections, $\mathbf{q}$ is parallel to the surface normal (as in Fig.\,\ref{Fig:Methods_qDef}a).
@@ -204,6 +223,7 @@ To precisely calculate the latter, several corrections are applied to the record
             q_{\parallel,hkl}^\mathrm{film}
             -q_{\parallel,h'k'l'}^\mathrm{film}
         }\right)\,.
+        \label{Equ:Methods_shearAngle}
     \end{equation}
     To correct the shear, a rotation around the corresponding symmetric reciprocal lattice point $\mathbf{q}_{\tilde{h}\tilde{k}\tilde{l}}^\mathrm{film}$ with the same expected out-of-plane component must be applied.
 \end{enumerate}
