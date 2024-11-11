@@ -12,13 +12,16 @@
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Laser Position Variation for Different Targets}{\reset@font\mtcSSSfont 41}{section*.37}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Ohmic Contact Optimization}{\reset@font\mtcSSSfont 48}{section*.45}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.3}Conclusion}{\reset@font\mtcSSfont 48}{subsection.3.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Strain Analysis}{\reset@font\mtcSfont 30}{section.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Experiment}{\reset@font\mtcSSfont 30}{subsection.3.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Sample Fabrication}{\reset@font\mtcSSSfont 30}{section*.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Measurements}{\reset@font\mtcSSSfont 31}{section*.4}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {c}-plane}{\reset@font\mtcPfont 31}{section*.5}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {r}-plane}{\reset@font\mtcPfont 31}{section*.6}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {m}-plane}{\reset@font\mtcPfont 32}{section*.7}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {a}-plane}{\reset@font\mtcPfont 33}{section*.8}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}Results}{\reset@font\mtcSSfont 33}{subsection.3.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Strain for \textit {c}-plane Thin Films}{\reset@font\mtcSSSfont 35}{section*.12}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Strain Analysis}{\reset@font\mtcSfont 50}{section.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Experiment}{\reset@font\mtcSSfont 50}{subsection.3.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Sample Fabrication}{\reset@font\mtcSSSfont 50}{section*.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Measurements}{\reset@font\mtcSSSfont 51}{section*.4}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {c}-plane}{\reset@font\mtcPfont 51}{section*.5}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {r}-plane}{\reset@font\mtcPfont 51}{section*.6}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {m}-plane}{\reset@font\mtcPfont 52}{section*.7}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {a}-plane}{\reset@font\mtcPfont 53}{section*.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Results}{\reset@font\mtcSSfont 53}{subsection.3.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \textit {c}-plane: Laser Spot Size Variation}{\reset@font\mtcSSSfont 55}{section*.12}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \textit {c}-plane: Pulse Energy Variation}{\reset@font\mtcSSSfont 58}{section*.17}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \textit {r}-plane: Laser Spot Size Variation}{\reset@font\mtcSSSfont 60}{section*.20}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \textit {r}-plane: Pulse Energy Variation}{\reset@font\mtcSSSfont 61}{section*.21}}
