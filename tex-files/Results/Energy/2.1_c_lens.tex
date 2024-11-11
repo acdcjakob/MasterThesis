@@ -1,0 +1,63 @@
+%! theta omega
+The \gls{oop}\ strain calculated via \eqref{Equ:Results_oop_strain_def} for all samples of the 1st batch is displayed in Fig.\,\ref{Fig:Results_3_lensStrain}.
+Consider the \textit{c}-plane oriented samples of the 1st batch, that had a fixed lens position yielding a fluence of approx.\ \qty{2}{\joule\per\cm\squared}, but varying thickness (brown squares in Fig.\,\ref{Fig:Results_3_lensStrain}).
+A clear dependence of the \gls{oop}\ strain can be observed: thinner samples yield higher strain.
+The layers become relaxed for thicknesses above approx.\ \qty{170}{\nm}.
+For low thicknesses, the strain approaches the predicted value for pseudomorphic growth of \cro\ on \ce{Al2O3}, which is \qty{3.90}{\percent} (cf.\ Tab.\,\ref{tab:d_strained}).
+\begin{figure}
+    \centering
+    \includegraphics{3_lensPos_strain.eps}
+    \caption{
+        Out-of-plane strain calculated from \thetaomega-patterns for all samples from the 1st batch, depending on thickness and laser fluence (false color).
+    }
+    \label{Fig:Results_3_lensStrain}
+\end{figure}
+%! RSMs strain
+The recorded \glspl{RSM} of the (02.10) reflection can confirm whether this observation of \gls{oop}\ strain is due to pseudomorphic growth.
+In Fig.\,\ref{Fig:Results_3_cRSMs}, one can observe a shift of $q_\parallel^{(02.10)}$ to higher values for lower thicknesses.
+This corresponds to a decrease of the \gls{ip} lattice constant, which is the expected behavior for pseudomorphic growth, because the \gls{ip} $a$ lattice constant of \textit{c}-oriented \ce{Al2O3} is \qty{0.2}{\angstrom} smaller than for \cro\ (cf.~Tab.\,\ref{Tab:sesquiLatticeConstants}).
+The tensile \gls{oop}\ strain observed via \thetaomega-scans can also be confirmed by the fact that the \gls{oop}\ component $q_\perp^{(02.10)}$ is decreasing for thinner samples.
+The reduction of signal intensitty is attributed to the thickness, but could also be a result of decreasing crystal quality (cf.~Fig.\,\ref{Fig:Results_3_lensOmega}).
+\begin{figure}
+    \centering
+    \includegraphics{3_lensPos_RSM_c.png}
+    \caption{
+        \glspl{RSM} of the (02.10) reflection for several \textit{c}-plane oriented samples of the 1st batch with varying thickness.
+        The reflection in the upper right corner represents the (02.10) reflection of the sapphire substrate.
+    }
+    \label{Fig:Results_3_cRSMs}
+\end{figure}
+When looking into the remaining samples that were fabricated with larger laser spot sizes but similar thickness (bluish squares in Fig.\,\ref{Fig:Results_3_lensStrain}), it becomes clear that the \gls{oop} strain is also slightly reduced for lower fluences.
+But note that this effect is less dominant when compared to the influence of thickness.
+
+%! omega
+In Fig.\,\ref{Fig:Results_3_lensOmega}, the \textomega-FWHM is depicted depending on the film thickness and laser fluence for the 1st batch.
+As before, consider the samples with smallest laser spot size (largest fluence) first:
+increasing the thickness is clearly correlated to a decreasing \textomega-FWHM.
+Therefore, thicker samples yield both less strained and more crystalline films.
+Note that there is an outlier to this behavior for the sample with a thickness of approx.\ \qty{30}{\nm}.
+When considering the \textomega-pattern (Fig.\,\ref{Fig:App_3_cOmegaOutlier}a), it becomes clear that the non-\textsc{Voigt} shape makes the determination of \gls{FWHM} difficult.
+Therefore, not too much attention should be paid to this data point.
+When considering the samples fabricated with lower fluences (bluish squares in Fig.\,\ref{Fig:Results_3_lensOmega}), a much more dominant influence of laser spot size on the crystallinity can be observed.
+\begin{figure}
+    \centering
+    \includegraphics{3_lensPos_omega.eps}
+    \caption{
+        \textomega-FWHM for all samples from the 1st batch, depending on thickness and laser fluence (false color).
+        The corresponding diffractograms are depicted in Fig.\,\ref{Fig:App_3_lens_omega}.
+    }
+    \label{Fig:Results_3_lensOmega}
+\end{figure}
+%! correlation
+This can be summarzed by stating that the thickness of samples is the dominant influence on the \gls{oop} strain, because the thickest samplest yielded less strain than the thinner samples with lowest fluence (Fig.\,\ref{Fig:Results_3_lensStrain}).
+However, for the \textomega-FWHM, it is the other way around, namely that even the thickest samples (which exhibit better quality than thinner samples of same lens position) have a much higher \textomega-FWHM when compared to thinner samples fabricated with less fluence.
+This can be seen in Fig.\,\ref{Fig:Results_3_lensCorrelation}, where the \textomega-FWHM is visualized depending on the \gls{oop}\ strain of the corresponding sample:
+A linear behavior (correlation) is observed for each set fluence; but there are two different regimes in total, with the high-fluence regime generally showing higher \textomega-FWHM.
+\begin{figure}
+    \centering
+    \includegraphics{3_lensPos_strainOmegaCorrelation.eps}
+    \caption{
+        Correlation between strain and \textomega-FWHM for all samples from the 1st batch, depending on thickness and laser fluence (false color).
+    }
+    \label{Fig:Results_3_lensCorrelation}
+\end{figure}

@@ -1,0 +1,44 @@
+%! Theta Omega
+The \gls{oop}\ strain for the \textit{c}-plane oriented samples fabricated with various laser pulse energies, but constant laser spot size, are depicted in Fig.\,\ref{Fig:Results_3_pulseStrain}.
+Note that there is still a distribution of thickness from \qtyrange{100}{200}{\nm}, even though the pulse number was adapted to the corresponding laser pulse energy.
+The strain is overall smaller ($<\qty{2}{\percent}$) than for the 1st batch, because the 2nd batch contained samples with thickness $t>\qty{100}{\nm}$ which yields smaller strains as seen before.
+No systematic dependence on the laser fluence is observed, which may be explained by the still remaining thickness distribution which overlaps the fluence variation.
+This effect could be strong enough to overshadow the impact of laser pulse energy, as it was shown in the previous experiment that the thickness is the dominant factor for the \gls{oop}\ strain.
+For example, note the sample fabricated with $F=\qty{1.5}{\J\per\cm\squared}$ (green square in Fig.\,\ref{Fig:Results_3_pulseStrain}), which exhibits the lowest strain, even though having higher fluence value than other samples.
+This can be explained by the fact that with $t=\qty{200}{\nm}$, it is the thickest sample of the batch.
+\begin{figure}
+    \centering
+    \includegraphics{3_pulseEnergy_strain.eps}
+    \caption{
+        Out-of-plane strain calculated from \thetaomega-patterns for all samples from the 2nd batch, depending on laser fluence and thickness (false color).
+    }
+    \label{Fig:Results_3_pulseStrain}
+\end{figure}
+
+%! Omega
+In Fig.\,\ref{Fig:Results_3_pulseOmega}, the \textomega-FWHM is depicted depending on the laser fluence and film thickness for the 2nd batch.
+The previously observed relation is confirmed: increasing fluences result in higher \textomega-FWHMs.
+Namely, reducing the fluence by a factor of 2 results in a crystal quality improvement by one order of magnitude.
+Note that for a fluence of approx.\ \qty{1}{\J\per\cm\squared}, two samples \texttt{A} and \texttt{B} with same thickness of \qty{150}{\nm} exhibit very different \textomega-FWHM of $\Delta\omega_\mathtt{A}=\qty{8}{\arcminute}$ and $\Delta\omega_\mathtt{B}=\qty{49}{\arcminute}$.
+The \textomega-patterns are depicted in Fig.\,\ref{Fig:App_3_cOmegaOutlier}b.
+Note that both diffractograms have \textsc{Voigt} shape, so the discrepancy may not be attributed to the determination of the \gls{FWHM}.
+On the contrary, note that for the whole process \texttt{B}, a determination of FWHM was possible only for the \textit{c}-plane samples\footnote{
+    This is why in Fig.\,\ref{Fig:Results_3_pulseOmega}, only the upper left \textit{c}-plane tile has two data points at $F\approx\qty{1}{\J\per\cm\squared}$.
+}.
+In Fig.\,\ref{Fig:App_3_w6930}, the \textomega-patterns of samples of all orientations from this process are depicted.
+The non-\textsc{Voigt} shape for the orientations other than \textit{c}-plane as well as the unexpectedly high \textomega-FWHM for \textit{c}-plane sample indicate that the process yielded samples with poor crystal quality.
+The origin of this observation is not entirely clear, but for some samples of this batch, the stepper motor causing the substrate rotation stopped during deposition, resulting in non-uniform deposition.
+Whether this was the case for process \texttt{B} is not sure, but since both \texttt{A} and \texttt{B} were conducted with the same process parameters\footnote{
+    The pulse number was varying, however, the growth rates $g_\mathtt{A}=\qty{3}{\pm\per\pulse}$ and $g_\mathtt{B}=\qty{3.75}{\pm\per\pulse}$ were quite similar.
+},
+something irregular must have been occured.
+
+\begin{figure}
+    \centering
+    \includegraphics{3_pulseEnergy_omega.eps}
+    \caption{
+        \textomega-FWHM for all samples from the 2nd batch, depending on laser fluence and thickness (false color).
+        The corresponding diffractograms are depicted in Fig.\,\ref{Fig:App_3_pulse_omega}. 
+    }
+    \label{Fig:Results_3_pulseOmega}
+\end{figure}
