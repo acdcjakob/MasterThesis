@@ -1,0 +1,48 @@
+For optical characterization, spectral transmission measurements were conducted.
+In a range of \qtyrange{200}{2800}{\nm}, monochromatic light is used to compare a reference beam with the intensity of radiation transmitting a sample of thickness $t$.
+The fraction of both is defined as the transmittance $T(E)$ which depends on the photon energy $E=\hbar\omega$.
+In a simple model, neglecting reflection on the sample surface as well as thin film interference
+    \cite{manifacier1977},
+the absorption coefficient $\alpha$ can be defined via the \textsc{Lambert}-\textsc{Beer}-law:
+\begin{equation}
+    T\propto e^{-\alpha t}\,,
+\end{equation}
+which states an exponential decay of intensity with increasing thickness $t$.
+The absorption coefficient is based on the transition rate between valence band and conduction band at photon energy $E$.
+This rate depends on the energy-dependent coupling matrix element for this transition, as well as the joint electron and hole \gls{DOS}
+    \cite{zanatta2019}.
+If matrix element and \gls{DOS} are assumed to be constant and parabolic, respectively
+    \cite{tauc2005},
+then $\alpha=0$ for energies below the band gap, and for direct transitions it follows \cite{zanatta2019}:
+\begin{equation}
+    \alpha\propto (E-E_g)^{1/2}\,.
+\end{equation}
+This allows extrapoliting an $\alpha^2$ vs.\ $E$ plot to the abscissa to determine the band gap $E_g$.
+For indirect transitions, phonons with energy $\hbar\Omega$ must be considered which leads to
+\begin{equation}
+    \alpha\propto (E+\hbar\Omega-E_g)^2\,,
+\end{equation}
+which itself allows the determination of the band gap by extrapoliting an $\alpha^{1/2}$ vs.\ $E$ plot, if the phonon energy is neglected
+    \cite{zanatta2019}.
+According to \textcite{zanatta2019}, these two methods are often mislabeled as \textsc{Tauc} plots $\alpha^\eta$ vs.\ $E$ with exponent $\eta$ defining the direct or indirect nature of the transition.
+Actually, those methods are based on the description of \emph{crystalline} solids, whereas the original \enquote{\textsc{Tauc} plot} was an empirical description of \emph{amorphous} germanium, leading to an $(\alpha E)^{1/2}$ vs.\ $E$ plot
+    \cite{tauc2005}.
+This method has been applied
+    \cite{cheng1996,al-kuhaili2007,singh2019,farrell2015},
+to determine the band gap of crystalline solids, which is an inappropriate use of the \textsc{Tauc} method, which can be only applied if localized energy states are present, as in amorphous solids or nanoparticles
+    \cite{dolgonos2016}.
+In this work, a direct band gap of \cro\ is assumed and therefore the $\alpha^2$ vs.\ $E$ plot is utilized.
+This is described in more detail in~\ref{Sec:Results_Preliminary}.
+
+In general, it has to be noted that the value obtained from extrapolating any of those plots to the abscissa is affected by several approximations:
+    no \textsc{Coulomb} interaction between holes and electrons is considered;
+    defect states that could enable absorption below $E_g$ are neglected;
+    the parabolic nature of the \gls{DOS} is only true for $k\approx0$ and not for large energies $\hbar\omega\gg E_g$;
+    differences in selecting the regime that is selected for fitting may result in substantial deviations for the values of $E_g$
+    \cite{zanatta2019}.
+Due to those considerations, the value extrapolated from $\alpha^2$ vs.\ $E$ plots will be called optical gap $E_\mathrm{opt}$.
+Due to the fact that the intersection of 
+\begin{equation*}
+    \alpha=\mathrm{const.}\cdot(E-E_\mathrm{opt})^{1/2}
+\end{equation*}
+with the abscissa does not depend on the value of $\mathrm{const.}$, the $\alpha^2$ vs.\ $E$ plots are visualized with arbitrary units on the ordinate (cf.\ Fig.\,\ref{Fig:Results_1_transmission}b or Fig.\,\ref{Fig:Results_3_lensTransmission}).

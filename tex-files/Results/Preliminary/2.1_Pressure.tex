@@ -95,13 +95,14 @@ The samples are not fully transparent in the visible spectrum and they exhibit a
 % fitting with indirect gap: cheng 1996, al-kuhaili2007 (^1/2)
 % fitting with direct gap: farrell 2015 (^2)
 % mi2018 states cr2o3 is a direct bandgap semiconductor
-To determine the onset of absorption $E_\tau$, a \textsc{Tauc}-plot (Fig.\,\ref{Fig:Results_1_transmission}b) is utilized (cf.~\ref{Sec:Methods_transmission}).
-The exponent is chosen to be $\frac{1}{2}$, resulting in a representation of $(\alpha E)^2$ vs.\ $E$.
+To determine the onset of absorption $E_\mathrm{opt}$, an $\alpha^2$ vs.\ $E$ plot (Fig.\,\ref{Fig:Results_1_transmission}b) is utilized (cf.~\ref{Sec:Methods_transmission}).
 Although the publications used for reference in this work support the direct transition nature of \cro\ 
     \cite{farrell2015,mi2018},
-it has to be noted that there exist studies determining the optical band gap of \cro\ by applying an exponent of 2, assuming an indirect band gap transition for \cro\ 
+it has to be noted that there exist studies determining the optical band gap of \cro\ by assuming an indirect transition nature 
     \cite{cheng1996,al-kuhaili2007}.
-Fitting the linear regime in the onset of absorption results in $E_\tau\approx\qty{3.7}{\eV}$ for both samples, which differ in strain and \textomega-FWHM by a factor of approx. 2 and 0.3, respectively.
+However, all of them utilize a \textsc{Tauc} plot $(\alpha E)^\eta$ vs.\ $E$, which is an unappropriate method for crystalline solids as discussed in~\ref{Sec:Methods_transmission}.
+Therefore, the method based on the assumption of parabolic shape of bands as well as direct transitions (cf.\ \ref{Sec:Methods_transmission}) is used.
+Fitting the linear regime in the onset of absorption results in $E_\mathrm{opt}\approx\qty{3.6}{\eV}$ for both samples, which differ in strain and \textomega-FWHM by a factor of approx.\ 2 and 0.3, respectively.
 \begin{figure}
     \centering
     \begin{tabular}{c}
@@ -111,9 +112,10 @@ Fitting the linear regime in the onset of absorption results in $E_\tau\approx\q
         \includegraphics[align=t]{1_pressure_tauc.pdf}
     \end{tabular}
     \caption{\textbf{(a)} Transmission spectra of two selected \cro\ thin films, deposited with different oxygen partial pressures. The spectra are normalized to a corresponding uncoated \textit{m}-plane sapphire substrate.
-    \textbf{(b)} \textsc{Tauc}-plot of the above-mentioned samples.
+    \textbf{(b)} $\alpha^2$ vs.\ $E$ plot of the above-mentioned samples.
     It is assumed that \cro\ has a direct bandgap
         \cite{farrell2015,mi2018}.
+    The fitting regime is chosen to be between \qtylist{3.75;4.3}{\eV}.
     }
     \label{Fig:Results_1_transmission}
 \end{figure}
