@@ -7,14 +7,16 @@ Furthermore, an overview of the basic physical processes interplaying during a \
 \subsection{Setup}\label{Sec:Methods_pld}
 The desired thin film material is provided by a ceramic pellet of the respective compound called \enquote{target}.
 It is fabricated by pressing powder with high pressure into cylindrical form, before it is sintered at high temperatures.
-The crystal growth takes place on a substrate, whose material is chosen to be sapphire (\ce{Al2O3}) of different crystal orientation, because it matches the symmetry of the here investigated sesquioxides.
-These quadratic slabs are \qty{500}{\um} thick with an edge length of \qty{5}{\mm}.
+The crystal growth takes place on a substrate, whose material is chosen to be sapphire (\ce{Al2O3}) of different crystal orientation\footnote{
+    \textit{c}-, \textit{r}-, \textit{m}- and \textit{a}-plane.
+}, because it matches the symmetry of the here investigated sesquioxides.
+They are \qty{500}{\um} thick with an edge length of \qty{5}{\mm}.
 %
 In this work, oxygen is chosen as background gas to ensure fabrication of oxide thin film materials.
 To control the partial pressure of the background gas, the process takes place in a vacuum chamber, called \gls{pld} chamber.
-Inside the chamber, a target holder is placed opposite a sample holder, which both are capable of carrying up to four pellets and substrates, respectively.
+Inside the chamber, a target holder is placed \qty{90}{\cm} opposite a sample holder, which both are capable of carrying up to four pellets and substrates, respectively.
 The latter is equipped with a resistive heater, allowing growth temperatures above \qty{700}{\celsius}.
-To ensure homogenous ablation and deposition, both target and substrate can be rotated, whereby a frequency of \qty{60}{\min^{-1}} is chosen in this work.
+To ensure homogenous ablation and deposition, both target and substrate can be rotated, whereby a frequency of \qty{120}{\min^{-1}} and \qty{8}{\min^{-1}} is chosen, respectively.
 Furthermore, an offset $\varepsilon$ between the rotation centers of target and substrate is applied, i.e. the plasma plume does not hit the center of the substrate.
 To achieve homogeneous thickness distributions of the deposited material, $\varepsilon=\qty{7.5}{\mm}$ is chosen.
 Outside the \gls{pld} chamber, a \ce{KrF} excimer laser produces pulsed radiation, which is redirected by a mirror and enters the chamber through a fused silica window.
@@ -29,7 +31,7 @@ The energy per pulse can be adjusted and is several hundred~\unit{\mJ} with a du
         \includegraphics[width=9cm,align=c]{fastImages/PLD.pdf}&
         \includegraphics[width=5cm,align=c]{fastImages/target.pdf}  
     \end{tabular}
-    \caption{\textbf{(a)} Schematic of a \gls{pld} setup as described in \ref{Sec:Methods_pld} \textbf{(b)} Schematic of an elliptically segmented pellet used as target for \acrshort{VCCS}-\gls{pld} (cf.\,\ref{Sec:Methods_VCCS}).
+    \caption{\textbf{(a)} Schematic of a \gls{pld} setup as described in \ref{Sec:Methods_pld} \textbf{(b)} Schematic of an elliptically segmented pellet used as target for \acrshort{DCS}-\gls{pld} (cf.\,\ref{Sec:Methods_VCCS}).
     $a$ and $b$ are semi-major and semi-minor axis of the ellipse, respectively.
     $R$ denotes the radius of the circular laser spot path on the target surface.
     The composition of the inner and outer segment is \ce{A_xB_{1-x}} and \ce{A_yB_{1-y}}, respectively.}
@@ -37,7 +39,8 @@ The energy per pulse can be adjusted and is several hundred~\unit{\mJ} with a du
 \end{figure}
 
 The laser energy density, called fluence $F$, can be calculated by taking the energy per pulse $E$ and the lens position $L$ into account.
-For an applied $E=\qty{650}{\milli\joule}$, \qty{75}{\percent} of the energy are absorbed by mirror, lens and entrance window.
+For an applied $E=\qty{650}{\milli\joule}$, \qty{75}{\percent} of the energy are absorbed by mirror, lens and entrance window\footnote{
+    This was estimated using an energy monitor device and conducted by M.\ Sc.\ J.\ Bredow.}.
 This transmittance is assumed to be independent of $E$.
 The resulting fluence dependence $F(E,L)=\frac{0.25E}{A(L)}$ is visualized in Fig.\,\ref{Fig:Methods_fluence}, whereby the laser spot size $A$ was measured for some $L$ and fitted by assuming parabolic behavior.
 
@@ -54,22 +57,22 @@ The resulting fluence dependence $F(E,L)=\frac{0.25E}{A(L)}$ is visualized in Fi
 The \gls{pld} procedure can be broken down into three physical processes: (i) energy absorption on the target surface, (ii) formation of a plasma and (iii) condensation on the substrate:
 \begin{enumerate}[label=(\roman*)]
     \item After being projected on the surface of the pellet, the radiation penetrates the material only by a fraction of a \unit{\um}.
-    Electrons are excited and oscillate in the electromagnetic field of the laser pulse, which is still ongoing.
+    Electrons are excited and oscillate in the electromagnetic field of the laser pulse.
     Those electrons collide with bulk atoms of the surface region, which are subsequently heated up and vaporize.
     This process is supported by breaking of chemical bonds due to laser radiation.
     \item A material cloud expands perpendicular to the target surface due to Coulomb repulsion and recoil.
-    Absorption of remaining laser radiation results in a plasma plume which is narrow for low background partial pressures below \qty{e-4}{\milli\bar}.
-    The target is rotated during this process to minimize the deflection of the plasma due to target degradation.
+    Absorption of remaining laser radiation results in a plasma plume which is strongly forward directed for low background pressures below \qty{e-4}{\milli\bar}.
+    The target is rotating and laterally moving during this process to minimize the deflection of the plasma due to target degradation.
     The kinetic energy of the material in the plasma plume is crucial for the deposition process and can be controlled by background partial pressure and laser energy density on the target.
-    \item The plasma plume hits the substrate which results in resputtering of already deposited material, which condensates together with the plasma, resulting in thermal equilibrium and thus thin film nucleation.
-    A large number of adatoms results in many nucleation centers which is responsible for smooth films.
+    \item The plasma plume hits the substrate which can result in resputtering of already deposited material, which condensates together with the plasma, resulting in thermal equilibrium and thus thin film nucleation.
+    A large number of adatoms results in many nucleation centers which are responsible for smooth films.
 \end{enumerate}
 It becomes clear, that \gls{pld} is a non-equilibrium process, making empirical optimization of growth parameters an essential part of thin film manufacturing
     \cite{lorenz2019}.
 
 \subsection{Segmented Target Approach}\label{Sec:Methods_VCCS}
 To provide a discrete material library -- a set of different samples with homogeneous composition each --, a segmented target approach as described in \textcite{wenckstern2020} is applied.
-Specifically, the \gls{VCCS} method utilizes a segmented target, i.e.\ a target with distinct regions of different material composition.
+Specifically, the \gls{DCS} method utilizes a radially segmented target, i.e.\ a target with distinct regions of different material composition.
 By varying the laser spot position on the target, different plasma compositions can be achieved.
 Because the target is rotating during \gls{pld}, the material distribution must be in such a way that when the radial position $R$ of the laser on the target changes, the average ablated composition $\chi(R)$ changes.
 This can be realized with an elliptical segmentation, i.e.\ a target pellet with overall composition \ce{A_yB_{1-y}}, but containing an inner ellipse with composition \ce{A_xB_{1-x}} (Fig.\,\ref{Fig:Methods_pld}b).
@@ -83,4 +86,5 @@ where $\delta$ and $b$ are eccentricity and semi-minor axis of the ellipse, resp
     The eccentricity is defined as $\delta=\sqrt{1-b^2/a^2}$, where $a$ is the length of the semi-major axis.
 }.
 Small and large $R$ will result in a composition equal to the composition of the inner and outer segment, respectively.
-To model the process more accurately one has to take into account that the laser does not yield a point-like spot but rather an intensity distribution.
+To model the process more accurately one has to take into account that the laser illuminates an area rather than a point-like spot.
+This is done in~\ref{Sec:Results_Doping}, in particular refer to Fig.\,\ref{Fig:Results_2_yToComposition}. 

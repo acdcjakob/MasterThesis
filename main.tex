@@ -4,12 +4,14 @@
 % when compiling with pdflatex, "epstopdf" cannot work on ../Plots/ due to
 % security restrictions --> if pdflatex is needed (compiler error etc), copy
 % Plots folder to this dir, then it should work.
+% BETTER: run "pdflatex -shell-escape  main.tex" after 1st compilation fail and then before final compilation
 
 \input{tex-files/_specs/preamble.tex}
 
 % \includeonly{tex-files/_chapters/methods}
-\includeonly{tex-files/Results/Energy/Energy,tex-files/Appendix/appendix}
+% \includeonly{tex-files/Results/Energy/Energy,tex-files/Appendix/appendix}
 % \includeonly{tex-files/Results/Energy/Energy}
+% \includeonly{tex-files/_chapters/theory}
 
 \begin{document}
 \dominitoc

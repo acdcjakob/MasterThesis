@@ -1,0 +1,46 @@
+%! theta-omega strain
+In Fig.\,\ref{Fig:Results_3_lensStrain}, the \gls{oop}\ strain for the \textit{m}- and \textit{a}-plane oriented samples of the 1st batch (laser spot size variation) is depicted.
+The maximum strain which is reached for high fluences is approx.\ \qtylist{0.8;1.5}{\percent} for \textit{m}- and \textit{a}-plane, respectively.
+Those values are far below the predicted values for pseudomorphic growth, which are \qty{3.67}{\percent} (\textit{m}-plane) and \qty{3.63}{\percent} (\textit{a}-plane).
+This indicates relaxed growth.
+In Fig.\,\ref{Fig:App_3_lensStrain_zoomed} it can be seen that for higher thicknesses, the strain reduces only very slightly.
+The \textit{m}-plane outlier to this behavior can be explaind by the very low peak intensity of the (30.0) reflection in the \thetaomega\ pattern, which causes a laregr uncertainty for this value.
+Overall, the fluence is the determining parameter for the strain, allowing strain values of down to \qty{0}{\percent} for \textit{a}-plane samples.
+
+%! omega
+In Fig.\,\ref{Fig:Results_3_lensOmega}, the \textomega-FWHM for both \textit{m}- and \textit{a}-plane samples is depicted.
+For \textit{m}-plane, the \textomega-FWHM is approx.\ \qty{50}{\arcminute} for all fluences and thicknesses -- only a small decrease for higher thicknesses is oberserved\footnote{
+    As a result, in Fig.\,\ref{Fig:Results_3_lensCorrelation}, two regimes of high and low fluence can be distinguished, where each regime itself comes with a correlation indicating better crystallinity with less strain.
+    However, alltogether, a slight negative correlation can be observed, i.e.\ better crystallinity comes at the cost of higher strain.
+}.
+However, for \textit{a}-plane no significant dependence on fluence can be observed.
+On the contrary, there seems to be an increase in \textomega-FWHM for increasing thicknesses up to approx.\ \qty{100}{\nm}.
+This behavior differs from all other orientations observed and could be attributed to an unusual shape of the \textomega-patterns.
+In Fig.\,\ref{Fig:Results_3_lens_a-weirdOmega}, such a pattern is depicted and has clearly no \textsc{Voigt}-shape.
+Rather, the pattern consists of an exponential slope\footnote{
+    In the logarithmic representation of the data, this results in a linear slope.
+}
+for about \qty{1.5}{\degree} and a very sharp 2nd peak with a small \gls{FWHM} on top of it.
+This shape is observed for almost every \textit{a}-plane sample, as can be seen by the various diffractograms shown in Fig.\,\ref{Fig:App_3_lens_omega}.
+The 2nd peak is located at the maximum of the underlying broader peak and can therefore not be attributed to \ce{Al2O3} or another phase of \cro, because then it would not shift together with the (22.0) peak of the \textalpha-phase of \cro.
+This is also supported by the fact that no anomaly is observed in the \thetaomega-patterns (not shown).
+A physical interpretation of the shape is a distinct \cro\ layer of increased crystallinity at the interface between \ce{Al2O3} and \cro.
+In Fig.\,\ref{Fig:Results_3_lens_a-weirdOmega}b, several \textomega-patterns are depicted for thin films of different thickness, where the counts are visualized linearly on the ordinate.
+For very thin films, only the sharp peak is observable, indicating the formation of a crystalline layer of $t\approx\qty{30}{\nm}$.
+For increasing film thicknesses, the 2nd peak remains at a rather low intensity, while the broader peak increases in intensity.
+This may indicate that on top of the already grown highly crystalline layer, another layer with higher mosaicity is growing.
+Note that the diffractograms stem from different samples, which were also fabricated with different laser fluences, which makes the comparison difficult and the origin of the 2nd peak not entirely clear.
+However, this may explain the broad spread of \textomega-FWHM (\qty{15}{\arcminute} to \qty{80}{\arcminute}) for \textit{a}-plane samples as well as that the \textomega-FWHM follows a different relation to fluence and thickness when compared to the other orientations.
+\begin{figure}
+    \centering
+    \begin{tabular}{cc}
+        \multicolumn{1}{l}{(a)}
+        & \multicolumn{1}{l}{(b)} \figSpace \\
+        \includegraphics{3_misc_lens_a_weirdOmega.eps}
+        & \includegraphics{3_misc_lens_a_weirdOmega_thickness.eps}
+    \end{tabular}
+    \caption{
+        \textomega-pattern of \textit{a}-plane samples from the 1st batch: \textbf{(a)} a sample with logarithmic representation and \textbf{(a)} samples with varying thickness in linear representation.
+    }
+    \label{Fig:Results_3_lens_a-weirdOmega}
+\end{figure}
