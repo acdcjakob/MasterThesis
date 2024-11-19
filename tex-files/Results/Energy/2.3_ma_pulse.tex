@@ -8,7 +8,7 @@ A clear dependence on fluence can be observed, whereby the thickness has no infl
 %! m-plane strain
 The complete in- and out-of-plane strains for \textit{m}-plane samples are depicted in Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}a.
 With increasing \gls{oop}\ strain, the \gls{ip}\ strain also increases, which indicates a pseudomorphic growth mode.
-Note that the \gls{ip} strain is, in the range of uncertainity, the same along both $x$- and $y$-direction, even though both axes are not equivalent.
+Note that the \gls{ip}\ strain is, in the range of uncertainity, the same along both $x$- and $y$-direction, even though both axes are not equivalent.
 As for \textit{r}-plane samples (cf.\ Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt}), the \gls{oop}\ strain is systematically smaller by 0.15 percentage points, compared to the values obtained from peak positions in \thetaomega-patterns (Fig.\,\ref{Fig:Results_3_pulseStrain}).
 \thetaomega-scans probe for symmetric reflections only, which is why shear stresses cannot be corrected by this method.
 However, those strain angles are rather small (cf.\ Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}a), which is why it is unplausible that this is the origin of the discrepancy.
@@ -34,7 +34,7 @@ Moreover, as discussed for the \textit{r}-plane samples, the thin film tilt is s
 \end{figure}
 
 %! m-plane tilt/shear
-As predicted by \textcite{kneiss2021}, a significant tilt of the thin film is observed along the $x$-direction (purple triangles in Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}b), which ranges from \qty{20}{\arcminute} to \qty{40}{\arcminute} and increases with higher fluences.
+As predicted by \textcite{kneiss2021}, a significant tilt of the thin film is observed along the $x$-direction (purple triangles in Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}a), which ranges from \qty{20}{\arcminute} to \qty{40}{\arcminute} and increases with higher fluences.
 Furthermore, a small shear of up to \qty{2}{\arcminute} is observed along this axis.
 On the contrary, a thin film tilt (blue triangles) below \qty{1}{\arcminute} and a small shear tilt are observed in $y$-direction.
 This is also in accordance with the predicted slip systems (cf.~\ref{Sec:Theory_Relaxed}), which should result in no net tilt along the $y$-axis.
@@ -61,3 +61,80 @@ For \textit{a}-plane samples, a large spread similar to the samples of the 1st b
 But, again, this observation is probably due to the specific shape of \textomega-patterns for the \textit{a}-plane samples.
 In Fig.\,\ref{Fig:App_3_pulse_omega}, the diffractograms are depicted and a severe deviation from the \textsc{Voigt} shape can be identified.
 Therefore, determination of the \gls{FWHM} is hindered and the large spread of values explained.
+
+%! AFM
+\begin{table}
+    \centering
+    \caption{measurement results for two selected \textit{m}-plane oriented \cro\ thin films that were investigated via \gls{AFM}.}
+    \begin{tabular}{llllll}
+        \toprule
+        Id
+            & thickness $t$
+            & fluence $F$
+            & strain $\epsilon_{zz}$
+            & \textomega-FWHM
+            & RMS roughness
+            \\
+        \midrule
+        \texttt{L.02}
+            & \qty{89}{\nm}
+            & \qty{1.05}{\J\per\cm\squared}
+            & \qty{0.32}{\percent}
+            & \qty{38.1}{\arcminute}
+            & \qty{2.5}{\nm}
+            \\
+        \texttt{L.05}
+            & \qty{79}{\nm}
+            & \qty{2.06}{\J\per\cm\squared}
+            & \qty{0.9}{\percent}
+            & \qty{44.4}{\arcminute}
+            & \qty{1.9}{\nm}
+            \\
+        \bottomrule
+    \end{tabular}
+    \label{Tab:Results_3_AFM}
+\end{table}
+For two selected samples, \gls{AFM} measurements were performed and the height profiles are displayed as false color images in Fig.\,\ref{Fig:Results_3_lensAFM}.
+The sample \texttt{L.02} (Fig.\,\ref{Fig:Results_3_lensAFM}a,b) was fabricated with a larger laser spot size compared to the sample \texttt{L.05} (Fig.\,\ref{Fig:Results_3_lensAFM}c,d).
+The \gls{RMS} roughness for each sample was determined from the height profiles of a $2\times\qty{2}{\um\squared}$ and $5\times\qty{5}{\um\squared}$ probed area.
+These values as well as other details are listed in Tab.\,\ref{Tab:Results_3_AFM}.
+In general, the surface morphology is comparable to the results obtained before for \agao\ thin films fabricated by \gls{pld}, where \gls{RMS} roughnesses of \qtyrange{0.6}{3.5}{\nm} were achieved for different growth temperatures
+    \cite{petersen2023}.
+In contrary to the previous results -- where smaller laser spot sizes lowered crystal quality --, the sample fabricated with higher fluence \texttt{L.05} exhibits a better thin film quality regarding \gls{RMS} roughness.
+However, this sample exhibits several stripes on the surface (cf.\ Fig.\,\ref{Fig:Results_3_lensAFM}d).
+They are presumably not a measurement artifact, because they remained during repeated scans of the surface (not shown).
+Therefore, although having slightly larger \gls{RMS} roughness, the fabrication with larger laser spot size (\texttt{L.02}) yields more homogeneous surfaces.
+\begin{figure}
+    \centering
+    \begin{tabular}{cc}
+        \multicolumn{1}{l}{\textbf{(a)}}
+        & \multicolumn{1}{l}{\textbf{(b)}} \figSpace \\
+        \includegraphics{W6902m_2x2.pdf}
+        & \includegraphics{W6902m_5x5.pdf} \figSpace \\
+        \multicolumn{1}{l}{\textbf{(c)}}
+        & \multicolumn{1}{l}{\textbf{(d)}} \figSpace \\
+        \includegraphics{W6905m_2x2.pdf}
+        & \includegraphics{W6905m_5x5.pdf}
+    \end{tabular}
+    \caption{
+        \gls{AFM} false color images of \textbf{(a,~b)} sample \texttt{L.02} and \textbf{(c,~d)} sample \texttt{L.05}.
+        The probed areas are $2\times\qty{2}{\um\squared}$ and $5\times\qty{5}{\um\squared}$ for the left and right panels, respectively.
+    }
+    \label{Fig:Results_3_lensAFM}
+\end{figure}
+
+%! Transmission
+In Fig.\,\ref{Fig:Results_3_lensTransmission}, the transmission spectra of selected \textit{m}-plane oriented samples from the 1st batch are depicted.
+The fluence does not seem to have a significant influence, however, the thickness is decisive for the shape of the absorption edge.
+The onset of absorption $E_\mathrm{opt}$ is approx.\ \qty{3.5}{\eV} for all samples of different thickness and fluence.
+This is in accordance with the value obtained for the samples of the initial \cro\ batch (cf.~\ref{Sec:Results_Preliminary} and Fig.\,\ref{Fig:Results_1_transmission}b).
+\begin{figure}
+    \centering
+    \includegraphics{3_lensPos_Transmission.eps}
+    \caption{
+        Transmission spectra (left) of selected \textit{m}-plane oriented samples from the 1st batch.
+        The samples differed in thickness and laser fluence on the target surface, achieved by varying lens positions.
+        The $\alpha^2$ vs.\ $E$ plot (right) of the mentioned samples, determined by assuming a direct band gap of \cro\ (cf.~\ref{Sec:Methods_transmission} and \ref{Sec:Results_Preliminary}).
+    }
+    \label{Fig:Results_3_lensTransmission}
+\end{figure}

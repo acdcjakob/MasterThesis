@@ -19,12 +19,15 @@
 
 \graphicspath{
     {fastImages}
-    {../Plots/Thesis/1/}
-    {../Plots/Thesis/2/}
-    {../Plots/Thesis/3/}
-    {../Plots/Thesis/Graphs/}
     {../Plots/graphics/}
+    {../Plots/Cr2O3/RHEED}
     {../Plots/photographs/}
+        {../Plots/Thesis/1/}
+        {../Plots/Thesis/2/}
+        {../Plots/Thesis/3/}
+            {../Plots/Thesis/3/AFM}
+        {../Plots/Thesis/4/}
+        {../Plots/Thesis/Graphs/}    
 }
 
 %! layout
@@ -132,6 +135,18 @@
         \clearfield{urlyear}%
         \clearfield{urlmonth}%
         }
+% make et al. in italics:        
+\renewbibmacro*{name:andothers}{% Based on name:andothers from biblatex.def
+\ifboolexpr{
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+    and
+    test \ifmorenames
+}
+    {\ifnumgreater{\value{liststop}}{1}
+        {\finalandcomma}
+        {}%
+    \andothersdelim\bibstring[\emph]{andothers}}
+    {}}
 
 % Change the textcite command to "Name (year) [#]"
 \usepackage{xpatch}

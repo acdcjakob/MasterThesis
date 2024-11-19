@@ -9,9 +9,13 @@
 \input{tex-files/_specs/preamble.tex}
 
 % \includeonly{tex-files/_chapters/methods}
-\includeonly{tex-files/Results/Energy/Energy,tex-files/Appendix/appendix}
+% \includeonly{tex-files/Results/Energy/Energy,
+%     tex-files/Appendix/appendix,
+%     tex-files/_chapters/methods}
 % \includeonly{tex-files/Results/Energy/Energy}
 % \includeonly{tex-files/_chapters/theory}
+\includeonly{tex-files/Results/Buffer/Buffer}
+
 
 \begin{document}
 \dominitoc
@@ -27,5 +31,10 @@
 %! bibliography
 \clearpage
 \sloppy % increases probability of hyphenation in the bibliography
-\printbibliography
+\printbibliography[heading=bibintoc]
+%! List of figures
+% \listoffigures
+%! Glossary
+% \printglossaries
+% does not work?
 \end{document}

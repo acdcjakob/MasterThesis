@@ -29,7 +29,7 @@ When probing for lattice plane distances using the \gls{bc} in its simplest form
 It is necessary that $\omega=\alpha_\mathrm{out}$ which implies $2\theta=2\omega$.
 So the angle of incidence $\omega$ is coupled to $2\theta$ which represents the distance between lattice planes (cf. \eqref{Equ:Theory_BraggCondition}).
 Measuring the diffracted X-ray intensity while varying $2\theta$ and maintaining the condition $2\theta=2\omega$, is called a 2\texttheta-\textomega-scan.
-This results in a so-called 2\texttheta-\textomega\ diffraction pattern, where peaks correspond to constructive interference and thus to certain lattice plane distances.
+This results in a \emph{2\texttheta-\textomega\ diffraction pattern}, where peaks correspond to constructive interference and thus to certain lattice plane distances.
 
 When analyzing 2\texttheta-\textomega\ diffraction patterns, one usually compares to predicted peak positions of the expected phase of the compound which is investigated.
 This reference diffraction pattern stems from powder samples of the respective compound, containing all crystal orientations during one 2\texttheta-\textomega-scan.
@@ -59,7 +59,7 @@ There are several use cases for applying an offset $\omega_0$:
     This is done before measuring a 2\texttheta-\textomega-scan to achieve preciser results.
     \item When probing for lattice planes which are not parallel to the sample surface (\enquote{asymmetric reflections}), one can apply the expected inclination angle as an offset $\omega_0$.
     This is the case in Fig.\,\ref{Fig:Methods_XRD_geometry}b.
-    \item When $2\theta$ is fixed, but $\omega_0$ is varied, a so-called \textomega-scan is performed, which enables quantification of mosaicity (cf.~\ref{Sec:Methods_omegaScan}).
+    \item When $2\theta$ is fixed, but $\omega_0$ is varied, an \emph{\textomega-scan} is performed, which enables quantification of mosaicity (cf.~\ref{Sec:Methods_omegaScan}).
 \end{enumerate}
 
 % ---
@@ -69,7 +69,7 @@ There are several use cases for applying an offset $\omega_0$:
 Thin films may exhibit a distribution of lattice plane inclination, called mosaicity.
 This results in an observation of diffraction peaks for several offsets $\omega_0$.
 The mosaicity can thus be quantified by fixing $2\theta$, representing a certain lattice plane distance, and then vary $\omega_0$ and measure the X-ray intensity.
-This is called an \textomega-scan, and the \gls{FWHM} of the observed diffraction pattern (also called \enquote{Rocking curve}) is a measure for the mosaicity
+This is called an \textomega-scan, and the \gls{FWHM} of the observed diffraction pattern (also called \emph{Rocking curve}) is a measure for the mosaicity
     \cite{harrington2021}.
 \textomega-scans are particularly useful when comparing a set of thin films of varying deposition parameters to optimise growth conditions.
 In particular, recording Rocking curves of symmetric and asymmetric lattice planes allows the calculation of dislocation densities in the thin film
@@ -81,7 +81,7 @@ In particular, recording Rocking curves of symmetric and asymmetric lattice plan
 A 2\texttheta-\textomega-scan is not capable of resolving in-plane rotations of crystal domains, because the distance of lattice planes parallel to the surface are not affected.
 Those rotational domains can be detected by probing for lattice planes which are inclined with respect to the surface, i.e.\ by fixing $2\theta$ to the expected lattice plane distance and $\omega_0$ to the inclination angle (cf. Fig.\,\ref{Fig:Methods_XRD_geometry}b).
 Depending on the symmetry of the inspected material, constructive interference should only appear for distinct values of $\phi$.
-So by rotating the sample by \qty{360}{\degree} and simultaneously recording the X-ray intensity, a so-called \textphi-scan (also called \enquote{Azimuth-scan}) can yield information about the existence of rotational domains.
+So by rotating the sample by \qty{360}{\degree} and simultaneously recording the X-ray intensity, a \emph{\textphi-scan} (also called \emph{Azimuth-scan}) can yield information about the existence of rotational domains.
 If the number of observed peaks in the \textphi-scan diffraction pattern exceeds the theoretically expected number for a single crystal, rotational domains are present
     \cite{harrington2021}.
 Furthermore, comparing the \textphi-scan diffraction data of thin film and substrate reveals whether the film has grown with an in-plane rotation with respect to the substrate.
@@ -93,7 +93,7 @@ Then, the \gls{bc} is fulfilled for performing a 2\texttheta-\textomega-scan.
     \label{Sec:Methods_RSM}
 % ---
 Because the \gls{bc} is equal to the description of diffraction with $\mathbf{k}'-\mathbf{k}$ and reciprocal space vectors $\mathbf{K}_{hkl}$ (cf.~\ref{Sec:Theory_X-ray_diffraction}), both can be used depending on context.
-Henceforth, $\mathbf{k}'-\mathbf{k}$ will be denoted by the \enquote{scattering vector} $\mathbf{q}$.
+Henceforth, $\mathbf{k}'-\mathbf{k}$ will be denoted by the \emph{scattering vector} $\mathbf{q}$.
 Note that $\mathbf{k}$ and $\mathbf{k}'$ are parallel to incoming and outcoming beam, respectively.
 From the definition of angles, it follows that
 \begin{align}
@@ -139,13 +139,15 @@ The scattering vector, together with the corresponding \gls{XRD} geometry is dep
     \caption{\textbf{(a)} Construction of the scattering vector (magenta) from incoming (red) and outgoing (green) beam, according to \eqref{Equ:Methods_qDef}.
     The reciprocal lattice points are visualized together with the lattice planes.
     It has to be noted that the distances between lattice planes and between reciprocal lattice points have different dimensions.\ 
-    \textbf{(b)}\tbd}
+    \textbf{(b)}~Expected reciprocal lattice (black circles) and different deviations due to lattice distortions:
+    Thin film tilt can be determined from symmetric reflections (magenta).
+    However, shear angles do not manifest in symmetric reflections (blue), but in asymmetric reflections (green).}
     \label{Fig:Methods_qDef}
 \end{figure} 
 Because $2\theta$ and $\omega$ can simultaneously be represented by $\mathbf{q}$, it is possible to measure intensities for several $\mathbf{q}$, such that a part of the reciprocal space $Q\ni\mathbf{q}$ is mapped.
 Consequently, this is called a \gls{RSM}.
 According to \eqref{Equ:Theory_ConstructiveInterference}, a peak in 2D reciprocal space $Q$ should be observed if $\mathbf{q}$ is a reciprocal space vector.
-In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \enquote{reflection}.
+In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \emph{reflection}.
 With \eqref{Equ:Methods_qDir} one can determine $\omega_0$ -- the direction of the corresponding lattice planes\footnote{
     Note that the \enquote{$-$} in $-q_\parallel/q_\perp$ is necessary, such that this fraction is the tangens the angle between $\mathbf{q}$ and surface normal with correct sense of rotation. 
 }, and with \eqref{Equ:Methods_qAbs} the lattice plane distance $d_{hkl}$ can be calculated.
@@ -236,9 +238,9 @@ Furthermore, contamination of the anode with tungsten results in an observable \
 During the course of the conducted experiments, the contaminated anode has been replaced, so the peaks corresponding to \ce{W}-L\textalpha\textsubscript{1}-radiation are not present in every diffractogram.
 
 The diffracted radiation is detected with a \textit{PIXcel\textsuperscript{3D}} (\textit{Malvern Panalytical Ltd.}) detector.
-For 2\texttheta-\textomega-scans (cf.~\ref{Sec:Methods_2ThetaOmega}), the detecor is operating in \enquote{Scanning Line} mode.
-For scans fixing the 2\texttheta\ position, i.e.\ \textomega- (cf.~\ref{Sec:Methods_omegaScan}) and \textphi-scans (cf.~\ref{Sec:Methods_phiScan}), the detector is operated in \enquote{Receiving Slit} mode.
-\glspl{RSM} are recorded with the \enquote{Frame Based} mode.
+For 2\texttheta-\textomega-scans (cf.~\ref{Sec:Methods_2ThetaOmega}), the detecor is operating in \texttt{Scanning Line} mode.
+For scans fixing the 2\texttheta\ position, i.e.\ \textomega- (cf.~\ref{Sec:Methods_omegaScan}) and \textphi-scans (cf.~\ref{Sec:Methods_phiScan}), the detector is operated in \texttt{Receiving Slit} mode.
+\glspl{RSM} are recorded with the \texttt{Frame Based} mode.
 The settings for the various scans are listed in Tab.\,\ref{Tab:Methods_XRDSettings}.
 Note that it is distinguished between scans and optimizations.
 The latter were applied for aligning the sample correctly, depending on the measurement.
