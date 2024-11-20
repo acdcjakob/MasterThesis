@@ -1,19 +1,22 @@
 %! Why is there another explanation needed?
 It has to be noted that there is a large spread in strain and \textomega-FWHM for the samples that were deposited at different growth temperatures.
-The range of temperature variation was only \qty{40}{\degreeCelsius} and has no significant influence on the distribution of strain and \textomega-FWHM (Fig.\,\ref{Fig:Results_1_both_strainFWHM}).
+The range of temperature variation was only \qty{40}{\degreeCelsius} and has no significant influence on the distribution of strain and \textomega-FWHM (Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}b).
 Because all the other process parameters were kept the same\footnote{
-    In fact, for the last two samples produced ($\Theta=\qty{725}{\degreeCelsius}$ and $\Theta=\qty{765}{\degreeCelsius}$), the pulse number was increased to \qty{40000}{pulses}.
+    In fact, for the last two samples produced ($T=\qty{725}{\degreeCelsius}$ and $T=\qty{765}{\degreeCelsius}$), the pulse number was increased to \qty{40000}{pulses}.
     This was due to the fact that the growthrate decreased.
 },
 this indicates that another parameter influences the crystal quality.
-This is supported by the fact that the growth rate correlates with the magnitude of strain and \textomega-FWHM, as can be seen in Fig.\,\ref{Fig:Results_1_growthRate_process}a.
-Although strain is related to \textomega-FWHM, it has to be noted that for a small regime of \gls{oop}\ strain around approx.\ \qty{0.9}{\percent}, the \textomega-FWHM scatters between approx.\ \qty{37}{\arcminute} and \qty{47}{\arcminute}.
+This is supported by the fact that the growth rate correlates with the magnitude of strain and \textomega-FWHM, as can be seen in Fig.\,\ref{Fig:Results_1_growthRate_process}a (the outlier with low growth rate but high strain will be explained below).
+Note that at this point, the growth rate cannot be deconvoluted from the thin film thickness.
+Therefore, it is not clear whether the thickness influences the crystal quality or the reduced growth rate due to the reasons explained below.
+% Although strain is related to \textomega-FWHM, it has to be noted that for a small regime of \gls{oop}\ strain around approx.\ \qty{0.9}{\percent}, the \textomega-FWHM scatters between approx.\ \qty{37}{\arcminute} and \qty{47}{\arcminute}.
 
 %! importance of process order
 The origin of the varying growth rate -- and therefore varying crystal quality -- can be found when taking the number of processes into account that were performed before.
 In Fig.\,\ref{Fig:Results_1_growthRate_process}b, the growth rate is visualized depending on the order of sample fabrication.
 It is also indicated when the laser entrance window has been cleaned.
 It is common practice to clean the latter every couple of processes due to coating with target material which absorbs laser energy.
+E.g., in the case of \ce{ZnO}, even after \qty{100000}{pulses}, no significant influence can be observed on the transmission of laser energy.
 But from Fig.\,\ref{Fig:Results_1_growthRate_process}b it becomes clear that this should be done much more frequently when working with \cro.
 Note that the laser has a wavelength of \qty{248}{\nm}, corresponding to \qty{5.0}{\eV}, which is not transmitted by \cro\ thin films\footnote{
     To be precise, the transmission spectrum in Fig.\,\ref{Fig:Results_1_transmission}a is recorded for \textit{m}-plane oriented \textit{crystalline} \cro\ thin films. This may not be the present phase when \cro\ deposits on the (colder) window made out of glass, where it may form an amorphous phase.
@@ -31,28 +34,30 @@ This results in less ablated target material and less kinetic energy of the abla
     \caption{
         \textbf{(a)} Correlation of \textomega-FWHM with \gls{oop}\ strain, as well as correlation of both with growth rate $g$ (false color).
         The dashed line is a linear fit serving as guide to the eye.
-        \textbf{(b)}
+        The outlier with low growth rate but large strain can be explained by accounting for the low oxygen partial pressure of \qty{8e-5}{\milli\bar} for this sample.
+        This results in larger kinetic energy of the plasma species.
+        \textbf{(b)}~ Growth rate depending on order of sample fabrication.
     }
     \label{Fig:Results_1_growthRate_process}
 \end{figure}
 
 %! compatable with oxygen explanation
-This explanation is supported by the dependence of crystal quality on oxygen partial pressure (cf.\ Fig.\,\ref{Fig:Results_1_both_strainFWHM}).
+This explanation is supported by the dependence of crystal quality on oxygen partial pressure (cf.\ Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}a).
 There, the increment of crystal quality with higher oxygen pressures is attributed to the increased background gas scattering resulting in less kinetic energy of the plasma material.
 This also explains the outlier in Fig.\,\ref{Fig:Results_1_growthRate_process}a, where one sample corresponds to a higher strain and \textomega-FWHM of approx.\ \qty{0.9}{\percent} and \qty{41}{\arcminute}, respectively (black square).
 This is not expected when considering the rather small growth rate of \qty{3}{\pm\per\pulse} (\texttt{W6724} in Fig.\,\ref{Fig:Results_1_growthRate_process}b).
 But when taking account for the fact that this sample is fabricated at a very low oxygen partial pressure of \qty{8e-5}{\milli\bar}, it becomes clear that although the reduced fluence on the target would generally lower the kinetic energy of the plasma material, the limited scattering with the background gas counteracts this effect, resulting in the observed crystal quality.
 
 %! phi-dependence of strain
-It is noteworthy that the observed strain (cf.\ Fig.\,\ref{Fig:Results_1_both_strainFWHM}a) is distributed around two distinct values of approx.\ \qty{0.4}{\percent} and \qty{0.9}{\percent}.
+It is noteworthy that the observed strain (cf.\ Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}a,b) is distributed around two distinct values of approx.\ \qty{0.4}{\percent} and \qty{0.9}{\percent}.
 A prior reported thin film tilt for \textit{m}-plane oriented rhombohedral heterostructures
     \cite{kneiss2021}
 may be the reason for this observation:
 the samples are installed in the XRD device in such a way that the \textit{c}-axis is either parallel or orthogonal to the scattering plane.
 This orientation is arbitrary, and thus the (expected) thin film tilt is either along the X-ray beam or perpendicular to it, which could result in unexpected results when calculating the \gls{oop}\ lattice plane distance from the observed peak position.
-To check if this is the origin of the observed strain, for two samples of different strain according to Fig.\,\ref{Fig:Results_1_both_strainFWHM}, four \thetaomega-scans were performed with incrementing the azimuth by \qty{90}{\degree} after each measurement.
+To check if this is the origin of the observed strain, for two samples of different strain according to Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}, four \thetaomega-scans were performed with incrementing the azimuth by \qty{90}{\degree} after each measurement.
 The resulting diffraction patterns are depicited in Fig.\,\ref{Fig:Results_1_checkPhi}.
-The strain is independent of azimuth, only the peak intensity is altered by the in-plane rotation of the sample.
+The strain is independent of azimuth, only the peak intensity is altered by the in-plane rotation of the sample as expected.
 For both samples, an azimuth of \qtylist{0;180}{\degree} results in a lower intensity, supporting the hypothesis that the (expected) thin film tilt is perpendicular to scattering plane which results in a deviation from the \gls{bc}.
 Therefore, the distribution of observed strain is not a measurement artifact.
 \begin{figure}
