@@ -1,18 +1,19 @@
 \label{Sec:Methods_XRD}
-As described in \ref{Sec:Theory_X-ray_diffraction}, constructive interference of incoming and scattered X-rays may give insight in the symmetry of exposed crystal structures.
+As described in \ref{Sec:Theory_X-ray_diffraction}, constructive interference of incoming and scattered X-rays may give insight into the symmetry of exposed crystal structures.
 This can be utilized for thin film investigation and is called \gls{XRD}.
-The \gls{XRD} device used for this work, namely an \textit{X'Pert Pro} (\textit{Malvern Panalytical Ltd.}), as well as the applied scanning techniques will be presented in the following.
+The \gls{XRD} device used for this work, namely an \textit{X'Pert Pro} ({Malvern Panalytical Ltd.}), as well as the applied scanning techniques will be presented in the following.
 
-A sample with surface normal parallel to the $z$-axis of the laboratory system is exposed with X-rays at an angle $\omega$ between sample surface and incident radiation.
+The sample of interest is glued to a metallic holder which itself is placed into the shielded \gls{XRD} device and exposed with X-rays at an angle $\omega$ between sample surface and incident radiation.
+The surface normal of the sample holder is parallel to the $z$-axis of the laboratory system. 
 The diffracted radiation is measured at an angle $\alpha_\mathrm{out}$ between sample surface and detector.
 $2\theta$ is used to describe the angle between outgoing beam and the extension of the incoming beam, which both span the scattering plane.
 It follows that $2\theta=\omega+\alpha_\mathrm{out}$.
-Note that $\theta$ in \eqref{Equ:Theory_BraggCondition} is the same angle as half of $2\theta$.
+Note that $\theta$ in the \textsc{Bragg} Equation (\ref{Equ:Theory_BraggCondition}) is the same angle as half of $2\theta$.
 The scattering plane is depicted in Fig.\,\ref{Fig:Methods_XRD_geometry}a.
-The sample can be rotated by $\phi$ (\enquote{azimuth}) and $\psi$ around an axis parallel to the surface normal and parallel to the intersection of sample surface and scattering plane, respectively.
+The sample can be rotated by $\phi$ (\emph{azimuth}) and $\psi$ around an axis parallel to the surface normal and parallel to the intersection of sample surface and scattering plane, respectively.
 
 % ---
-\subsection{2\texttheta-\textomega-scans}
+\subsection{\texorpdfstring{\thetaomega}{2theta-omega}-scans}
     \label{Sec:Methods_2ThetaOmega}
 % ---
 \begin{figure}
@@ -27,16 +28,16 @@ The sample can be rotated by $\phi$ (\enquote{azimuth}) and $\psi$ around an axi
 \end{figure}
 When probing for lattice plane distances using the \gls{bc} in its simplest form, it is assumed that the scattering planes are parallel to the sample surface (cf. Fig.\,\ref{Fig:Methods_XRD_geometry}a).
 It is necessary that $\omega=\alpha_\mathrm{out}$ which implies $2\theta=2\omega$.
-So the angle of incidence $\omega$ is coupled to $2\theta$ which represents the distance between lattice planes (cf. \eqref{Equ:Theory_BraggCondition}).
+So the angle of incidence $\omega$ is coupled to $2\theta$, which represents the distance between lattice planes (cf. \eqref{Equ:Theory_BraggCondition}).
 Measuring the diffracted X-ray intensity while varying $2\theta$ and maintaining the condition $2\theta=2\omega$, is called a 2\texttheta-\textomega-scan.
 This results in a \emph{2\texttheta-\textomega\ diffraction pattern}, where peaks correspond to constructive interference and thus to certain lattice plane distances.
 
-When analyzing 2\texttheta-\textomega\ diffraction patterns, one usually compares to predicted peak positions of the expected phase of the compound which is investigated.
+When analyzing 2\texttheta-\textomega\ diffraction patterns, one usually compares the observed reflections to predicted peak positions of the expected phase of the compound which is investigated.
 This reference diffraction pattern stems from powder samples of the respective compound, containing all crystal orientations during one 2\texttheta-\textomega-scan.
 When a peak is identified, a possible peak shift is determined and the shape of the peak is investigated.
 Peak shifts may be due to residual stress, substrate induced strain or compositional gradients in the thin film 
     \cite{harrington2021}.
-A minimum amount of peak broadening is always present due to convergence of the incident beam as well as convolution of K\textalpha\textsubscript{1}- and K\textalpha\textsubscript{2}-radiation (cf.~\ref{Sec:Theory_XRays}), which is called instrumental broadening
+A certain amount of peak broadening is always present due to convergence of the incident beam as well as convolution of K\textalpha\textsubscript{1}- and K\textalpha\textsubscript{2}-radiation (cf.~\ref{Sec:Theory_XRays}), which is called instrumental broadening
     \cite{harrington2021}.
 The \gls{FWHM} of the highly crystalline substrate peaks may give a reference for broadening of peaks in 2\texttheta-\textomega\ diffraction data.  
 
@@ -56,14 +57,14 @@ There are several use cases for applying an offset $\omega_0$:
     \item It is assumed that $\omega$ denotes the angle between incident X-ray beam and the sample surface.
     But a perfect alignment between sample and sample holder is not always possible.
     So to correct this tilt between expected sample position and it's real inclination, the offset $\omega_0$ can be set to really probe for lattice planes parallel to the sample surface.
-    This is done before measuring a 2\texttheta-\textomega-scan to achieve preciser results.
-    \item When probing for lattice planes which are not parallel to the sample surface (\enquote{asymmetric reflections}), one can apply the expected inclination angle as an offset $\omega_0$.
+    This is done before measuring a 2\texttheta-\textomega-scan to achieve more precise results.
+    \item When probing for lattice planes which are not parallel to the sample surface, called \emph{asymmetric reflections}, one can apply the expected inclination angle as an offset $\omega_0$.
     This is the case in Fig.\,\ref{Fig:Methods_XRD_geometry}b.
     \item When $2\theta$ is fixed, but $\omega_0$ is varied, an \emph{\textomega-scan} is performed, which enables quantification of mosaicity (cf.~\ref{Sec:Methods_omegaScan}).
 \end{enumerate}
 
 % ---
-\subsection{\textomega-scans}
+\subsection{\texorpdfstring{\textomega}{omega}-scans}
     \label{Sec:Methods_omegaScan}
 % ---
 Thin films may exhibit a distribution of lattice plane inclination, called mosaicity.
@@ -75,7 +76,7 @@ This is called an \textomega-scan, and the \gls{FWHM} of the observed diffractio
 In particular, recording Rocking curves of symmetric and asymmetric lattice planes allows the calculation of dislocation densities in the thin film
     \cite{srikant1997}.
 % ---
-\subsection{\textphi-scans}
+\subsection{\texorpdfstring{\textphi}{phi}-scans}
     \label{Sec:Methods_phiScan}
 % ---
 A 2\texttheta-\textomega-scan is not capable of resolving in-plane rotations of crystal domains, because the distance of lattice planes parallel to the surface are not affected.
@@ -148,9 +149,11 @@ Because $2\theta$ and $\omega$ can simultaneously be represented by $\mathbf{q}$
 Consequently, this is called a \gls{RSM}.
 According to \eqref{Equ:Theory_ConstructiveInterference}, a peak in 2D reciprocal space $Q$ should be observed if $\mathbf{q}$ is a reciprocal space vector.
 In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \emph{reflection}.
-With \eqref{Equ:Methods_qDir} one can determine $\omega_0$ -- the direction of the corresponding lattice planes\footnote{
-    Note that the \enquote{$-$} in $-q_\parallel/q_\perp$ is necessary, such that this fraction is the tangens the angle between $\mathbf{q}$ and surface normal with correct sense of rotation. 
-}, and with \eqref{Equ:Methods_qAbs} the lattice plane distance $d_{hkl}$ can be calculated.
+With \eqref{Equ:Methods_qDir} one can determine $\omega_0$ -- the direction of the corresponding lattice planes --
+% \footnote{
+%     Note that the \enquote{$-$} in $-q_\parallel/q_\perp$ is necessary, such that this fraction is the tangens of the angle between $\mathbf{q}$ and surface normal with correct sense of rotation. 
+% },
+and with \eqref{Equ:Methods_qAbs} the lattice plane distance $d_{hkl}$ can be calculated.
 Note that for rhombohedral crystals, $d_{hkl}$ can also be predicted from the lattice constants $a$ and $c$ with the following equation \cite{grundmann2018}:
 \begin{equation}
     d_{hkl}=\left(
@@ -161,7 +164,7 @@ Note that for rhombohedral crystals, $d_{hkl}$ can also be predicted from the la
 \end{equation}
 The inclination with respect to the \textit{c}-axis can be determined via \cite{grundmann2020b}
 \begin{equation}
-    \alpha_{hkl|c}
+    \alpha_{hkl|c}=
     \arccos\left(
         \frac{l}{\sqrt{
             \frac{4c^2}{3}\frac{h^2+k^2+hk}{a^2}+l^2
@@ -174,7 +177,7 @@ The inclination with respect to the \textit{c}-axis can be determined via \cite{
 A 2\texttheta-\textomega-scan corresponds to a set of $\mathbf{q}$ with fixed direction in reciprocal space, but varying length.
 For scanning symmetric reflections, $\mathbf{q}$ is parallel to the surface normal (as in Fig.\,\ref{Fig:Methods_qDef}a).
 On the other hand, an \textomega-scan corresponds to a set $\mathbf{q}$ with fixed length but varying direction.
-The mosaicity can therefore approximately quantified by the broadening of a reflection perpendicular to the direction of $\mathbf{K}_{hkl}$.
+Therefore, the mosaicity can be approximately quantified by the broadening of a reflection perpendicular to the direction of $\mathbf{K}_{hkl}$.
 Because anisotropic strain has an effect on direction and length of inclined lattice planes, asymmetric reflections, i.e.\ $\omega_0\neq0$, can be deconvoluted into an in-plane and out-of-plane component.
 By this means, \glspl{RSM} enable the calculation of lattice constants.
 To precisely calculate the latter, several corrections are applied to the recorded \glspl{RSM}, as proposed in \textcite{kneiss2021}:
@@ -207,7 +210,7 @@ To precisely calculate the latter, several corrections are applied to the record
     \begin{equation}
         \theta_\mathrm{tilt}=\arctan\left(-\frac{q_{\parallel,hkl}^\mathrm{film}}{q_{\perp,hkl}^\mathrm{film}}\right)\,.
     \end{equation}
-    To determine the lattice constants from asymmetric peaks, the reciprocal space is again rotated as in \ref{Equ:Methods_rotation} but with rotation angle $-\theta_\mathrm{tilt}$.
+    To determine the lattice constants from asymmetric peaks, the reciprocal space is again rotated as in \eqref{Equ:Methods_rotation} but with rotation angle $-\theta_\mathrm{tilt}$.
     This scenario is depicted in Fig.\,\ref{Fig:Methods_qDef}b, where the magenta colored reflection deviates from the expected symmetric position.
 
     \item If the thin film is sheared, a symmetric reflection $\mathbf{q}_{\tilde{h}\tilde{k}\tilde{l}}^\mathrm{film}$ will be unaffected.
@@ -231,8 +234,9 @@ To precisely calculate the latter, several corrections are applied to the record
     To correct the shear, a rotation around the corresponding symmetric reciprocal lattice point $\mathbf{q}_{\tilde{h}\tilde{k}\tilde{l}}^\mathrm{film}$ with the same expected out-of-plane component must be applied.
 \end{enumerate}
 
-\subsection{Technical Aspects}
-The radiation is produced by an copper anode, resulting in a wavelength of $\lambda=\qty{1.5406}{\angstrom}$ for \ce{Cu}-K\textalpha\textsubscript{1} radiation.
+%! Specs
+\subsection{Technical Details}
+For the results presented in this work, the radiation was produced by an copper anode, resulting in a wavelength of $\lambda=\qty{1.5406}{\angstrom}$ for \ce{Cu}-K\textalpha\textsubscript{1} radiation.
 Note that \ce{Cu}-K\textalpha\textsubscript{2} and \ce{Cu}-K\textbeta\ radiation is not filtered out, resulting in additional low-intensity peaks in the diffractograms.
 Furthermore, contamination of the anode with tungsten results in an observable \ce{W}-L\textalpha\textsubscript{1} contribution with energy between \ce{Cu}-K\textalpha- and \ce{Cu}-K\textbeta-radiation.
 During the course of the conducted experiments, the contaminated anode has been replaced, so the peaks corresponding to \ce{W}-L\textalpha\textsubscript{1}-radiation are not present in every diffractogram.
