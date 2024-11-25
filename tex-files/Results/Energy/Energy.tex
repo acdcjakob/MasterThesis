@@ -1,19 +1,27 @@
 \section{Strain Analysis}
     \label{Sec:Results_Energy}
 %! Motivation
-The structural properties of the thin film, namely its mosaicity and lattice distortion depend crucially on the growth process.
-It turned out that the absorption of energy at the laser entrance window alters the growth rate and the crystallinity much more dominantly than the growth temperature or the oxygen partial pressure (cf.\ \ref{Sec:Results_Preliminary}).
-A similar effect was observed when targets were used for fabrication that exhibit a non-planar surface and tracks that were carved during previous ablations (cf.\ \ref{Sec:Results_Doping}).
-Because the structural properties of the thin film also influence its electrical properties (cf.\ \ref{Sec:Results_Doping}), the following investigations focus on the origin of the observed variations in strain and \textomega-FWHM.
+The structural properties of the thin film, namely its mosaicity and lattice distortion depend crucially on the growth process:
+It was observed that the absorption of energy at the laser entrance window alters the growth rate and the crystallinity much more dominantly than the growth temperature or the oxygen partial pressure (cf.\ chapter \ref{Sec:Results_Preliminary}).
+A similar effect was observed when worn targets were used for fabrication:
+a non-planar surface caused by tracks that were carved by the laser during previous ablations alter both structural and electrical properties of the resulting thin films substantially (cf.\ chapter \ref{Sec:Results_Doping}).
+Therefore, the following investigations focus on the origin of the observed variations in strain and \textomega-FWHM.
 This is further motivated by the observation that a deliberate and controlled variation of laser spot size on the target surface yields a large reduction of \textomega-FWHM as well as a reduced shift of the peak position in the \thetaomega-pattern (Fig.\,\ref{Fig:Results_3_motivation}).
-This was achieved by varying the lens position (cf.\ \ref{Fig:Methods_pld}) such that the laser spot size increases, yielding smaller fluence and larger ablation area on the target surface.
+This was achieved by varying the lens position $L$ such that the laser spot size increases, yielding smaller fluence $F$ and larger ablation area $A$ on the target surface.
+Namely, doubling the laser spot size from \qtyrange{8}{16}{\mm\squared} results in an improvement of crystallinity by a factor of over 5.
 \begin{figure}[h]
     \centering
     \includegraphics{3_fluence_motivation.eps}
     \caption{
-    \thetaomega-patterns for two \textit{c}-plane samples fabricated with different laser focus on the target.
-    The inset displays the diffractograms of the corresponding \textomega-scans performed on the respective reflections.
-    The ZnO-doped (low) target was used without a fixed $r_\mathrm{PLD}$ but with uniform ablation on the whole target surface.
+    \thetaomega-patterns for two \textit{c}-plane samples fabricated with different laser spot size, therefore different laser fluence on the target.
+    The thickness is \qty{120}{\nm} and \qty{100}{\nm} for the low fluence (green) and high fluence (purple) sample, respectively.
+    The red line at \qty{39.8}{\degree} corresponds to the calculated peak position of the \cro\ (00.6) reflection.
+    The low intensity peak at this angle is the \alo\ (00.6) reflection caused by tungsten L\textalpha\textsubscript{1} radiation.
+    The peak at approx.\ \qty{41.5}{\degree} corresponds to the \alo\ (00.6) reflection caused by copper K\textalpha radiation.
+    The inset displays the diffractograms of the corresponding \textomega-scans performed on the \cro\ (00.6) reflection.
+    The ZnO-doped (low) target (cf.\ chapter \ref{Sec:Results_Doping}) was used for deposition without a fixed $r_\mathrm{PLD}$ but with uniform ablation on the whole target surface.
+    The reason for the choice of target is that this experiment was conducted in the course of the studies of the previous chapter, where a DCS approach was applied for thin film doping.
+    A pulse energy of \qty{650}{\milli\J} was applied.
     }
     \label{Fig:Results_3_motivation}
 \end{figure}
@@ -21,19 +29,20 @@ This was achieved by varying the lens position (cf.\ \ref{Fig:Methods_pld}) such
 \subsection{Experiment}
     \input{tex-files/Results/Energy/1_Experiment.tex}
     \label{Sec:Results_3_Experiment}
-\subsection{Results}
+\subsection{Growth Rates}
     \input{tex-files/Results/Energy/2.0_results.tex}
-        \subsubsection{\textit{c}-plane: Laser Spot Size Variation}
+    \subsection{Strain and Tilt for Different Orientations}
+        \subsubsection*{\textit{c}-plane: Laser Spot Size Variation}
             \input{tex-files/Results/Energy/2.1_c_lens.tex}
-        \subsubsection{\textit{c}-plane: Pulse Energy Variation}
+        \subsubsection*{\textit{c}-plane: Pulse Energy Variation}
             \input{tex-files/Results/Energy/2.1_c_pulse.tex}
-        \subsubsection{\textit{r}-plane: Laser Spot Size Variation}
+        \subsubsection*{\textit{r}-plane: Laser Spot Size Variation}
             \input{tex-files/Results/Energy/2.2_r_lens.tex}
-        \subsubsection{\textit{r}-plane: Pulse Energy Variation}
+        \subsubsection*{\textit{r}-plane: Pulse Energy Variation}
             \input{tex-files/Results/Energy/2.2_r_pulse.tex}
-        \subsubsection{\textit{m}- and \textit{a}-plane: Laser Spot Size Variation}
+        \subsubsection*{\textit{m}- and \textit{a}-plane: Laser Spot Size Variation}
             \input{tex-files/Results/Energy/2.3_ma_lens.tex}
-        \subsubsection{\textit{m}- and \textit{a}-plane: Pulse Energy Variation}
+        \subsubsection*{\textit{m}- and \textit{a}-plane: Pulse Energy Variation}
             \input{tex-files/Results/Energy/2.3_ma_pulse.tex}
 \subsection{Conclusion}
     \input{tex-files/Results/Energy/3_Conclusion.tex}

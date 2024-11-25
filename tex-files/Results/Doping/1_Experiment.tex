@@ -1,7 +1,42 @@
-%! measurements
-\comment{\thetaomega-scans were performed for every sample, but \textomega-scans for \textit{c}- and \textit{r}-plane samples only.
-The thickness was determined using spectroscopic ellipsometry.
-Resistivity measurements at room temperature were done using the \textsc{Pauw} method, which was also applied when conducting temperature dependent resistivity measurements on one \textit{c}-plane sample of each target.
-Note that the effect of infrequent cleaning of the laser entrance window that was described in \ref{Sec:Results_Preliminary} was discovered during the execution of those experiments, which is why the samples produced from the ZnO-doped (high) target were the only ones for which this effect could be prevented.
-Furthermore, \qty{40000}{pulses} were applied for the samples fabricated from the CuO-doped and ZnO-doped (low) target, as well as one sample from the batch made with the ZnO-doped (high) target.
-All other samples from this batch were deposited with \qty{30000}{pulses}.}
+%! Monte carlo
+As described in Section~\ref{Sec:Methods_pld}, \eqref{Equ:Methods_composition} can be applied to calculate the material composition $\chi$ of the plasma plume when utilizing a \gls{DCS} target.
+But as mentioned before, this does not account for the finite area illuminated by the laser pulse.
+% To estimate the dopant concentration in dependence on the radius $r_\mathrm{PLD}$, the composition of the ablated material can be calculated via \eqref{Equ:Methods_composition}, but this does not account for the finite area illuminated by the laser pulse.
+A simple model for including this effect can be achieved by assuming a target that has an outer composition of pure \cro\ and an inner composition of \cro\ with dopant concentration $x_{D,0}$.
+Simulating $N$ randomly distributed points $r_i$ in the range $\Delta r$ around a radial laser position $r_\mathrm{PLD}$ allows the calculation of doping concentration in the plasma $x_D$ as the mean of the $N$ calculated compositions for each $r_i$.
+The resulting dependence of $x_D$ on $r_\mathrm{PLD}$ is visualized in Fig.\,\ref{Fig:Results_2_yToComposition}a, where a higher value of $\Delta r$ results in more smeared out graphs.
+% A target with inner concentration of \qty{0.01}{\wtpercent} dopant was assumed (Cu-doped target or Zn-doped (low) target), \textbf{but the graph can be scaled to fit the Zn-doped (high) target.}
+Those \emph{Monto Carlo} simulations can further be approximated by a linear fit, which was done for $\Delta r=\qty{2}{\mm}$ (blue dotted line in Fig.\,\ref{Fig:Results_2_yToComposition}a).
+Henceforth, the different samples fabricated with different radial laser spot positions $r_\mathrm{PLD}$ are \sout{characterized} \textbf{parameterized} by the expected composition $x_D$ calculated from this linear fit.
+% The reason for this is that according to \eqref{Equ:Methods_composition}, when applying $r_\mathrm{PLD}$ smaller than the length of the semi-minor axis of the inner ellipse, no variation in composition would be observed, even though the real finite laser spot size results in a different result.
+Note that due to the small concentration of dopant, it was not possible to resolve those fractions via element sensitive measurements: Dr. Daniel Splith kindly performed \gls{edx} measurements that resulted in no signal for either \ce{Cu} or \ce{Zn}.
+
+%! Experiment
+To fabricate doped thin films, three different PLD targets were applied.
+Each target was elliptically segmented, with the outer region consisting of pure \ce{Cr2O3} and the inner region with dopant concentration $c_{D,0}$:
+\begin{enumerate}
+    \item $c_{D,0}=\qty{0.01}{\wtpercent}$ \ce{CuO}, called \emph{CuO-doped},
+    \item $c_{D,0}=\qty{0.01}{\wtpercent}$ \ce{ZnO}, called \emph{ZnO-doped (low)} and
+    \item $c_{D,0}=\qty{1}{\wtpercent}$ \ce{ZnO}, called \emph{ZnO-doped (high)}.
+\end{enumerate}
+For each target the \acrlong{DCS} approach was utilized, i.e.\ several processes were done with fixed laser spot position during deposition, but varying laser spot position \emph{between} processes.
+For each process, deposition was done on all of the 4 aforementioned substrate orientations, \textbf{even though \textit{m}- and \textit{a}-plane samples did not exhibit any substantial conductivity}.
+This was done to check whether the conductivity of the prismatic orientations could be improved \textbf{via doping}.
+The pulse number was \qty{40000}{} for the \qty{0.01}{\wtpercent} targets and \qty{30000}{} for the ZnO-doped (high) target.
+
+\begin{figure}
+    \centering
+    \begin{tabular}{ll}
+        \textbf{(a)} & \textbf{(b)} \figSpace \\
+        \includegraphics{g_yToComposition.eps}
+        &\includegraphics{2_doped1_growthrate.eps}
+    \end{tabular}
+    
+    \caption{
+        \textbf{(a)} Predictions for the plasma plume composition $x_D$ using Monte Carlo simulations with $N=\qty{10 000}{}$ and different values for $\Delta r$.
+        The blue dotted line is a fit for the graph calculated with $r=\qty{2}{\mm}$.
+        \textbf{(b)} Growth rate depending on the process order for the samples fabricated from the ZnO-doped (high) target.
+        The laser entrance window was cleaned after each process.
+        }
+    \label{Fig:Results_2_yToComposition}
+\end{figure}

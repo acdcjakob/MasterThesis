@@ -37,19 +37,10 @@ The energy per pulse can be adjusted and is several hundred~\unit{\mJ} with a du
 \end{figure}
 
 The laser energy density, called fluence $F$, can be calculated by taking the energy per pulse $E$ and the lens position $L$ into account.
-For an applied $E=\qty{650}{\milli\joule}$, \qty{75}{\percent} of the energy are absorbed by mirror, lens and entrance window\footnote{
+For an applied $E=\qty{650}{\milli\joule}$, \qty{75}{\percent} of the energy are absorbed by a mask, mirror, lens and entrance window\footnote{
     This was estimated using an energy monitor device and conducted by M.\ Sc.\ J.\ Bredow.}.
 This transmittance is assumed to be independent of $E$.
-The resulting fluence dependence $F(E,L)=\frac{0.25E}{A(L)}$ is visualized in Fig.\,\ref{Fig:Methods_fluence}, whereby the laser spot size $A$ was measured for some $L$ and fitted by assuming parabolic behavior.
-
-\begin{figure}
-    \centering
-    \includegraphics{fluence.eps}
-    \caption{Laser energy density depending on the applied pulse energy and lens position. Smaller lens positions yield smaller spot sizes. A value of \qty{-2}{\cm} corresponds to the lens being as close as possible to the laser entrance window in the setup used for this work.
-    The default configuration of \qty{650}{\milli\joule} and \qty{-2}{cm} yields typical fluences of about \qty{2}{\J\per\square\cm}.
-    The triangles and circles represent the variation of laser fluence in this work, achieved by varying the pulse energy and lens position, respectively.}
-    \label{Fig:Methods_fluence}
-\end{figure}
+The resulting fluence dependence $F(E,L)=\frac{0.25E}{A(L)}$ is visualized in Fig.\,\ref{Fig:Methods_fluence}, whereby the laser spot size $A$ was measured for some $L$ and fitted by assuming parabolic behavior (Fig.\,\ref{Fig:Results_3_laserSpotSize}).
 
 \subsection{Plasma Dynamics}
 The \gls{pld} procedure can be broken down into three physical processes: (i) energy absorption on the target surface, (ii) formation of a plasma and (iii) condensation on the substrate:

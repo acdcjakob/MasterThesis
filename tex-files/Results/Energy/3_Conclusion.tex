@@ -1,16 +1,59 @@
-The out-of-plane strain and in-plane strain of \cro\ thin films of different crystal orientation were investigated depending on the laser fluence on the target during deposition via \gls{pld}.
-Samples with \textit{c}-orientation grow fully pseudomorphic for low film thicknesses, wheras the samples of different orientation only show partial pseudomorphic growth.
-The thickness is for \textit{c}- and \textit{r}-plane samples a crucial parameter, whereas the laser fluence on the target strongly influences the crystal structure of \textit{m}- and \textit{a}-plane samples.
-This indicates that the thickness of the thin films is more relevant for orientations that have more out-of-plane \textit{c}-axis component, because for the prismatic orientations, the \textit{c}-axis is completely in-plane.
-Overall, less laser fluences -- no matter whether via larger laser spot sizes or reduced laser pulse energy -- result in less \gls{FWHM} in \textomega-patterns.
-For \textit{r}-, \textit{m}- and \textit{a}-plane oriented samples, thin film tilts has been observed in the directions that were predicted by theoretical calculations
+The out-of-plane strain and in-plane strain of \cro\ thin films with different crystal orientations were investigated depending on the laser fluence on the target during deposition via \gls{pld}.
+The variation in laser fluence was achieved by either increasing the laser spot size or by decreasing the laser pulse energy.
+Samples with \textit{c}-orientation grow fully pseudomorphic for low film thicknesses, wheras the samples with \textit{r}-, \textit{m}- and \textit{a}-orientatiin are partially relaxed.
+The thickness is a crucial parameter for \textit{c}- and \textit{r}-plane samples, whereas the laser fluence on the target strongly influences the crystal structure of \textit{m}- and \textit{a}-plane samples.
+It can be concluded that the thickness of the thin films is more relevant for orientations that have more out-of-plane \textit{c}-axis component.
+For \textit{c}- and \textit{r}-orientation, less laser fluence -- no matter whether via larger laser spot sizes or reduced laser pulse energy -- results in less \gls{FWHM} in \textomega-patterns and thus better crystallinity.
+For \textit{m}-plane samples, a reversed behavior is observed -- however, the dependence on fluence is much less pronounced.
+A layered structure of \textit{a}-plane thin films hardens the comparison of the \textomega-FWHM for this orientaiton.
+Furthermore, for \textit{r}-, \textit{m}- and \textit{a}-plane oriented samples, thin film tilts have been observed in the directions that were previously observed for relaxed \agao\ layers on \alo\ 
     \cite{grundmann2020b,kneiss2021}
 (cf.\ Tab.\,\ref{tab:d_strained}b).
 
-In \textcite{kneiss2021}, a relaxation paramter $\rho_x$ was successfully introduced to quantify the amount of partial relaxation along the $x$-axis for \textit{m}- and \textit{a}-plane oriented \textalpha-\ce{(Al_xGa_{1-x})2O3} thin films.
-Higher values of $\rho_x$ correspond to more pseudomorphic growth and were correlated to smaller tilt angles.
-However, the results for \cro\ object to this observation:
-an increasing thin film tilt is correlated to an \emph{increasing} in- and out-of-plane strain (cf.\ Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}), i.e.\ to more pseudomorphic growth.
-The explanation of the thin film tilt by the relaxation model does not seem to be the origin of this false prediction:
-The axis of thin film tilt was correctly predicted to be only along $x$-direction for \textit{m}- and \textit{r}-plane thin films and along no direction at all for \textit{a}-plane samples!
-Nevertheless, the result of this observation is that no trade-off has to be made between strain and thin film tilt -- a lens position of \qty{-1}{\cm} and laser pulse energy of \qty{450}{\mJ} yields almost no strain and low thin film tilt while still resulting in a growth rate of up to \qty{4}{\pm\per\pulse}.
+To understand the dependence between relaxation, crystallinity and thin film tilt for \cro\ \textit{m}-plane thin films, a comparison to similarly structured \agao\ can be made:
+In \textcite{kneiss2021}, fully relaxed \textit{m}-plane \textalpha-\ce{(Al_xGa_{1-x})2O3} thin films exhibited a tilt that was dependent on the aluminum content, and therefore on relaxed lattice constants.
+For pure \agao\ layers (zero aluminum content), a thin film tilt of \qty{36}{\arcminute} was observed, which is in accordance to the here observed angles of \qty{20}{\arcminute} to \qty{40}{\arcminute} (cf.\ Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}a).
+In this work, however, due to variations in laser fluence, partially relaxed \textit{m}-plane \cro\ thin films with out-of-plane strain ranging from \qty{0.02}{\percent} to \qty{0.3}{\percent}\footnote{
+    According the RSMs. Note that there was a discrepancy between the strain values obtained from \thetaomega\ scans and RSMs.
+} could be fabricated (Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}a).
+It was observed that samples with less out-of-plane strain -- i.e.\ smaller out-of-plane lattice constants -- exhibit smaller thin film tilts.
+Note that due to the fact that \alo\ has smaller lattice constants than relaxed \cro, a decrease in lattice constants is directly related to a decreasing mismatch between substrate and thin film.
+Therefore, the here reported results are in accordance to \textcite{kneiss2021} in the sense that a reduction in lattice mismatch reduces the thin film tilt.
+Furthermore, reducing the laser fluence also results in a slightly higher \textomega-FWHM (Fig.\,\ref{Fig:Results_3_pulseOmega}), which could correspond to an increased dislocation density.
+When applying a heteroepitaxial model as displayed in Fig.\,\ref{fig:Theory_tiltDislocation}
+    \cite{grundmann2016},
+this reduced dislocation density results in less thin film tilt, which is indeed observed.
+Therefore, an increasing laser fluence on the PLD target results in both increasing strain and decreasing \textomega-FWHM which manifest in larger thin film tilts.
+These effects can be summarized as less partially relaxed layers.
+
+However, note that the importance of reduced laser fluence for more relaxed thin films is not explained yet.
+By taking the reduced kinetic energy of the plasma species into account
+    \cite{anisimov1996},
+one can infer that the growth dynamics are altered in such a way that the formation of dislocations is favored.
+In general, note that more sophisticated methods like \gls{TEM} should be applied to get a more detailed view into the formation and density of dislocations, which are fundamental to relaxation and thin film tilt.
+
+No investigations of the influence of laser fluence on the structural properties of \cro\ thin films fabricated by PLD have been done so far in the literature.
+The only report on varying laser fluence from \qtyrange{1.6}{3.7}{\J\per\cm\squared} has been concerning the atomic ratio of \ce{Cr} cations to \ce{O} anions for deposition on silicon
+    \cite{tabbal2006}.
+Most of the \cro\ thin films fabricated via PLD were deposited on \textit{c}-plane sapphire
+    \cite{singh2019,arca2017,kehoe2016}.
+None of those studies could identify the laser fluence as a crucial paramter influencing the crystallinity of the thin films (Fig.\,\ref{Fig:Results_3_pulseOmega}):
+the best \textomega-FWHM of \qty{22}{\arcminute} that was reported by \textcite{singh2019} is larger than the here reported value of \qty{7}{\arcminute}.
+For \textit{r}-plane oriented thin films reported by \textcite{punugupati2015}, an out-of-plane strain of \qty{0.57}{\percent} could be identified, but no studies have been performed on the origin of this observation.
+
+To determine the optimal deposition parameters of \cro, one has to take the different orientations into account:
+Because the thickness is mostly relevant for \textit{c}-plane oriented thin films, the choice of at least $t=\qty{150}{\nm}$ results in the lowest strain and \textomega-FWHM.
+Furthermore, a laser spot size of \qty{10}{\mm\squared} and pulse energy of \qty{300}{\milli\J} would result in the lowest strain for \textit{r}-, \textit{m}- and \textit{a}-orientation.
+Note that this, however, results in less crystalline films for those orientations (Fig.\,\ref{Fig:Results_3_pulseOmega}), as well as a very low growth rate.
+Therefore, a pulse energy of \qty{450}{\milli\J} is chosen for future depositions due to the best crystal quality while maintaining strain of about \qty{0.1}{\percent} and \qty{0.3}{\percent} for \textit{m}- and \textit{a}-plane respectively.
+Those deposition parameters also result in low thin film tilts of about \qty{15}{\arcminute} and \qty{25}{\arcminute} for \textit{r}- and \textit{m}-plane samples, respectively.
+The laser fluence on the target is therefore \qty{1.1}{\J\per\cm\squared}, and will be applied when depositing high quality buffer layers for \agao\ thin films:
+The reduced compressive in-plane strain is desired to achieve low mismatch between the \cro\ and \agao\ layer, as demonstrated in the following chapter.
+
+% In \textcite{kneiss2021}, a relaxation paramter $\rho_x$ was successfully introduced to quantify the amount of partial relaxation along the $x$-axis for \textit{m}- and \textit{a}-plane oriented \textalpha-\ce{(Al_xGa_{1-x})2O3} thin films.
+% Higher values of $\rho_x$ correspond to more pseudomorphic growth and were correlated to smaller tilt angles.
+% However, the results here object to this observation:
+
+% The explanation of the thin film tilt by the relaxation model does not seem to be the origin of this discrepancy:
+% The axis of thin film tilt was correctly predicted to be only along $x$-direction for \textit{m}- and \textit{r}-plane thin films and along no direction for \textit{a}-plane samples.
+% Nevertheless, the result of this observation is that no trade-off has to be made between strain and thin film tilt -- a lens position of \qty{-1}{\cm} and laser pulse energy of \qty{450}{\mJ} yields almost no strain and low thin film tilt while still resulting in a growth rate of up to \qty{4}{\pm\per\pulse}.
