@@ -1,20 +1,18 @@
 %! Why is there another explanation needed?
-It has to be noted that there is a large spread in strain and \textomega-FWHM for the samples that were deposited at different growth temperatures.
+It has to be noted that there is a large spread in strain, \textomega-FWHM and growth rate for the samples that were deposited at different growth temperatures.
 The range of temperature variation was only \qty{40}{\degreeCelsius} and has no significant influence on the distribution of strain and \textomega-FWHM (Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}b).
-Because all the other process parameters were kept the same\footnote{
-    In fact, for the last two samples produced ($T=\qty{725}{\degreeCelsius}$ and $T=\qty{765}{\degreeCelsius}$), the pulse number was increased to \qty{40000}{pulses}.
-    This was due to the fact that the growthrate decreased.
-},
-this indicates that another parameter influences the crystal quality.
+Note that for the last two samples produced with heater temperatures of $T=\qty{725}{\degreeCelsius}$ and $T=\qty{765}{\degreeCelsius}$, respectively, the pulse number was increased to \qty{40000}{pulses}, leading to thicker samples.
+But the crystal structure does not depend on thickness either (not shown).
+Because all the other process parameters were kept the same, this indicates that another parameter influences the crystal quality.
 This is supported by the fact that the growth rate correlates with the magnitude of strain and \textomega-FWHM, as can be seen in Fig.\,\ref{Fig:Results_1_growthRate_process}a (the outlier with low growth rate but high strain will be explained below).
 Note that at this point, the growth rate cannot be deconvoluted from the thin film thickness.
-Therefore, it is not clear whether the thickness influences the crystal quality or the reduced growth rate due to the reasons explained below.
+Therefore, it is not clear whether the thickness or the reduced growth rate influences the crystal quality.
 % Although strain is related to \textomega-FWHM, it has to be noted that for a small regime of \gls{oop}\ strain around approx.\ \qty{0.9}{\percent}, the \textomega-FWHM scatters between approx.\ \qty{37}{\arcminute} and \qty{47}{\arcminute}.
 
 %! importance of process order
-The origin of the varying growth rate -- and therefore varying crystal quality -- can be found when taking the number of processes into account that were performed before.
+The origin of the varying growth rate -- and therefore varying crystal quality -- can be found when taking the number of processes into account that were performed before a specific process.
 In Fig.\,\ref{Fig:Results_1_growthRate_process}b, the growth rate is visualized depending on the order of sample fabrication.
-It is also indicated when the laser entrance window has been cleaned.
+It is also indicated when, the laser entrance window has been cleaned.
 It is common practice to clean the latter every couple of processes due to coating with target material which absorbs laser energy.
 E.g., in the case of \ce{ZnO}, even after \qty{100000}{pulses}, no significant influence can be observed on the transmission of laser energy.
 But from Fig.\,\ref{Fig:Results_1_growthRate_process}b it becomes clear that this should be done much more frequently when working with \cro.
@@ -23,7 +21,7 @@ Note that the laser has a wavelength of \qty{248}{\nm}, corresponding to \qty{5.
 },
 as can be seen in Fig.\,\ref{Fig:Results_1_transmission}a.
 Therefore, the increasing coating of the laser entrance window with each new process absorbs a large amount of laser pulse energy, resulting in less fluence on the PLD target.
-This results in less ablated target material and less kinetic energy of the ablated species, which leads to a reduced growth rate and different crystal growth conditions that have higher strain and \textomega-FWHM as a result.
+This results in less ablated target material and less kinetic energy of the ablated species, which leads to a reduced growth rate and different crystal growth conditions that have less strain and \textomega-FWHM as a result.
 \begin{figure}
     \centering
     \begin{tabular}{ll}
@@ -43,10 +41,10 @@ This results in less ablated target material and less kinetic energy of the abla
 
 %! compatable with oxygen explanation
 This explanation is supported by the dependence of crystal quality on oxygen partial pressure (cf.\ Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}a).
-There, the increment of crystal quality with higher oxygen pressures is attributed to the increased background gas scattering resulting in less kinetic energy of the plasma material.
+There, the increasing crystal quality with higher oxygen pressures is attributed to the increased background gas scattering resulting in less kinetic energy of the plasma material.
 This also explains the outlier in Fig.\,\ref{Fig:Results_1_growthRate_process}a, where one sample corresponds to a higher strain and \textomega-FWHM of approx.\ \qty{0.9}{\percent} and \qty{41}{\arcminute}, respectively (black square).
 This is not expected when considering the rather small growth rate of \qty{3}{\pm\per\pulse} (\texttt{W6724} in Fig.\,\ref{Fig:Results_1_growthRate_process}b).
-But when taking account for the fact that this sample is fabricated at a very low oxygen partial pressure of \qty{8e-5}{\milli\bar}, it becomes clear that although the reduced fluence on the target would generally lower the kinetic energy of the plasma material, the limited scattering with the background gas counteracts this effect, resulting in the observed crystal quality.
+But when taking into account that this sample is fabricated at a very low oxygen partial pressure of \qty{8e-5}{\milli\bar}, it becomes clear that although the reduced fluence on the target would generally lower the kinetic energy of the plasma material, the limited scattering with the background gas counteracts this effect, resulting in the observed crystal quality.
 
 %! phi-dependence of strain
 It is noteworthy that the observed strain (cf.\ Fig.\,\ref{Fig:Results_1_pressureTemperature_yyaxis_strainOmega}a,b) is distributed around two distinct values of approx.\ \qty{0.4}{\percent} and \qty{0.9}{\percent}.
@@ -63,6 +61,9 @@ Therefore, the distribution of observed strain is not a measurement artifact.
 \begin{figure}
     \centering
     \includegraphics{1_initial_checkPhiDependence.eps}
-    \caption{\thetaomega-patterns for two samples in four different azimuths each.}
+    \caption{
+        \thetaomega-patterns for two samples in four different azimuths each.
+        The black dashed line indicates the expected (30.0) reflection of \cro.
+        }
     \label{Fig:Results_1_checkPhi}
 \end{figure}
