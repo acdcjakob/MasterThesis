@@ -1,9 +1,9 @@
 %! Growth rates
-\textbf{To investigate the growth conditions, spectroscopic ellipsometry measurements were performed to determine the thickness.}
+To investigate the growth rate, spectroscopic ellipsometry measurements were performed to determine the thickness.
 The according growth rates of the samples produced from the \ce{CuO}-doped and \ce{ZnO}-doped (low) target are depicted in Fig.\,\ref{Fig:Results_2_windowCleaning}.
 The growth rates vary between 3 and \qty{6}{\pm\per\pulse} and depend strongly on the number of deposition processes that were conducted before.
-After cleaning the laser entrance window, and thus reducing laser energy absorption, the growth rate can be increased.
-This is similar to the results obtained in chapter \ref{Sec:Results_Preliminary}. 
+By cleaning the laser entrance window after three processes, and thus reducing laser energy absorption, the growth rate is doubled, which is non-negligible.
+This is similar to the results obtained in chapter \ref{Sec:Results_Preliminary}.
 \begin{figure}
     \centering
     \includegraphics{2_doped0.01_window.eps}
@@ -14,12 +14,13 @@ This is similar to the results obtained in chapter \ref{Sec:Results_Preliminary}
     \label{Fig:Results_2_windowCleaning}
 \end{figure}
 
-However, the growth rates depending on the fabrication order for the \ce{ZnO}-doped (high) samples are depicted in Fig.\,\ref{Fig:Results_2_yToComposition}b.
-Note that the growth rate varies from approx.\ \qtyrange{2.5}{6.5}{\pm\per\pulse}, even though the laser entrance window was cleaned after each process.
+To circumvent the effect of the window blinding with each process, the window was cleaned after each process for the samples produced from the ZnO-doped (high) target.
+The growth rates depending on the fabrication order for the those samples are depicted in Fig.\,\ref{Fig:Results_2_yToComposition}b.
+However, note that the growth rate still varies from approx.\ \qtyrange{2.5}{6.5}{\pm\per\pulse}, even though the laser entrance window was cleaned after each process.
 So this variation in growth rate must be traced back to another effect.
 Only the first sample was fabricated with \qty{40000}{pulses}, which explains the increment of growth rate between the first and second process:
 % Due to the higher number of pulses, the laser entrance window gets more coated and thus the last \qty{10000}{pulses} reduce the average growth rate.
-The condensation of material on the laser entrance window yields a decreasing growth rate over time. This has a strong effect on the overall growth rate calculated for the complete process
+The condensation of material on the laser entrance window yields a decreasing growth rate over time. This has a strong effect on the overall growth rate calculated for the complete process.
 Furthermore, the second process was done with $r_\mathrm{PLD}=\qty{6}{\mm}$, which is rather outside compared to the 1st, 3rd and 4th process with \qtylist{3;4;2}{\mm}, respectively.
 This results in a larger total ablated area and in less target degradation.
 Therefore, the hypothesis is that target degradation during deposition has an influence on the growth rate.
@@ -44,8 +45,9 @@ This is probably the reason for a crucial change in plasma dynamics and therefor
 \end{figure}
 
 %! resistivity
+\newpage
 To probe the conductivity of the fabricated samples, resistivity measurements were performed using the \textsc{Pauw} methods.
-Only \textit{r}- and \textit{c}-plane samples were investigated, because the prismatic planes exhibited resistances of several \unit{\giga\ohm} or higher, when measured with a multimeter.
+Only \textit{r}- and \textit{c}-plane samples were investigated, because the prismatic planes exhibited resistances of several \unit{\giga\ohm} or higher, when measured with a multimeter, as the \textsc{Hall}-effect measurement setup at the semiconductors group is not designed to measure such high resistivities.
 In Fig.\,\ref{Fig:Results_2_rho}a, the measured resistivity $\rho$ at room temperature depending on the predicted dopant concentration $x_D$ is depicted. 
 From the unsystematic variation in resistivity (\qtyrange{2}{500}{\ohm\cm}), it can be concluded that the attempt of doping the \cro\ thin films resulted in no improvement of conductivity.
 Using the two targets with different concentration of \ce{ZnO} in the inner ellipse, no change was observed when adjusting $x_D$ between \qty{0.001}{\percent} and \qty{1}{\percent}.
@@ -72,10 +74,10 @@ Because those samples showed different growth rates due to target degradation, i
 %! Omega scans
 Because in the previous chapter \ref{Sec:Results_Preliminary} it was shown that the growth rate is correlating to the \textomega-FWHM, Rocking scans were performed on the (00.6) and (02.4) reflection for \textit{c}-plane and \textit{r}-plane samples, respectively.
 The extracted \textomega-FWHMs are depicted in Fig.\,\ref{Fig:Results_2_omega} depending on the growth rate for the respective process.
-A general trend is that the crystallinty increases for lower growth rates, \textbf{namely for a growth rate of \qty{3.4}{\pm\per\pulse}, a \textomega-FWHM of \qty{4}{\arcminute} can be achieved.}
-It is not relevent, whether this reduction in growth rate ist due to less fluence on the laser target due to infrequent window cleaning (CuO-doped and ZnO-doped (low) target) or due to target degradation (ZnO-doped (high) target).
+A general trend is that the crystallinty increases for lower growth rates, namely for a growth rate of \qty{3.4}{\pm\per\pulse}, a \textomega-FWHM of \qty{4}{\arcminute} (\qty{240}{\arcsecond}) can be achieved.
+It is irrelevent, whether this reduction in growth rate is due to lower fluence on the laser target due to infrequent window cleaning (CuO-doped and ZnO-doped (low) target) or due to target degradation (ZnO-doped (high) target).
 The better FWHM is achieved for \textit{c}-plane samples.
-Note that for the deposition of \cro\ on \textit{r}-plane sapphire from the ZnO-doped (high) target, no thin film peaks in \thetaomega-scans were observed \textbf{(Fig.\,\ref{Fig:App_2_ZnO_H_rAmorphous})}.
+Note that for the deposition of \cro\ on \textit{r}-plane sapphire from the ZnO-doped (high) target, no thin film peaks in \thetaomega-scans were observed (Fig.\,\ref{Fig:App_2_ZnO_H_rAmorphous}).
 Those X-ray-amorphous films are presumably a result of the drastically altered plasma dynamics due to target degradation.
 \begin{figure}
     \centering
@@ -83,23 +85,13 @@ Those X-ray-amorphous films are presumably a result of the drastically altered p
     \caption{\textomega-FWHM for \textit{c}- and \textit{r}-plane samples that were fabricated from the three radially segmented targets.}
     \label{Fig:Results_2_omega}
 \end{figure}
-\begin{figure}
-    \centering
-    \includegraphics{2_misc_ZnO_high_r_2to.pdf}
-    \caption{
-        \thetaomega\ patterns of \textit{r}-plane oriented samples fabricated from the Zn-doped (high) target.
-        No \cro\ peaks at the predicted (02.4) position can be observed.
-        Those peaks that are present belong to the (02.4) reflection of the substrate (tungsten L\textalpha\textsubscript{1} and L\textalpha\textsubscript{2} radiation).
-    }
-    \label{Fig:App_2_ZnO_H_rAmorphous}
-\end{figure}
 
 {% fix non-breaking of Fig reference
 \sloppy
 To investigate the influence of crystal quality on the electrical properties, in Fig.\,\ref{Fig:Results_2_rho}b, the resistivity depending on the \textomega-FWHM is depicted. % overfull hbox fix: \, --> 
 It becomes clear that a higher mosaicity results in higher conductivity.
 Since more dislocations correspond to more crystal defects (cf.\ section \ref{Sec:Theory_Relaxed}), this result is in accordance to the predicted influence of crystal defects on the electrical properties of \cro\ thin films (cf.\ section \ref{Sec:Cr2O3}).
-It has to be noted that this effect is less pronounced for \textit{r}-plane samples compared to \textit{c}-plane samples, \textbf{where resistivies of \qty{1.9}{\ohm\cm} can be achieved for an \textomega-FWHM of \qty{40}{\arcminute}.}
+It has to be noted that this effect is less pronounced for \textit{r}-plane samples compared to \textit{c}-plane samples, where resistivies as low as \qty{1.9}{\ohm\cm} can be achieved for an \textomega-FWHM of \qty{40}{\arcminute}.
 Furthermore, this does not explain why \textit{m}- and \textit{a}-plane \cro\ exhibit such high resistivity, because their \textomega-FWHM is comparable to the basal and pyramidal orientations (cf.\ Tab.\,\ref{Tab:Results_1_w6788}).
 \par}
 
@@ -107,9 +99,9 @@ Furthermore, this does not explain why \textit{m}- and \textit{a}-plane \cro\ ex
 For each target, one \textit{c}-plane sample with presumably highest doping concentration (smallest $r_\mathrm{PLD}$) was chosen to perform temperature dependent resistivity measurements in the range of \qtyrange{40}{390}{\kelvin} (Fig.\,\ref{Fig:Results_2_TdH}).
 For all samples, an \textsc{Arrhenius}-like behavior is observed with two linear regimes above and below \qty{100}{\kelvin}, respectively.
 By applying \eqref{Equ:Results_1_Arrhenius2}, two activation energies can be extracted that are listed in Tab.\,\ref{Tab:Results_2_activationEnergy}.
-\textbf{Note that there is no significant difference between the undoped and doped samples.
+Note that there is no significant difference between the undoped and doped samples.
 Furthermore, the samples with the smallest ablation radius for each target were chosen, and not the samples with the highest conductivity for each batch.
-Therefore, the data in Fig.\,\ref{Fig:Results_2_TdH} do not indicate that samples from the Cu-doped target have lower conductivity per se.}
+Therefore, the data in Fig.\,\ref{Fig:Results_2_TdH} does not indicate that samples from the Cu-doped target have lower conductivity per se.
 \begin{figure}
     \centering
     \includegraphics{2_doped_TdH.eps}
@@ -138,6 +130,7 @@ Therefore, the data in Fig.\,\ref{Fig:Results_2_TdH} do not indicate that sample
 \end{table}
 
 %! Theta-omega
+\newpage
 Even though the doping resulted in no improvement of the electrical properties of the thin films, the several samples fabricated at different growth conditions -- due to infrequent laser window cleaning and target degradation -- may serve as an insight into the \gls{oop}\ strain that was already observed in chapter \ref{Sec:Results_Preliminary}.
 The \gls{oop}\ strain dependent on the growth rate is depicted in Fig.\,\ref{Fig:Results_2_strain}a and was determined from \cro\ peak positions in \thetaomega\ patterns.
 For \textit{m}- and \textit{a}-plane, the hypothesis of increasing strain with increasing growth rate can be confirmed.
@@ -156,7 +149,7 @@ This may be explained by the fact that the target degradation for the former (cf
     \caption{
         \textbf{(a)} Strain extracted from the peak positions in \thetaomega-scans for samples fabricated from the three radially segmented targets.
         \textbf{(b)} Correlation between strain and \textomega-FWHM for \textit{c}- and \textit{r}-plane samples.
-        The samples fabricated at differnt growth temperatures are also included.}
+        The samples fabricated at different growth temperatures are also included.}
 
     \label{Fig:Results_2_strain}
 \end{figure}
