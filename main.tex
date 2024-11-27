@@ -1,4 +1,5 @@
-\documentclass[12pt,a4paper,oneside]{book}
+\documentclass[12pt,a4paper,twoside]{book}
+
 % twoside for book style
 %! compile with xelatex to allow reading the .eps files from parent directory
 % when compiling with pdflatex, "epstopdf" cannot work on ../Plots/ due to
@@ -13,33 +14,43 @@
 % \includeonly{tex-files/Results/Energy/Energy,
 %     tex-files/Appendix/appendix,
 %     tex-files/_chapters/methods}
-\includeonly{tex-files/Results/Doping/Doping}
+% \includeonly{tex-files/Results/Doping/Doping}
 % \includeonly{tex-files/Results/Preliminary/Preliminary}
 % \includeonly{tex-files/_chapters/theory}
 % \includeonly{tex-files/Results/Buffer/Buffer}
 % \includeonly{tex-files/_chapters/methods}
-
+% \includeonly{tex-files/_chapters/Introduction}
 
 \begin{document}
-\dominitoc
-\tableofcontents
+%! Title Page
+\input{tex-files/_specs/titlepage}
+\clearpage
+\thispagestyle{empty}
 
-\interfootnotelinepenalty=10000 % no breaking of footnotes across pages
+%! TOC
+% \dominitoc
+\tableofcontents
+\clearpage
+
 
 %! main text
+    \include{tex-files/_chapters/Introduction}
     \include{tex-files/_chapters/theory}
     \include{tex-files/_chapters/methods}
     \input{tex-files/_chapters/results}
 
 %! Appendix
 \include{tex-files/Appendix/appendix}
-%! bibliography
 \clearpage
+
+%! bibliography
 \sloppy % increases probability of hyphenation in the bibliography
 \printbibliography[heading=bibintoc]
+\clearpage
 %! List of figures
 % \listoffigures
 %! Glossary
 % \printglossaries
 % does not work?
+%! Danksagung
 \end{document}

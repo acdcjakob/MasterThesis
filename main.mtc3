@@ -1,24 +1,15 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Growth Window for \ce {Cr2O3}\ Deposition on Sapphire}{\reset@font\mtcSfont 29}{section.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Experiment}{\reset@font\mtcSSfont 29}{subsection.3.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}Oxygen Partial Pressure Variation on \textit {m}-plane Sapphire}{\reset@font\mtcSSfont 29}{subsection.3.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.3}Growth Temperature Variation on \textit {m}-plane Sapphire}{\reset@font\mtcSSfont 32}{subsection.3.1.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.4}Influence of Growth Rate on Crystal Structure}{\reset@font\mtcSSfont 33}{subsection.3.1.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.5}Deposition on \textit {c}-, \textit {r}-, \textit {m}- and \textit {a}-plane Sapphire}{\reset@font\mtcSSfont 35}{subsection.3.1.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.6}Conclusion}{\reset@font\mtcSSfont 37}{subsection.3.1.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Discrete Combinatorial Synthesis for Taylored Doping}{\reset@font\mtcSfont 39}{section.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.1}Experiment}{\reset@font\mtcSSfont 39}{subsection.3.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.2}DCS with Different Targets}{\reset@font\mtcSSfont 39}{subsection.3.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.3}Conclusion}{\reset@font\mtcSSfont 45}{subsection.3.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Strain Analysis}{\reset@font\mtcSfont 49}{section.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Experiment}{\reset@font\mtcSSfont 50}{subsection.3.3.1}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {c}-plane}{\reset@font\mtcPfont 52}{section*.49}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {r}-plane}{\reset@font\mtcPfont 52}{section*.50}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {m}-plane}{\reset@font\mtcPfont 52}{section*.51}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode \textit {a}-plane}{\reset@font\mtcPfont 53}{section*.52}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Growth Rates}{\reset@font\mtcSSfont 54}{subsection.3.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.3}Strain and Tilt for Different Orientations}{\reset@font\mtcSSfont 54}{subsection.3.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.4}Conclusion}{\reset@font\mtcSSfont 68}{subsection.3.3.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}C\lowercase {r}\textsubscript {2}O\textsubscript {3} Buffer Layers for \textalpha -G\lowercase {a}\textsubscript {2}O\textsubscript {3}}{\reset@font\mtcSfont 70}{section.3.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}Experiment}{\reset@font\mtcSSfont 70}{subsection.3.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Comparison of \textit {in situ} and \textit {ex situ} grown \ce {Ga2O3}\ on Chromia Buffers}{\reset@font\mtcSSfont 71}{subsection.3.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.3}Conclusion}{\reset@font\mtcSSfont 75}{subsection.3.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Pulsed Laser Deposition}{\reset@font\mtcSfont 18}{section.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Setup}{\reset@font\mtcSSfont 18}{subsection.3.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}Plasma Dynamics}{\reset@font\mtcSSfont 19}{subsection.3.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.3}Segmented Target Approach}{\reset@font\mtcSSfont 20}{subsection.3.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}X-Ray Diffraction Measurement}{\reset@font\mtcSfont 21}{section.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.1}2$\theta $-$\omega $-scans}{\reset@font\mtcSSfont 21}{subsection.3.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.2}$\omega $-scans}{\reset@font\mtcSSfont 23}{subsection.3.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.3}$\phi $-scans}{\reset@font\mtcSSfont 23}{subsection.3.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.4}Reciprocal Space Maps}{\reset@font\mtcSSfont 23}{subsection.3.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.5}Technical Details}{\reset@font\mtcSSfont 26}{subsection.3.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Thermal Evaporation}{\reset@font\mtcSfont 27}{section.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Resistivity Measurement}{\reset@font\mtcSfont 27}{section.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Thickness Determination}{\reset@font\mtcSfont 29}{section.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.6}Spectral Transmission}{\reset@font\mtcSfont 30}{section.3.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.7}Further Measurement Methods}{\reset@font\mtcSfont 31}{section.3.7}}

@@ -518,7 +518,7 @@
       \field{abstract}{Gallium oxide films were grown by HVPE on (0001) sapphire substrates with and without {$\alpha$}-Cr2O3 buffer produced by RF magnetron sputtering. Deposition on bare sapphire substrates resulted in a mixture of {$\alpha$}-Ga2O3 and {$\varepsilon$}-Ga2O3 phases with a dislocation density of about 2{$\bullet$}1010 cm-2. The insertion of {$\alpha$}-Cr2O3 buffer layers resulted in phase-pure {$\alpha$}-Ga2O3 films and a fourfold reduction of the dislocation density to 5{$\bullet$}109 cm-2.}
       \field{journaltitle}{Materials Physics and Mechanics}
       \field{langid}{english}
-      \field{title}{HVPE growth of corundum-structured {$\alpha$}-Ga2O3 on sapphire substrates with {$\alpha$}-Cr2O3 buffer layer}
+      \field{title}{HVPE growth of corundum-structured {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} on sapphire substrates with {$\alpha$}-Cr{\textsubscript{2}}O{\textsubscript{3}} buffer layer}
       \field{volume}{47}
       \field{year}{2021}
       \field{dateera}{ce}
@@ -747,7 +747,7 @@
       \verb{file}
       \verb C:\Users\acdcj\Zotero\storage\YCP2PKPZ\Al-Kuhaili and Durrani - 2007 - Optical properties of chromium oxide thin films de.pdf
       \endverb
-      \keyw{incorporated,minor,read}
+      \keyw{incorporated,minor,read,tauc}
     \endentry
     \entry{lebreau2014}{article}{}{}
       \name{author}{4}{}{%
@@ -882,38 +882,6 @@
       \endverb
       \keyw{important,incorporated,read}
     \endentry
-    \entry{wyckoff1963}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=c8676612de9da998f1114556e399315b}{%
-           family={Wyckoff},
-           familyi={W\bibinitperiod},
-           given={R.\bibnamedelimi W.\bibnamedelimi G.},
-           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, London, Sydney}%
-      }
-      \list{publisher}{1}{%
-        {Interscience Publishers}%
-      }
-      \strng{namehash}{c8676612de9da998f1114556e399315b}
-      \strng{fullhash}{c8676612de9da998f1114556e399315b}
-      \strng{fullhashraw}{c8676612de9da998f1114556e399315b}
-      \strng{bibnamehash}{c8676612de9da998f1114556e399315b}
-      \strng{authorbibnamehash}{c8676612de9da998f1114556e399315b}
-      \strng{authornamehash}{c8676612de9da998f1114556e399315b}
-      \strng{authorfullhash}{c8676612de9da998f1114556e399315b}
-      \strng{authorfullhashraw}{c8676612de9da998f1114556e399315b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{pagetotal}{467}
-      \field{title}{Crystal structures}
-      \field{year}{1963}
-      \field{dateera}{ce}
-      \keyw{grinded}
-    \endentry
     \entry{shackelford2000}{book}{}{}
       \name{editor}{2}{}{%
         {{hash=99c6c5b1d69677dbe43f71c393323e00}{%
@@ -938,8 +906,8 @@
       \strng{editornamehash}{9dcb53d9dbc3af42a8a57f9e7e42debe}
       \strng{editorfullhash}{9dcb53d9dbc3af42a8a57f9e7e42debe}
       \strng{editorfullhashraw}{9dcb53d9dbc3af42a8a57f9e7e42debe}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{edition}{0}
@@ -986,8 +954,8 @@
       \strng{authornamehash}{7ca5fe5dfda5055abcb105a1a04de6bf}
       \strng{authorfullhash}{c32c3f82c28129183ff8d316b52a21a5}
       \strng{authorfullhashraw}{c32c3f82c28129183ff8d316b52a21a5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ultrathin TiO2 amorphous films are deposited on ultraviolet grade fused silica substrates and CaF2 by using rf reactive unbalanced magnetron sputtering from a Ti metal target in atmosphere of Ar and O2. For an O2/Ar flow rate ratio of more than 1.5, the deposited TiO2 thin films are stoichiometric. TiO2 thin films that meet the optical requirements of a high transmittance attenuated phase-shifting mask (HTAPSM) at 157 and 193 nm wavelengths can also be properly inspected since the transmittance at 257 nm wavelength is less than 28\%. The simulated thickness range of such a TiO2 thin film is found to be between 16 and 20 nm. A TiO2 amorphous thin film with thickness of 23.5 nm, transmittance of 24.9\% and reflectance of 15.0\% at wavelength of 193 nm, transmittance of 16.3\% at 157 nm wavelength and transmittance of 23.0\% at 257 nm wavelength is shown to be able to serve as an absorber layer for HTAPSM blanks at 157 and 193 nm wavelength.}
@@ -1034,8 +1002,8 @@
       \strng{authornamehash}{c82690f1fcb5f115463bc6fb19bf2070}
       \strng{authorfullhash}{b229dbbc6ab153db87930c933e0b98e7}
       \strng{authorfullhashraw}{b229dbbc6ab153db87930c933e0b98e7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{02578972}
@@ -1154,6 +1122,48 @@
       \verb C:\Users\acdcj\Zotero\storage\DVFTVTU6\Guillén and Herrero - 2021 - Structural Changes Induced by Heating in Sputtered.pdf
       \endverb
       \keyw{incorporated,minor}
+    \endentry
+    \entry{momma2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=260d1646c5753a3f191964271ea119f4}{%
+           family={Momma},
+           familyi={M\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5060be891f687b585a679fd259c120e7}{%
+           family={Izumi},
+           familyi={I\bibinitperiod},
+           given={Fujio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{fullhash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{fullhashraw}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{bibnamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorbibnamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authornamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorfullhash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorfullhashraw}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{VESTA is a three-dimensional visualization system for crystallographic studies and electronic state calculations. It has been upgraded to the latest version, VESTA\>3 , implementing new features including drawing the external morphology of crystals; superimposing multiple structural models, volumetric data and crystal faces; calculation of electron and nuclear densities from structure parameters; calculation of Patterson functions from structure parameters or volumetric data; integration of electron and nuclear densities by Voronoi tessellation; visualization of isosurfaces with multiple levels; determination of the best plane for selected atoms; an extended bond-search algorithm to enable more sophisticated searches in complex molecules and cage-like structures; undo and redo in graphical user interface operations; and significant performance improvements in rendering isosurfaces and calculating slices.}
+      \field{day}{1}
+      \field{issn}{0021-8898}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shortjournal}{J Appl Crystallogr}
+      \field{title}{\emph{VESTA 3} for three-dimensional visualization of crystal, volumetric and morphology data}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1272\bibrangedash 1276}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1107/S0021889811038970
+      \endverb
     \endentry
     \entry{catti1996}{article}{}{}
       \name{author}{4}{}{%
@@ -1465,6 +1475,38 @@
       \verb 10.1063/1.1840945
       \endverb
       \keyw{incorporated,minor}
+    \endentry
+    \entry{wyckoff1963}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c8676612de9da998f1114556e399315b}{%
+           family={Wyckoff},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi W.\bibnamedelimi G.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, London, Sydney}%
+      }
+      \list{publisher}{1}{%
+        {Interscience Publishers}%
+      }
+      \strng{namehash}{c8676612de9da998f1114556e399315b}
+      \strng{fullhash}{c8676612de9da998f1114556e399315b}
+      \strng{fullhashraw}{c8676612de9da998f1114556e399315b}
+      \strng{bibnamehash}{c8676612de9da998f1114556e399315b}
+      \strng{authorbibnamehash}{c8676612de9da998f1114556e399315b}
+      \strng{authornamehash}{c8676612de9da998f1114556e399315b}
+      \strng{authorfullhash}{c8676612de9da998f1114556e399315b}
+      \strng{authorfullhashraw}{c8676612de9da998f1114556e399315b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{467}
+      \field{title}{Crystal structures}
+      \field{year}{1963}
+      \field{dateera}{ce}
+      \keyw{grinded}
     \endentry
     \entry{cheng2000}{article}{}{}
       \name{author}{3}{}{%
@@ -1788,7 +1830,7 @@
       \field{langid}{english}
       \field{month}{6}
       \field{number}{21}
-      \field{title}{Electrical properties of {$\alpha$}-Ga2O3 films grown by halide vapor phase epitaxy on sapphire with {$\alpha$}-Cr2O3 buffers}
+      \field{title}{Electrical properties of {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} films grown by halide vapor phase epitaxy on sapphire with {$\alpha$}-Cr{\textsubscript{2}}O{\textsubscript{3}}buffers}
       \field{volume}{131}
       \field{year}{2022}
       \field{dateera}{ce}
@@ -2063,8 +2105,8 @@
       \strng{authornamehash}{06deb8c32cfc228b604d082bb68a6068}
       \strng{authorfullhash}{71d7b8aa5dd81a33e23dceaede69828e}
       \strng{authorfullhashraw}{71d7b8aa5dd81a33e23dceaede69828e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{doing}
@@ -2156,8 +2198,8 @@
       \strng{authorfullhash}{bde9e1116a425ab5f831242ee2700faa}
       \strng{authorfullhashraw}{bde9e1116a425ab5f831242ee2700faa}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{annotation}{doing}
@@ -2238,90 +2280,10 @@
       \verb{doi}
       \verb 10.1016/j.tsf.2006.08.010
       \endverb
-      \keyw{incorporated,minor}
-    \endentry
-    \entry{cheng2001a}{article}{}{}
-      \name{author}{9}{}{%
-        {{hash=aecb24dcca500e0c177858b8c6b720df}{%
-           family={Cheng},
-           familyi={C\bibinitperiod},
-           given={Ruihua},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9de9518d9dc6d0b890a7f960e94ea3ad}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=f6a2fff954f825e030b04796b104dd5f}{%
-           family={Borca},
-           familyi={B\bibinitperiod},
-           given={C.\bibnamedelimi N.},
-           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=6e7dc9ff9b67822751fccd5c67b19995}{%
-           family={Sokolov},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4c314198b2353d4d67329144b9a78e83}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={C.\bibnamedelimi -S.},
-           giveni={C\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=31d99c1c5c1db9f89aea7fd5b2dc90cc}{%
-           family={Yuan},
-           familyi={Y\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=3efac9cee52b79ad357184dd4f1bb9ff}{%
-           family={Liou},
-           familyi={L\bibinitperiod},
-           given={S.\bibnamedelimi -H.},
-           giveni={S\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=410b008fe7d529f647a2cc7e5810a13f}{%
-           family={Doudin},
-           familyi={D\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=8c7fc83240ce2a9e5c1758f6b5a8a188}{%
-           family={Dowben},
-           familyi={D\bibinitperiod},
-           given={P.\bibnamedelimi A.},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{e8bc0d047a93bdfe8354d3f38f511b5b}
-      \strng{fullhash}{509c31b3b43b5dee35cb224b4488f4e5}
-      \strng{fullhashraw}{509c31b3b43b5dee35cb224b4488f4e5}
-      \strng{bibnamehash}{e8bc0d047a93bdfe8354d3f38f511b5b}
-      \strng{authorbibnamehash}{e8bc0d047a93bdfe8354d3f38f511b5b}
-      \strng{authornamehash}{e8bc0d047a93bdfe8354d3f38f511b5b}
-      \strng{authorfullhash}{509c31b3b43b5dee35cb224b4488f4e5}
-      \strng{authorfullhashraw}{509c31b3b43b5dee35cb224b4488f4e5}
-      \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Using photoemission and inverse photoemission, we have been able to characterize the Cr2O3 oxide surface of CrO2 thin films. The Cr2O3 surface oxide exhibits a band gap of about 3 eV, although the bulk CrO2 is conducting. The thickness of this insulating Cr2O3 layer is twice the photoelectron escape depth which is about 2 nm thick. The effective Cr2O3 surface layer Debye temperature, describing motion normal to the surface, is about 370 K. From a comparison of CrO2 films grown by different techniques, with different Cr2O3 content, evidence is provided that the CrO2 may polarize the Cr2O3.}
-      \field{annotation}{read}
-      \field{day}{5}
-      \field{issn}{0003-6951, 1077-3118}
-      \field{journaltitle}{Applied Physics Letters}
-      \field{langid}{english}
-      \field{month}{11}
-      \field{number}{19}
-      \field{title}{Characterization of the native Cr{\textsubscript{2}}O{\textsubscript{3}} oxide surface of CrO{\textsubscript{2}}}
-      \field{volume}{79}
-      \field{year}{2001}
-      \field{dateera}{ce}
-      \field{pages}{3122\bibrangedash 3124}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1063/1.1416474
-      \endverb
       \verb{file}
-      \verb C:\Users\acdcj\Zotero\storage\GU2UWHYL\Cheng et al. - 2001 - Characterization of the native Cr2O3 oxide surface.pdf
+      \verb C:\Users\acdcj\Zotero\storage\RC45CN72\Tabbal et al_2006_Pulsed laser deposition of nanostructured dichromium trioxide thin films.pdf
       \endverb
-      \keyw{incorporated,read}
+      \keyw{incorporated,minor}
     \endentry
     \entry{kofstad1980}{article}{}{}
       \name{author}{2}{}{%
@@ -2344,8 +2306,8 @@
       \strng{authornamehash}{0cd9ae0ca6d37db06813da3914a08052}
       \strng{authorfullhash}{0cd9ae0ca6d37db06813da3914a08052}
       \strng{authorfullhashraw}{0cd9ae0ca6d37db06813da3914a08052}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{annotation}{read}
@@ -2386,8 +2348,8 @@
       \strng{authornamehash}{993288e8e0518224a929a937b82acb15}
       \strng{authorfullhash}{993288e8e0518224a929a937b82acb15}
       \strng{authorfullhashraw}{993288e8e0518224a929a937b82acb15}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -2438,8 +2400,8 @@
       \strng{authornamehash}{f7c9596608da813d0167b6a2bd86916d}
       \strng{authorfullhash}{fb6124bc346338f1578ee805a804ba29}
       \strng{authorfullhashraw}{fb6124bc346338f1578ee805a804ba29}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Samples of polycrystalline chromium oxide doped with Li 2 O, MgO, NiO, and Ta 2 O 5 were prepared by hot-pressing to test for suitability as current collector materials of the sulfur electrode in the sodium-sulfur cell. Density, grain size, dopant uniformity, and resistivity (to 350{$^\circ$}C) were measured. X-ray photoelectron spectroscopy (XPS) tends to support the established model of Ni 2+ on Cr 3+ sites to explain the compositional dependence of electrical resistivity after air anneal. A higher level of Cr 2 O 3 powder purity was required to obtain the low resistivities with the Li 2 O dopant than with the MgO or NiO dopant. An observed increase in the bulk resistivity during several months of electrochemical cycling in sodium polysulfidelsulfur melts is attributed to loss of electronic carriers caused by equilibration of those carriers with the low oxygen partial pressure of the melt. Li 2 O- and (to a lesser extent) MgO-doped Cr 2 O 3 appear to be suitable as container coating materials.}
@@ -2481,8 +2443,8 @@
       \strng{authornamehash}{dd2d330d1d2a3def9093697816a351f2}
       \strng{authorfullhash}{dd2d330d1d2a3def9093697816a351f2}
       \strng{authorfullhashraw}{dd2d330d1d2a3def9093697816a351f2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01672738}
@@ -2581,8 +2543,8 @@
       \strng{authornamehash}{17e72c783c7a885c6cddb3a05b07256d}
       \strng{authorfullhash}{7bc98e4e9850ec8c13c6d8a31752c84d}
       \strng{authorfullhashraw}{7bc98e4e9850ec8c13c6d8a31752c84d}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -2642,8 +2604,8 @@
       \strng{authornamehash}{382bbfa777699ddc401cf54db16c851a}
       \strng{authorfullhash}{2fd474a0282396bc68135cdbca653ff5}
       \strng{authorfullhashraw}{2fd474a0282396bc68135cdbca653ff5}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Phase-pure {$\alpha$}-Ga2O3 thin films with high surface quality and crystallinity have been grown on m-plane sapphire using pulsed laser deposition (PLD). Therefore, the influence of growth temperature, oxygen background pressure, and film thickness on the structural properties is investigated to determine the growth window for phase-pure corundum structured {$\alpha$}-Ga2O3. Samples were analyzed using x-ray diffraction (XRD), atomic force microscopy (AFM), and spectroscopic ellipsometry measurements. A distinct growth window in favor of phase-pure (10.0)-oriented {$\alpha$}-Ga2O3 for growth temperatures above 480 {$\bigcirc$}C and low oxygen partial pressures p(O2) of 3 \texttimes{} 10-4 mbar is identified. The growth rate increases significantly with increasing oxygen pressure. Furthermore, it shows an Arrhenius-like decrease for lower temperatures, caused by the increasing desorption of volatile Ga2O suboxides. It was found that for thicker layers, the growth of monoclinic {$\beta$}-Ga2O3 is promoted likely facilitated by the c-facets of the {$\alpha$}-Ga2O3 grains. This leads to a (010)-oriented island growth corroborated by stripe-like features in AFM scans and a corresponding in-plane orientation confirmed by XRD {$\phi$}-scans. For oxygen partial pressures above 3 \texttimes{} 10-4 mbar and Tg {$<$} 540 {$\bigcirc$}C, the formation of mixed (10.0) {$\alpha$}-Ga2O3 and spinel-defective (110)-{$\gamma$}-Ga2O3 manifesting as defective inclusions was observed independent of the layer thickness d. A corresponding p(O2) - d - T phase diagram for the growth of Ga2O3 on m-plane sapphire by PLD is provided.}
@@ -2700,8 +2662,8 @@
       \strng{authorfullhash}{ef4ba6c48af56daed2ab29f725191c09}
       \strng{authorfullhashraw}{ef4ba6c48af56daed2ab29f725191c09}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Recent progress in {$\alpha$} -phase gallium oxide ( {$\alpha$} -Ga 2 O 3 ) grown on sapphire for low-cost and practical device applications is reviewed. This review focuses on (i) dislocations formed by heteroepitaxy, (ii) p-type conductivity (a common issue with {$\beta$} -Ga 2 O 3 ), and (iii) thermal instability due to the metastable phase of {$\alpha$} -Ga 2 O 3 , and discusses efforts aimed at overcoming these issues. The results reveal guidelines for the dislocation density ({$<$}1 \texttimes{} 10 8 cm -2 ) so that the dislocation scattering is veiled in the electron transport, and for this purpose we mentioned buffer layers and epitaxial lateral overgrowth. Quasi-vertical Schottky barrier diodes (SBDs) show defect-insensitive behavior in current--voltage characteristics under a low current density. We also demonstrate the heterojunction pn diodes with {$\alpha$} -phase iridium oxide ( {$\alpha$} -Ir 2 O 3 ) or {$\alpha$} -(Ir,Ga) 2 O 3 and the ways to improve thermal stability of {$\alpha$} -Ga 2 O 3 . The up-to-date device characteristics, that is, low on-resistance and large current SBDs, and high reverse voltage of 1400 V of a pn junction suggest promising development in {$\alpha$} -Ga 2 O 3 -based devices.}
@@ -2770,8 +2732,8 @@
       \strng{authornamehash}{20140040f416e3e852cff8d677ddc83b}
       \strng{authorfullhash}{739aae66afcb5baa194402ca7848023f}
       \strng{authorfullhashraw}{739aae66afcb5baa194402ca7848023f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Gallium oxide (Ga2O3) is emerging as a viable candidate for certain classes of power electronics, solar blind UV photodetectors, solar cells, and sensors with capabilities beyond existing technologies due to its large bandgap. It is usually reported that there are five different polymorphs of Ga2O3, namely, the monoclinic ({$\beta$}-Ga2O3), rhombohedral ({$\alpha$}), defective spinel ({$\gamma$}), cubic ({$\delta$}), or orthorhombic ({$\varepsilon$}) structures. Of these, the {$\beta$}-polymorph is the stable form under normal conditions and has been the most widely studied and utilized. Since melt growth techniques can be used to grow bulk crystals of {$\beta$}-GaO3, the cost of producing larger area, uniform substrates is potentially lower compared to the vapor growth techniques used to manufacture bulk crystals of GaN and SiC. The performance of technologically important high voltage rectifiers and enhancement-mode Metal-Oxide Field Effect Transistors benefit from the larger critical electric field of {$\beta$}-Ga2O3 relative to either SiC or GaN. However, the absence of clear demonstrations of p-type doping in Ga2O3, which may be a fundamental issue resulting from the band structure, makes it very difficult to simultaneously achieve low turn-on voltages and ultra-high breakdown. The purpose of this review is to summarize recent advances in the growth, processing, and device performance of the most widely studied polymorph, {$\beta$}-Ga2O3. The role of defects and impurities on the transport and optical properties of bulk, epitaxial, and nanostructures material, the difficulty in p-type doping, and the development of processing techniques like etching, contact formation, dielectrics for gate formation, and passivation are discussed. Areas where continued development is needed to fully exploit the properties of Ga2O3 are identified.}
@@ -2831,8 +2793,8 @@
       \strng{authornamehash}{e3126a639bf4f8a8c24daf6a7e8be010}
       \strng{authorfullhash}{c12da78f1066aa68ecb2db216227e388}
       \strng{authorfullhashraw}{c12da78f1066aa68ecb2db216227e388}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The demand for high-efficient and robust power semiconductors in harsh environments such as high temperature and high voltage has been enlarged with the fast development of the industry. Gallium oxide \-(Ga2O3) with a larger bandgap energy of 4.8--5.3 eV than Si, SiC, and GaN is a promising material suitable for next-generation power devices. Among the G\- a2O3's phases, corundum structured {$\alpha$}-Ga2O3 has attracted much attention, benefiting from the epitaxial growth on cheap sapphire substrate and the existence of p-type materials with the same crystal structure. This paper comprehensively reviews the progress on the epitaxial growth of {$\alpha$}-Ga2O3 thin films and the fabrication of {$\alpha$}-Ga2O3-based electronic and optoelectronic devices. First, state-of-the-art technologies for improving the crystal quality of {$\alpha$}-Ga2O3 depending on growth methods are presented. Secondly, the current research level of growth of n-type doped {$\alpha$}-Ga2O3 is comprehended. Finally, the recent progress of electronic and optoelectronic devices, including Schottky diodes, field-effect transistors, and solar-blind photodetectors, is summarized.}
@@ -2889,8 +2851,8 @@
       \strng{authorfullhash}{56cf25bb5d6960565f39ad785ff86c98}
       \strng{authorfullhashraw}{56cf25bb5d6960565f39ad785ff86c98}
       \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Corundum-structured {$\alpha$}-Ga 2 O 3 epitaxial thin films were grown on c -plane {$\alpha$}-Al 2 O 3 (sapphire) substrates by a mist chemical vapor deposition method. To reveal the defect structures, the {$\alpha$}-Ga 2 O 3 film was observed by high-resolution transmission electron microscopy (TEM). We found that the {$\alpha$}-Ga 2 O 3 thin film was in-plane compressive stressed from the {$\alpha$}-Al 2 O 3 substrate. Although misfit dislocations were periodically generated at the {$\alpha$}-Ga 2 O 3 /{$\alpha$}-Al 2 O 3 interface owing to the large lattice mismatches between {$\alpha$}-Ga 2 O 3 and {$\alpha$}-Al 2 O 3 , 3.54\% ( c -axis) and 4.81\% ( a -axis), most of the misfit dislocations did not thread through the layer. An extra-half plane was \{\=2110\} consisting only of Ga. Screw dislocations were not confirmed, i.e., the density was under 10 7 cm -2 . The threading dislocation density was 7 \texttimes 10 10 cm -2 .}
@@ -2967,8 +2929,8 @@
       \strng{authorfullhash}{9c0205ba0d96e98d7435d87aa025fce7}
       \strng{authorfullhashraw}{9c0205ba0d96e98d7435d87aa025fce7}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structural and electrical properties of undoped and doped {$\alpha$} -Ga 2 O 3 thin films grown by pulsed laser deposition on m -plane sapphire in a two-step process are presented. A buffer layer of undoped {$\alpha$} -Ga 2 O 3 is introduced below the electrically active thin film to improve the crystal quality and enable the stabilization of the {$\alpha$} -phase at lower substrate temperatures for sufficient dopant incorporation. Donor doping of the active layers with tin, germanium, and silicon, respectively, is realized below a critical substrate temperature of 600\,{$^\circ$}C. Depth-resolved X-ray photoelectron spectroscopy measurements on tin-doped samples reveal a lower amount of tin in the bulk thin film compared to the surface and a lower tin incorporation for higher substrate temperatures, indicating desorption or float-up processes that determine the dopant incorporation. Electron mobilities as high as 17\,cm 2 \,V -1 \,s -1 (at ) and 37\,cm 2 \,V -1 \,s -1 (at ) are achieved for tin- and germanium doping, respectively. Further, a narrow window of suitable annealing temperature from 680 to 700\,K for obtaining ohmic Ti/Al/Au layer stacks is identified. For higher annealing temperatures, a deterioration of the electrical properties of the thin films is observed suggesting the need for developing low temperature contacting procedures for {$\alpha$} -Ga 2 O 3 -based devices.}
@@ -3023,8 +2985,8 @@
       \strng{authorfullhash}{d29385626f0a35334a846ddda27aa50d}
       \strng{authorfullhashraw}{d29385626f0a35334a846ddda27aa50d}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Efforts have been made to reduce the density of defects in corundum-structured {$\alpha$}-Ga 2 O 3 thin films on sapphire substrates by applying quasi-graded {$\alpha$}-(Al x Ga 1- x ) 2 O 3 buffer layers. Transmission electron microscopy images revealed that most strains were located in the {$\alpha$}-(Al x Ga 1- x ) 2 O 3 buffer layers, and that the total density of dislocations in the {$\alpha$}-Ga 2 O 3 thin films was successfully decreased by more than one order of magnitude compared with that without buffer layers, that is, the screw and edge dislocation densities were about 3 \texttimes{} 10 8 and 6 \texttimes{} 10 8 cm -2 , respectively.}
@@ -3189,6 +3151,7 @@
       \strng{authornamehash}{55abe4b67fe2695a3e5d30b9722307ea}
       \strng{authorfullhash}{ca1faded3c469f3620a1621d0736c5cc}
       \strng{authorfullhashraw}{ca1faded3c469f3620a1621d0736c5cc}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -3200,7 +3163,7 @@
       \field{month}{2}
       \field{number}{3}
       \field{shortjournal}{Physica Status Solidi (a)}
-      \field{title}{Electrical properties of sn-doped {$\alpha$}-ga{\textsubscript{2}}o{\textsubscript{3}} films on {\emph{m}}-plane sapphire substrates grown by mist chemical vapor deposition}
+      \field{title}{Electrical properties of Sn-doped {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} films on {\emph{m}}-plane sapphire substrates grown by mist chemical vapor deposition}
       \field{volume}{217}
       \field{year}{2020}
       \field{dateera}{ce}
@@ -4120,7 +4083,7 @@
     \endentry
     \entry{pauw1958}{article}{}{}
       \name{author}{1}{}{%
-        {{useprefix=false,hash=8c0321533be59af7ad2971df5cfff09f}{%
+        {{useprefix=true,hash=8c0321533be59af7ad2971df5cfff09f}{%
            family={Pauw},
            familyi={P\bibinitperiod},
            given={L.\bibnamedelimi J.},
@@ -4187,6 +4150,893 @@
       \verb{file}
       \verb C:\Users\acdcj\Zotero\storage\IRM54LCA\藤原裕之. - 2003 - 分光エリプソメトリー.pdf
       \endverb
+    \endentry
+    \entry{manifacier1977}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a75cf53666bc127ff1c40ecd511e8b98}{%
+           family={Manifacier},
+           familyi={M\bibinitperiod},
+           given={J.C.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=914dd217e93eab7243dbf952d960bb54}{%
+           family={De\bibnamedelima Murcia},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d730461e817d4a5767efce12d939d3c}{%
+           family={Fillard},
+           familyi={F\bibinitperiod},
+           given={J.P.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d65dc08d90c57af783f236906d6a633}{%
+           family={Vicario},
+           familyi={V\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6dc60f0b0b5daa319608fe0da9b95903}
+      \strng{fullhash}{8a8cfc2400bb9edfc21221fb2c3080a1}
+      \strng{fullhashraw}{8a8cfc2400bb9edfc21221fb2c3080a1}
+      \strng{bibnamehash}{6dc60f0b0b5daa319608fe0da9b95903}
+      \strng{authorbibnamehash}{6dc60f0b0b5daa319608fe0da9b95903}
+      \strng{authornamehash}{6dc60f0b0b5daa319608fe0da9b95903}
+      \strng{authorfullhash}{8a8cfc2400bb9edfc21221fb2c3080a1}
+      \strng{authorfullhashraw}{8a8cfc2400bb9edfc21221fb2c3080a1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00406090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{Thin Solid Films}
+      \field{title}{Optical and electrical properties of SnO2 thin films in relation to their stoichiometric deviation and their crystalline structure}
+      \field{volume}{41}
+      \field{year}{1977}
+      \field{dateera}{ce}
+      \field{pages}{127\bibrangedash 135}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/0040-6090(77)90395-9
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\YCY8D9R2\Manifacier et al. - 1977 - Optical and electrical properties of SnO2 thin fil.pdf
+      \endverb
+    \endentry
+    \entry{zanatta2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f3a96e282e9c5162e47b06756931121}{%
+           family={Zanatta},
+           familyi={Z\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f3a96e282e9c5162e47b06756931121}
+      \strng{fullhash}{6f3a96e282e9c5162e47b06756931121}
+      \strng{fullhashraw}{6f3a96e282e9c5162e47b06756931121}
+      \strng{bibnamehash}{6f3a96e282e9c5162e47b06756931121}
+      \strng{authorbibnamehash}{6f3a96e282e9c5162e47b06756931121}
+      \strng{authornamehash}{6f3a96e282e9c5162e47b06756931121}
+      \strng{authorfullhash}{6f3a96e282e9c5162e47b06756931121}
+      \strng{authorfullhashraw}{6f3a96e282e9c5162e47b06756931121}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Along the last two centuries, the story of semiconductor materials ranged from a mix of disbelief and frustration to one of the most successful technological achievements ever seen. Such a progress comprised the development of materials and models that, allied to the knowledge provided by spectroscopic techniques, resulted in the (nowadays) omnipresent electronic gadgets. Within this context, optically-based methods were of special importance since, amongst others, they presented details about the electronic states and energy bandgap E gap of semiconductors which, ultimately, decided about their application in devices. Stimulated by these aspects, this work investigated the semiconductors silicon, germanium, and gallium-arsenide in the crystalline (bulk and powder) and amorphous (film) forms. The detailed analysis of the experimental results indicates that accurate E gap values can be obtained by fitting a sigmoid (Boltzmann) function to their corresponding optical absorption spectra. The method is straightforward and, contrary to the traditional approaches to determine E gap , it is exempt from errors due to experimental spectra acquisition and data processing. Additionally, it complies with the requirements of direct, indirect, and amorphous bandgap semiconductors, and it is able to probe the (dis)order of the material as well. In view of these characteristics, a new-unified methodology based on the fitting of the absorption spectrum with a Boltzmann function is being proposed to efficiently determine the optical bandgap of semiconductor materials.}
+      \field{day}{2}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shortjournal}{Sci Rep}
+      \field{title}{Revisiting the optical bandgap of semiconductors and the proposal of a unified methodology to its determination}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{11225}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-019-47670-y
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\R7RHG79V\Zanatta_2019_Revisiting the optical bandgap of semiconductors and the proposal of a unified.pdf
+      \endverb
+    \endentry
+    \entry{tauc2005}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d0d3faa2f23716e5854aa34bb0c9b8c}{%
+           family={Tauc},
+           familyi={T\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{fullhash}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{fullhashraw}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{bibnamehash}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{authorbibnamehash}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{authornamehash}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{authorfullhash}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \strng{authorfullhashraw}{6d0d3faa2f23716e5854aa34bb0c9b8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Fundamentals of Semiconductors}
+      \field{edition}{3}
+      \field{isbn}{3-540-41323-5}
+      \field{title}{Optical properties of amorphous semiconductors and solar cells}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\6MTMYBYZ\Tauc_2005_Optical properties of amorphous semiconductors and solar cells.pdf
+      \endverb
+    \endentry
+    \entry{dolgonos2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4e0e0fd229837d693c829dae724455f3}{%
+           family={Dolgonos},
+           familyi={D\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=db8ab3cd2cfbbbaf1bb124a2e17150cf}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=a64ff3d600cf71bf028cfa6038dbf3e2}{%
+           family={Poeppelmeier},
+           familyi={P\bibinitperiod},
+           given={Kenneth\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cdd1565a2804826e8be227d1be1a5c1}
+      \strng{fullhash}{4fcc2a404da9e5d8a73b0cca9b867953}
+      \strng{fullhashraw}{4fcc2a404da9e5d8a73b0cca9b867953}
+      \strng{bibnamehash}{4fcc2a404da9e5d8a73b0cca9b867953}
+      \strng{authorbibnamehash}{4fcc2a404da9e5d8a73b0cca9b867953}
+      \strng{authornamehash}{5cdd1565a2804826e8be227d1be1a5c1}
+      \strng{authorfullhash}{4fcc2a404da9e5d8a73b0cca9b867953}
+      \strng{authorfullhashraw}{4fcc2a404da9e5d8a73b0cca9b867953}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00224596}
+      \field{journaltitle}{Journal of Solid State Chemistry}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shortjournal}{Journal of Solid State Chemistry}
+      \field{shorttitle}{Direct optical band gap measurement in polycrystalline semiconductors}
+      \field{title}{Direct optical band gap measurement in polycrystalline semiconductors: A critical look at the Tauc method}
+      \field{volume}{240}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{43\bibrangedash 48}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.jssc.2016.05.010
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\52Y2RE2V\Dolgonos et al_2016_Direct optical band gap measurement in polycrystalline semiconductors.pdf
+      \endverb
+      \keyw{grinded}
+    \endentry
+    \entry{hafez2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0b9a7c5c272d928047fc08246feec5bc}{%
+           family={Hafez},
+           familyi={H\bibinitperiod},
+           given={Mohamed\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=83c084c6a67ad5f2c1310ed15764ccb0}{%
+           family={Zayed},
+           familyi={Z\bibinitperiod},
+           given={Mohamed\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6fdb4bab189aa80d52c9f2e1a89d614f}{%
+           family={Elsayed-Ali},
+           familyi={E\bibinithyphendelim A\bibinitperiod},
+           given={Hani\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{68896844e5163c7611cda4fe03fb9ce7}
+      \strng{fullhash}{0643e494e2f70c3f363a81f9c254a459}
+      \strng{fullhashraw}{0643e494e2f70c3f363a81f9c254a459}
+      \strng{bibnamehash}{0643e494e2f70c3f363a81f9c254a459}
+      \strng{authorbibnamehash}{0643e494e2f70c3f363a81f9c254a459}
+      \strng{authornamehash}{68896844e5163c7611cda4fe03fb9ce7}
+      \strng{authorfullhash}{0643e494e2f70c3f363a81f9c254a459}
+      \strng{authorfullhashraw}{0643e494e2f70c3f363a81f9c254a459}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{09684328}
+      \field{journaltitle}{Micron}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shortjournal}{Micron}
+      \field{shorttitle}{Review}
+      \field{title}{Review: Geometric interpretation of reflection and transmission RHEED patterns}
+      \field{volume}{159}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{103286}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.micron.2022.103286
+      \endverb
+    \endentry
+    \entry{schroder2005}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=145427f88e52d43d151fdef04df46114}{%
+           family={Schroder},
+           familyi={S\bibinitperiod},
+           given={Dieter\bibnamedelima K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{145427f88e52d43d151fdef04df46114}
+      \strng{fullhash}{145427f88e52d43d151fdef04df46114}
+      \strng{fullhashraw}{145427f88e52d43d151fdef04df46114}
+      \strng{bibnamehash}{145427f88e52d43d151fdef04df46114}
+      \strng{authorbibnamehash}{145427f88e52d43d151fdef04df46114}
+      \strng{authornamehash}{145427f88e52d43d151fdef04df46114}
+      \strng{authorfullhash}{145427f88e52d43d151fdef04df46114}
+      \strng{authorfullhashraw}{145427f88e52d43d151fdef04df46114}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{edition}{1}
+      \field{isbn}{978-0-471-73906-7 978-0-471-74909-7}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Semiconductor Material and Device Characterization}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\Z6EIHN88\Schroder - 2005 - Semiconductor Material and Device Characterization.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0471749095
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0471749095
+      \endverb
+    \endentry
+    \entry{makushko2022}{article}{}{}
+      \name{author}{21}{}{%
+        {{hash=e89bfea0242fc861b58aff3838a08d3e}{%
+           family={Makushko},
+           familyi={M\bibinitperiod},
+           given={Pavlo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dd98566c923ff65b0954bd1a867de706}{%
+           family={Kosub},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=09efc433a1583d92ec77f8592bce5c88}{%
+           family={Pylypovskyi},
+           familyi={P\bibinitperiod},
+           given={Oleksandr\bibnamedelima V.},
+           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=4a0211b81bc50a0488d52c926a2d8fd5}{%
+           family={Hedrich},
+           familyi={H\bibinitperiod},
+           given={Natascha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7838d1fd402f86acdba8903425c487a1}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=77eb11187df10c3a184f35d31c138cdf}{%
+           family={Pashkin},
+           familyi={P\bibinitperiod},
+           given={Alexej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b45f63161fd8e4beb6a234112aa654db}{%
+           family={Avdoshenko},
+           familyi={A\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0c090a2154dfce00d01c647ef4cadab3}{%
+           family={Hübner},
+           familyi={H\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e55a1942d40704f207eafcaede0bd669}{%
+           family={Ganss},
+           familyi={G\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d15b43c04401e4e9ea0ec7e0e56ec06}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8218c222c1b302cbb258bc9d3a49a99b}{%
+           family={Lubk},
+           familyi={L\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=22eade27d35e936e5619dc3d5f6c93ec}{%
+           family={Liedke},
+           familyi={L\bibinitperiod},
+           given={Maciej\bibnamedelima Oskar},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=b2772abde878f9ca0a23936b48dc3b88}{%
+           family={Butterling},
+           familyi={B\bibinitperiod},
+           given={Maik},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8fd3a8379cbda9c60f92e446330e16fb}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c49118417e83393ab0163ac4a1887237}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=568f93fd49f6b56c212bf545801d2f2b}{%
+           family={Shields},
+           familyi={S\bibinitperiod},
+           given={Brendan\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=55c0c9ee0fd27597a08fd0b5ab73f2e5}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b2cde961f766026bed0eae7d6922906c}{%
+           family={Veremchuk},
+           familyi={V\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9d538c2f9a980a1d6569543258462331}{%
+           family={Fassbender},
+           familyi={F\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4712bf493a56304aa888bfab1f6d52f2}{%
+           family={Maletinsky},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=07824aa31cf9a7f715c26812379db5a8}{%
+           family={Makarov},
+           familyi={M\bibinitperiod},
+           given={Denys},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fa4b7d23792c305549ab1442a1b890c}
+      \strng{fullhash}{572b869e424c7c4ff6277463afdcc3e8}
+      \strng{fullhashraw}{572b869e424c7c4ff6277463afdcc3e8}
+      \strng{bibnamehash}{5fa4b7d23792c305549ab1442a1b890c}
+      \strng{authorbibnamehash}{5fa4b7d23792c305549ab1442a1b890c}
+      \strng{authornamehash}{5fa4b7d23792c305549ab1442a1b890c}
+      \strng{authorfullhash}{572b869e424c7c4ff6277463afdcc3e8}
+      \strng{authorfullhashraw}{572b869e424c7c4ff6277463afdcc3e8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Antiferromagnetic insulators are a prospective materials platform for magnonics, spin superfluidity, THz spintronics, and non-volatile data storage. A magnetomechanical coupling in antiferromagnets offers vast advantages in the control and manipulation of the primary order parameter yet remains largely unexplored. Here, we discover a new member in the family of flexoeffects in thin films of Cr 2 O 3 . We demonstrate that a gradient of mechanical strain can impact the magnetic phase transition resulting in the distribution of the Néel temperature along the thickness of a 50-nm-thick film. The inhomogeneous reduction of the antiferromagnetic order parameter induces a flexomagnetic coefficient of about 15\, {$\mu$} B \,nm -2 . The antiferromagnetic ordering in the inhomogeneously strained films can persist up to 100 {$^\circ$}C, rendering Cr 2 O 3 relevant for industrial electronics applications. Strain gradient in Cr 2 O 3 thin films enables fundamental research on magnetomechanics and thermodynamics of antiferromagnetic solitons, spin waves and artificial spin ice systems in magnetic materials with continuously graded parameters.}
+      \field{day}{8}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Nat Commun}
+      \field{title}{Flexomagnetism and vertically graded Néel temperature of antiferromagnetic Cr2O3 thin films}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{6745}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-022-34233-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\4QMXZP7B\Makushko et al. - 2022 - Flexomagnetism and vertically graded Néel temperat.pdf
+      \endverb
+      \keyw{todo}
+    \endentry
+    \entry{MaterialsProject}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=1a7df34f95bdb077e13b78311841ed67}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Anubhav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ec35ac10384a057f3608216b62bde711}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={Shyue\bibnamedelima Ping},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9492618befda84af2f30c9f7d944783a}{%
+           family={Hautier},
+           familyi={H\bibinitperiod},
+           given={Geoffroy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7a4053b9fa91834fbc95a799bd91dfd4}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima Davidson},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=646cdc10187b872c480b8f3aa1005258}{%
+           family={Dacek},
+           familyi={D\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2fe72fe0e3063bf47737d661d057bfbb}{%
+           family={Cholia},
+           familyi={C\bibinitperiod},
+           given={Shreyas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=33a335e9d1139fd3b19e94f7d27752bf}{%
+           family={Gunter},
+           familyi={G\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=11bf7d6db288ef4a60f0b89ec9a0421d}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1119594242bcd7037a1f252b0626e411}{%
+           family={Ceder},
+           familyi={C\bibinitperiod},
+           given={Gerbrand},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d823a736a8705c23b18ef2b370c1426b}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={Kristin\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8629080c79402ef687b0ad7f85bd02f}
+      \strng{fullhash}{702fd5245039e3ef0b1f5d54e8fd55f8}
+      \strng{fullhashraw}{702fd5245039e3ef0b1f5d54e8fd55f8}
+      \strng{bibnamehash}{d8629080c79402ef687b0ad7f85bd02f}
+      \strng{authorbibnamehash}{d8629080c79402ef687b0ad7f85bd02f}
+      \strng{authornamehash}{d8629080c79402ef687b0ad7f85bd02f}
+      \strng{authorfullhash}{702fd5245039e3ef0b1f5d54e8fd55f8}
+      \strng{authorfullhashraw}{702fd5245039e3ef0b1f5d54e8fd55f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Accelerating the discovery of advanced materials is essential for human welfare and sustainable, clean energy. In this paper, we introduce the Materials Project (www.materialsproject.org), a core program of the Materials Genome Initiative that uses high-throughput computing to uncover the properties of all known inorganic materials. This open dataset can be accessed through multiple channels for both interactive exploration and data mining. The Materials Project also seeks to create open-source platforms for developing robust, sophisticated materials analyses. Future efforts will enable users to perform ``rapid-prototyping'' of new materials in silico, and provide researchers with new avenues for cost-effective, data-driven materials design.}
+      \field{day}{1}
+      \field{issn}{2166-532X}
+      \field{journaltitle}{APL Materials}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{Commentary}
+      \field{title}{Commentary: The Materials Project: A materials genome approach to accelerating materials innovation}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{011002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4812323
+      \endverb
+    \endentry
+    \entry{cho2005}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=55941a381b564b0a9b0436f1c3b8172a}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={M\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=b465520402b27e3b97b4c8d84dee1855}{%
+           family={Setiawan},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f9eff5081270191b059377be0c4c59c8}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={H\bibnamedelima J},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f94f111f699ddb97a2de23ac124c62bf}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={S\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2063b855442f7b074b8a50bb655b31b0}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{b22116590b5f7ae0bc4543e504bc2747}
+      \strng{fullhash}{91e650e203b05fd263b103d7a1530e1f}
+      \strng{fullhashraw}{91e650e203b05fd263b103d7a1530e1f}
+      \strng{bibnamehash}{b22116590b5f7ae0bc4543e504bc2747}
+      \strng{authorbibnamehash}{b22116590b5f7ae0bc4543e504bc2747}
+      \strng{authornamehash}{b22116590b5f7ae0bc4543e504bc2747}
+      \strng{authorfullhash}{91e650e203b05fd263b103d7a1530e1f}
+      \strng{authorfullhashraw}{91e650e203b05fd263b103d7a1530e1f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ZnO films on c-sapphire with and without an MgO buffer were grown by plasma-assisted molecular beam epitaxy. ZnO with an MgO buffer was two dimensionally grown, while ZnO without an MgO buffer was grown three dimensionally, which was confirmed by in situ RHEED (reflection high energy electron diffraction) and AFM (atomic force microscopy) observations. Morphology evolution and growth mechanism of an MgO buffer were studied by in situ RHEED observations. Mosaicity (tilt and twist angle), type and density of dislocation were studied by both TEM (transmission electron microscopy) and HRXRD (high resolution x-ray diffraction). Based on in situ RHEED observations, MgO buffer growth involves three important steps including two-dimensional (2D) growth (wetting layer), 2D--3D growth transition and 3D growth. The mechanism of MgO buffer growth can be attributed to three inter-related effects. They are lowering surface energy through a wetting process, creating nucleation sites through a 2D--3D growth transition, and reducing the defect density by introducing dislocation interactions. It was found that the surface morphology and structural properties of the ZnO layers were improved by employing a thin MgO buffer layer grown at around 500 \textopenbullet C followed by high temperature annealing at 800 \textopenbullet C. By introducing an MgO buffer, the formation of 30\textopenbullet{} rotational domains in ZnO layers was suppressed, and screw and edge dislocation density of ZnO layers was reduced from 6.1 \texttimes{} 10 8 cm-2 to 8.1 \texttimes{} 105 cm-2 and from 1.3 \texttimes{} 1010 cm-2 to 1.1 \texttimes{} 1010 cm-2, respectively.}
+      \field{day}{1}
+      \field{issn}{0268-1242, 1361-6641}
+      \field{journaltitle}{Semiconductor Science and Technology}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{Semicond. Sci. Technol.}
+      \field{title}{ZnO epitaxial layers grown on c-sapphire substrate with MgO buffer by plasma-assisted molecular beam epitaxy (P-MBE)}
+      \field{volume}{20}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{S13\bibrangedash S21}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0268-1242/20/4/002
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\NYBT2TJG\Cho et al. - 2005 - ZnO epitaxial layers grown on c-sapphire substrate.pdf
+      \endverb
+      \keyw{grinded}
+    \endentry
+    \entry{durand2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=68cfd41d0d2aa64c4d3a14b2a7535f25}{%
+           family={Durand},
+           familyi={D\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=5d5b92d89841f94cd4e8ec83a23c9312}{%
+           family={Letoublon},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f98355e22479511abecc2785c961581}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={D.J.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ee1f2ff4e58024647bf7c934c037da8}{%
+           family={Hosseini\bibnamedelima Teherani},
+           familyi={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{8868bd2fee6c331618e73a1fa6686558}
+      \strng{fullhash}{387eb00ef9422301de8b3201ff939820}
+      \strng{fullhashraw}{387eb00ef9422301de8b3201ff939820}
+      \strng{bibnamehash}{8868bd2fee6c331618e73a1fa6686558}
+      \strng{authorbibnamehash}{8868bd2fee6c331618e73a1fa6686558}
+      \strng{authornamehash}{8868bd2fee6c331618e73a1fa6686558}
+      \strng{authorfullhash}{387eb00ef9422301de8b3201ff939820}
+      \strng{authorfullhashraw}{387eb00ef9422301de8b3201ff939820}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{X-ray scattering methods were applied to the study of thin mosaic ZnO layers deposited on c-Al2O3 substrates using Pulsed Laser Deposition. High Resolution (HR) studies revealed two components in the {$\omega$} scans (transverse scans) which were not resolved in conventional ``open-detector'' {$\omega$} rocking curves: a narrow, resolution-limited, peak, characteristic of long-range correlation, and a broad peak, attributed to defectrelated diffuse-scattering inducing a limited transverse structural correlation length. Thus, for such mosaic films, the conventional {$\omega$} rocking curve Full Width at Half Maximum linewidth was found to be ill-adapted as an overall figure-of-merit for the structural quality, in that the different contributions were not meaningfully represented. A ``Williamson-Hall like'' integral breadth (IB) metric for the HR (00.l) transverse-scans was thus developed as a reliable, fast, accurate and robust alternative to the rocking curve linewidth for routine nondestructive testing of such mosaic thin films. For a typical ZnO/c-Al2O3 film, the IB method gave a limited structural correlation length of 110 nm \textpm{} 9 nm. The results are coherent with a thin film containing misfit dislocations at the film-substrate interface.}
+      \field{issn}{00406090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{19}
+      \field{shortjournal}{Thin Solid Films}
+      \field{title}{Interpretation of the two-components observed in high resolution X-ray diffraction {$\omega$} scan peaks for mosaic ZnO thin films grown on c-sapphire substrates using pulsed laser deposition}
+      \field{volume}{519}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{6369\bibrangedash 6373}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.tsf.2011.04.036
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\KDQ5JVJW\Durand et al. - 2011 - Interpretation of the two-components observed in h.pdf
+      \endverb
+      \keyw{grinded}
+    \endentry
+    \entry{anisimov1996}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f212e7a3acb477980feb5e23e727f5f4}{%
+           family={Anisimov},
+           familyi={A\bibinitperiod},
+           given={S.I.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=51ee76bd02adf1e2ca841bedc0f83547}{%
+           family={Luk'yanchuk},
+           familyi={L\bibinitperiod},
+           given={B.S.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=644b29b43aca586c532c08ff8b82d8c2}{%
+           family={Luches},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{96c1e03c2b82c96ff2452a26d1b11a78}
+      \strng{fullhash}{7d39f17b3f9968f8f426b63d33454e9e}
+      \strng{fullhashraw}{7d39f17b3f9968f8f426b63d33454e9e}
+      \strng{bibnamehash}{7d39f17b3f9968f8f426b63d33454e9e}
+      \strng{authorbibnamehash}{7d39f17b3f9968f8f426b63d33454e9e}
+      \strng{authornamehash}{96c1e03c2b82c96ff2452a26d1b11a78}
+      \strng{authorfullhash}{7d39f17b3f9968f8f426b63d33454e9e}
+      \strng{authorfullhashraw}{7d39f17b3f9968f8f426b63d33454e9e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dynamic of a dense, laser-produced vapor plume is studied. The analysis is based on the special solution of gas dynamics equations that describes the expansion of an ellipsoidal gas cloud into vacuum. This solution is employed to explain the apparent `rotation' of the cloud - the so called `flip-over effect'. The flux of atoms onto the substrate and the film thickness profile are calculated using the model. The present model can be used for the interpretation of the time-of-flight spectra of atoms in laser ablation, and for the description of the shape of vapor cloud expanding into an ambient gas.}
+      \field{issn}{01694332}
+      \field{journaltitle}{Applied Surface Science}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Applied Surface Science}
+      \field{title}{An analytical model for three-dimensional laser plume expansion into vacuum in hydrodynamic regime}
+      \field{volume}{96--98}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{24\bibrangedash 32}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/0169-4332(95)00373-8
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\N8X22YBI\Anisimov et al. - 1996 - An analytical model for three-dimensional laser pl.pdf
+      \endverb
+    \endentry
+    \entry{hassa2021}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=1525a94b2757c9ba896bbc4073e86840}{%
+           family={Hassa},
+           familyi={H\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Leipzig University}%
+      }
+      \strng{namehash}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{fullhash}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{fullhashraw}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{bibnamehash}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{authorbibnamehash}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{authornamehash}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{authorfullhash}{1525a94b2757c9ba896bbc4073e86840}
+      \strng{authorfullhashraw}{1525a94b2757c9ba896bbc4073e86840}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Epitaxy and Physical Properties of Group-III Sesquioxide Alloys}
+      \field{type}{phdthesis}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\A8J3EXCW\diss_hassa_compressed.pdf
+      \endverb
+      \keyw{similar}
+    \endentry
+    \entry{jinno2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a42871b2ac863482716e115d684b842a}{%
+           family={Jinno},
+           familyi={J\bibinitperiod},
+           given={Riena},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2ed3190482b619fc11c72ce265806d47}{%
+           family={Kaneko},
+           familyi={K\bibinitperiod},
+           given={Kentaro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=220a0d818485a635badb20ead54fd92a}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Shizuo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{20a521627bcb8e885f89d6a400cbcfad}
+      \strng{fullhash}{2efb4a6d34d879132f1a2714fe8c4472}
+      \strng{fullhashraw}{2efb4a6d34d879132f1a2714fe8c4472}
+      \strng{bibnamehash}{2efb4a6d34d879132f1a2714fe8c4472}
+      \strng{authorbibnamehash}{2efb4a6d34d879132f1a2714fe8c4472}
+      \strng{authornamehash}{20a521627bcb8e885f89d6a400cbcfad}
+      \strng{authorfullhash}{2efb4a6d34d879132f1a2714fe8c4472}
+      \strng{authorfullhashraw}{2efb4a6d34d879132f1a2714fe8c4472}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The thermal stability of {$\alpha$}-Ga2O3 films grown on c-plane sapphire substrates was investigated. A strong correlation was found between thermal stability and film thickness: the more the {$\alpha$}-Ga2O3 films maintained the {$\alpha$}-phase upon heating at higher annealing temperature, the thinner they were. Transmission electron microscopy observations revealed that the phase transition of the {$\alpha$}-Ga2O3 film to the thermodynamically most stable {$\beta$}-phase had the orientation relationship of {$\beta$}-Ga2O3\hphantom{,}\=201 ||{} sapphire [0001]. High-temperature x-ray diffraction measurement for the {$\alpha$}-Ga2O3 film showed the relationship of {$\beta$}-Ga2O3\hphantom{,}\=401/[301] ||{} sapphire [0001] as well. The dependence of the stability boundary on the film thickness originates from a thermal stress caused by a larger thermal expansion coefficient of {$\alpha$}-Ga2O3 than that of sapphire. Relaxation of residual stress by introducing a selective area growth technique enhanced the thermal stability of {$\alpha$}-Ga2O3 so that {$\alpha$}-Ga2O3 maintained the corundum structure upon heating at 800\,{$^\circ$}C, although a small diffraction peak from {$\beta$}-Ga2O3 was detected by x-ray diffraction measurement. The enhanced thermal stability of {$\alpha$}-Ga2O3 widens device process windows as well as growth windows.}
+      \field{day}{1}
+      \field{issn}{2158-3226}
+      \field{journaltitle}{AIP Advances}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Thermal stability of {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} films grown on c-plane sapphire substrates via mist-CVD}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{115013}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0020464
+      \endverb
+      \verb{file}
+      \verb C:\Users\acdcj\Zotero\storage\UZCGML3N\Jinno et al. - 2020 - Thermal stability of α-Ga2O3 films grown on c-plan.pdf
+      \endverb
+      \keyw{grinded}
+    \endentry
+    \entry{shinohara2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c43c30fd6c5ed9417b8328d19b0e5164}{%
+           family={Shinohara},
+           familyi={S\bibinitperiod},
+           given={Daisuke},
+           giveni={D\bibinitperiod}}}%
+        {{hash=220a0d818485a635badb20ead54fd92a}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Shizuo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a73945aae269d4485da309855367ccde}
+      \strng{fullhash}{a73945aae269d4485da309855367ccde}
+      \strng{fullhashraw}{a73945aae269d4485da309855367ccde}
+      \strng{bibnamehash}{a73945aae269d4485da309855367ccde}
+      \strng{authorbibnamehash}{a73945aae269d4485da309855367ccde}
+      \strng{authornamehash}{a73945aae269d4485da309855367ccde}
+      \strng{authorfullhash}{a73945aae269d4485da309855367ccde}
+      \strng{authorfullhashraw}{a73945aae269d4485da309855367ccde}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0021-4922, 1347-4065}
+      \field{issue}{9R}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{month}{9}
+      \field{shortjournal}{jjap}
+      \field{title}{Heteroepitaxy of Corundum-Structured {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} Thin Films on {$\alpha$}-Al{\textsubscript{2}}O{\textsubscript{3}} Substrates by Ultrasonic Mist Chemical Vapor Deposition}
+      \field{volume}{47}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{7311}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1143/JJAP.47.7311
+      \endverb
+      \keyw{grinded}
+    \endentry
+    \entry{oshima2007}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=66aa8e6aeecce6ff313a69b683e55d64}{%
+           family={Oshima},
+           familyi={O\bibinitperiod},
+           given={Takayoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4cb315f7d2d2931bbb3fce6389ab1546}{%
+           family={Okuno},
+           familyi={O\bibinitperiod},
+           given={Takeya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=220a0d818485a635badb20ead54fd92a}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Shizuo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{40bb68618959da058d744c8400479d7e}
+      \strng{fullhash}{47a2ce9e0d078ab04a20260f593b0fba}
+      \strng{fullhashraw}{47a2ce9e0d078ab04a20260f593b0fba}
+      \strng{bibnamehash}{47a2ce9e0d078ab04a20260f593b0fba}
+      \strng{authorbibnamehash}{47a2ce9e0d078ab04a20260f593b0fba}
+      \strng{authornamehash}{40bb68618959da058d744c8400479d7e}
+      \strng{authorfullhash}{47a2ce9e0d078ab04a20260f593b0fba}
+      \strng{authorfullhashraw}{47a2ce9e0d078ab04a20260f593b0fba}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0021-4922, 1347-4065}
+      \field{issue}{11R}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{month}{11}
+      \field{shortjournal}{jjap}
+      \field{title}{Ga{\textsubscript{2}}O{\textsubscript{3}} Thin Film Growth on c-Plane Sapphire Substrates by Molecular Beam Epitaxy for Deep-Ultraviolet Photodetectors}
+      \field{volume}{46}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{7217}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1143/JJAP.46.7217
+      \endverb
+      \keyw{grinded}
+    \endentry
+    \entry{akaiwa2013}{online}{}{}
+      \name{author}{3}{}{%
+        {{hash=e7aa051d873533c438eef58cd93bea15}{%
+           family={Akaiwa},
+           familyi={A\bibinitperiod},
+           given={Kazuaki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=81bf361f3139a871fe0749d194462f6a}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Yoshito},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=220a0d818485a635badb20ead54fd92a}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Shizuo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{55abe4b67fe2695a3e5d30b9722307ea}
+      \strng{fullhash}{b4602ba05c6e8b4454130d7893681b35}
+      \strng{fullhashraw}{b4602ba05c6e8b4454130d7893681b35}
+      \strng{bibnamehash}{b4602ba05c6e8b4454130d7893681b35}
+      \strng{authorbibnamehash}{b4602ba05c6e8b4454130d7893681b35}
+      \strng{authornamehash}{55abe4b67fe2695a3e5d30b9722307ea}
+      \strng{authorfullhash}{b4602ba05c6e8b4454130d7893681b35}
+      \strng{authorfullhashraw}{b4602ba05c6e8b4454130d7893681b35}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{eprinttype}{The Japan Society of Applied Physics}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{0}
+      \field{pubstate}{prepublished}
+      \field{title}{Growth and Characterization of {$\alpha$}-Ga{\textsubscript{2}}O{\textsubscript{3}} Films on Sapphire Substrates with {$\alpha$}-(Al,Ga){\textsubscript{2}}O{\textsubscript{3}}Buffer Layer}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.11470/jsapmeeting.2013.2.0_466
+      \endverb
+      \keyw{grinded}
     \endentry
   \enddatalist
 \endrefsection
