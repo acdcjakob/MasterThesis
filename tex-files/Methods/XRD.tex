@@ -1,5 +1,5 @@
 \label{Sec:Methods_XRD}
-As described in \ref{Sec:Theory_X-ray_diffraction}, constructive interference of incoming and scattered X-rays may give insight into the symmetry of exposed crystal structures.
+As described in section \ref{Sec:Theory_X-ray_diffraction}, constructive interference of incoming and scattered X-rays may give insight into the symmetry of exposed crystal structures.
 This can be utilized for thin film investigation and is called \gls{XRD}.
 The \gls{XRD} device used for this work, namely an \textit{X'Pert Pro} ({Malvern Panalytical Ltd.}), as well as the applied scanning techniques will be presented in the following.
 
@@ -26,7 +26,7 @@ The sample can be rotated by $\phi$ (\emph{azimuth}) and $\psi$ around an axis p
     \caption{\textbf{(a)} Geometry for a 2\texttheta-\textomega-scan without offset.\ \textbf{(b)} Scattering geometry containing an offset $\omega_0$. Angle of incidence and angle of diffraction decrease and increase, respectively. Note that $2\theta$ is not affected by this offset.}
     \label{Fig:Methods_XRD_geometry}
 \end{figure}
-When probing for lattice plane distances using the \gls{bc} in its simplest form, it is assumed that the scattering planes are parallel to the sample surface (cf. Fig.\,\ref{Fig:Methods_XRD_geometry}a).
+When probing for lattice plane distances using the \gls{bc} in its simplest form, it is assumed that the scattering planes are parallel to the sample surface (cf.\ Fig.\,\ref{Fig:Methods_XRD_geometry}a).
 It is necessary that $\omega=\alpha_\mathrm{out}$ which implies $2\theta=2\omega$.
 So the angle of incidence $\omega$ is coupled to $2\theta$, which represents the distance between lattice planes (cf. \eqref{Equ:Theory_BraggCondition}).
 Measuring the diffracted X-ray intensity while varying $2\theta$ and maintaining the condition $2\theta=2\omega$, is called a 2\texttheta-\textomega-scan.
@@ -37,7 +37,7 @@ This reference diffraction pattern stems from powder samples of the respective c
 When a peak is identified, a possible peak shift is determined and the shape of the peak is investigated.
 Peak shifts may be due to residual stress, substrate induced strain or compositional gradients in the thin film 
     \cite{harrington2021}.
-A certain amount of peak broadening is always present due to convergence of the incident beam as well as convolution of K\textalpha\textsubscript{1}- and K\textalpha\textsubscript{2}-radiation (cf.~\ref{Sec:Theory_XRays}), which is called instrumental broadening
+A certain amount of peak broadening is always present due to convergence of the incident beam as well as convolution of K\textalpha\textsubscript{1}- and K\textalpha\textsubscript{2}-radiation (cf.\ section \ref{Sec:Theory_XRays}), which is called instrumental broadening
     \cite{harrington2021}.
 The \gls{FWHM} of the highly crystalline substrate peaks may give a reference for broadening of peaks in 2\texttheta-\textomega\ diffraction data.  
 
@@ -60,7 +60,7 @@ There are several use cases for applying an offset $\omega_0$:
     This is done before measuring a 2\texttheta-\textomega-scan to achieve more precise results.
     \item When probing for lattice planes which are not parallel to the sample surface, called \emph{asymmetric reflections}, one can apply the expected inclination angle as an offset $\omega_0$.
     This is the case in Fig.\,\ref{Fig:Methods_XRD_geometry}b.
-    \item When $2\theta$ is fixed, but $\omega_0$ is varied, an \emph{\textomega-scan} is performed, which enables quantification of mosaicity (cf.~\ref{Sec:Methods_omegaScan}).
+    \item When $2\theta$ is fixed, but $\omega_0$ is varied, an \emph{\textomega-scan} is performed, which enables quantification of mosaicity (cf.\ section \ref{Sec:Methods_omegaScan}).
 \end{enumerate}
 
 % ---
@@ -93,7 +93,7 @@ Then, the \gls{bc} is fulfilled for performing a 2\texttheta-\textomega-scan.
 \subsection{Reciprocal Space Maps}
     \label{Sec:Methods_RSM}
 % ---
-Because the \gls{bc} is equal to the description of diffraction with $\mathbf{k}'-\mathbf{k}$ and reciprocal space vectors $\mathbf{K}_{hkl}$ (cf.~\ref{Sec:Theory_X-ray_diffraction}), both can be used depending on context.
+Because the \gls{bc} is equal to the description of diffraction with $\mathbf{k}'-\mathbf{k}$ and reciprocal space vectors $\mathbf{K}_{hkl}$ (cf.\ section \ref{Sec:Theory_X-ray_diffraction}), both can be used depending on context.
 Henceforth, $\mathbf{k}'-\mathbf{k}$ will be denoted by the \emph{scattering vector} $\mathbf{q}$.
 Note that $\mathbf{k}$ and $\mathbf{k}'$ are parallel to incoming and outcoming beam, respectively.
 From the definition of angles, it follows that
@@ -146,7 +146,7 @@ The scattering vector, together with the corresponding \gls{XRD} geometry is dep
     \label{Fig:Methods_qDef}
 \end{figure} 
 Because $2\theta$ and $\omega$ can simultaneously be represented by $\mathbf{q}$, it is possible to measure intensities for several $\mathbf{q}$, such that a part of the reciprocal space $Q\ni\mathbf{q}$ is mapped.
-Consequently, this is called a \gls{RSM}.
+Consequently, this is called a \acrlong{RSM}.
 According to \eqref{Equ:Theory_ConstructiveInterference}, a peak in 2D reciprocal space $Q$ should be observed if $\mathbf{q}$ is a reciprocal space vector.
 In this case, $\mathbf{q}=\mathbf{K}_{hkl}$ is called a \emph{reflection}.
 With \eqref{Equ:Methods_qDir} one can determine $\omega_0$ -- the direction of the corresponding lattice planes --
@@ -183,7 +183,7 @@ By this means, \glspl{RSM} enable the calculation of lattice constants.
 To precisely calculate the latter, several corrections are applied to the recorded \glspl{RSM}, as proposed in \textcite{kneiss2021}:
 \begin{enumerate}
     \item High-quality sapphire substrates are used for deposition of thin films.
-    It can be assumed that they have the expected crystal structure of bulk \textalpha-\ce{Al2O3} (cf. Tab.\,\ref{Tab:sesquiLatticeConstants}).
+    It can be assumed that they have the expected crystal structure of bulk \textalpha-\ce{Al2O3} (cf.\ Tab.\,\ref{Tab:sesquiLatticeConstants}).
     So any deviation of the observed reflection $\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}$ from the expected peak position $\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}$ is corrected by a rotation $\mathbf{R}$ and scaling $\rho$ of reciprocal space $Q$:
     \begin{equation}
         \mathbf{q}^\mathrm{cor}=\rho\mathbf{R}\cdot\mathbf{q}^\mathrm{obs}\quad,\quad\mathbf{q}^\mathrm{obs}\in Q\,,
@@ -205,7 +205,7 @@ To precisely calculate the latter, several corrections are applied to the record
         \rho&=\frac{\left|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},lit}\right|}{\left|\mathbf{q}_{hkl}^\mathrm{\ce{Al2O3},obs}\right|}\,.
     \end{align}
 
-    \item If the thin film grows tilted (e.g.\ due to slip systems, cf.~\ref{Sec:Theory_Relaxed}), a symmetric reflection -- having scattering vector parallel to the surface normal in theory -- will exhibit an in-plane component $q_{\parallel,hkl}^\mathrm{film}\neq0$.
+    \item If the thin film grows tilted (e.g.\ due to relaxed growth, cf.\ section \ref{Sec:Theory_Relaxed}), a symmetric reflection -- having scattering vector parallel to the surface normal in theory -- will exhibit an in-plane component $q_{\parallel,hkl}^\mathrm{film}\neq0$.
     The tilt angle can be calculated by \eqref{Equ:Methods_qDir}: 
     \begin{equation}
         \theta_\mathrm{tilt}=\arctan\left(-\frac{q_{\parallel,hkl}^\mathrm{film}}{q_{\perp,hkl}^\mathrm{film}}\right)\,.
@@ -237,19 +237,19 @@ To precisely calculate the latter, several corrections are applied to the record
 %! Specs
 \subsection{Technical Details}
 For the results presented in this work, the radiation was produced by an copper anode, resulting in a wavelength of $\lambda=\qty{1.5406}{\angstrom}$ for \ce{Cu}-K\textalpha\textsubscript{1} radiation.
-Note that \ce{Cu}-K\textalpha\textsubscript{2} and \ce{Cu}-K\textbeta\ radiation is not filtered out, resulting in additional low-intensity peaks in the diffractograms.
+Note that \ce{Cu}-K\textalpha\textsubscript{2} and \ce{Cu}-K\textbeta\ radiation are not filtered out, resulting in additional low-intensity peaks in the diffractograms.
 Furthermore, contamination of the anode with tungsten results in an observable \ce{W}-L\textalpha\textsubscript{1} contribution with energy between \ce{Cu}-K\textalpha- and \ce{Cu}-K\textbeta-radiation.
-During the course of the conducted experiments, the contaminated anode has been replaced, so the peaks corresponding to \ce{W}-L\textalpha\textsubscript{1}-radiation are not present in every diffractogram.
+During the course of the conducted experiments, the contaminated anode has been replaced, so the peaks corresponding to \ce{W}-L\textalpha\textsubscript{1}\ radiation are not present in every diffractogram.
 
 The diffracted radiation is detected with a \textit{PIXcel\textsuperscript{3D}} (\textit{Malvern Panalytical Ltd.}) detector.
-For 2\texttheta-\textomega-scans (cf.~\ref{Sec:Methods_2ThetaOmega}), the detecor is operating in \texttt{Scanning Line} mode.
-For scans fixing the 2\texttheta\ position, i.e.\ \textomega- (cf.~\ref{Sec:Methods_omegaScan}) and \textphi-scans (cf.~\ref{Sec:Methods_phiScan}), the detector is operated in \texttt{Receiving Slit} mode.
+For 2\texttheta-\textomega-scans, the detecor is operating in \texttt{Scanning Line} mode.
+For scans fixing the 2\texttheta\ position, i.e.\ \textomega- and \textphi-scans, the detector is operated in \texttt{Receiving Slit} mode.
 \glspl{RSM} are recorded with the \texttt{Frame Based} mode.
 The settings for the various scans are listed in Tab.\,\ref{Tab:Methods_XRDSettings}.
 Note that it is distinguished between scans and optimizations.
 The latter were applied for aligning the sample correctly, depending on the measurement.
-For example, before a 2\texttheta-\textomega-scan of \textit{m}-plane oriented rhombohedral samples, a \textphi-scan has been applied for the inclined (30.6) reflection to find the correct azimuth of the \textit{c}-axis, which is called \textphi-optimization.
-Afterwards, a Rocking curve has been recorded and $\omega$ set to the maximum of the peak to compensate for the expected lattice tilt (cf.\,\ref{Sec:Theory_Relaxed}), called an \textomega-optimization.
+For example, prior to a 2\texttheta-\textomega-scan of \textit{m}-plane oriented rhombohedral samples, a \textphi-scan has been applied for the inclined (30.6) reflection to find the correct azimuth of the \textit{c}-axis, which is called \textphi-optimization.
+Afterwards, a Rocking curve has been recorded and $\omega$ set to the maximum of the peak to compensate for the expected lattice tilt, called an \textomega-optimization.
 
 \begin{table}
     \centering

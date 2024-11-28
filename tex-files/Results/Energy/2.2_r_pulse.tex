@@ -7,22 +7,22 @@ The overall strain is below \qty{0.4}{\percent}, and thereby comparable to the s
     \centering
     \includegraphics{3_pulseEnergy_completeStrain_r.eps}
     \caption{
-        In-plane and out-of-plane strain for the \textit{r}-plane samples from the 2nd batch, calculated from the peak positions of the \glspl{RSM} described in~\ref{Sec:Results_3_Experiment} (left).
+        In-plane and out-of-plane strain for the \textit{r}-plane samples from the 2nd batch, calculated from the peak positions of the \glspl{RSM} described in section \ref{Sec:Results_3_Experiment} (left).
         Tilt along the $x$-axis (purple ordinate) and $y$-axis (blue ordinate), determined from symmetric reflections (right).
         Note the different scaling of the ordinates, indicating less tilt along the $y$-axis.
     }
     \label{Fig:Results_3_pulse_r_StrainTilt}
 \end{figure}
-A detailed view on the strain for those samples is given in Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt} which is based on the evaluation of \glspl{RSM} that were performed as described in~\ref{Sec:Results_3_Experiment}.
-The \gls{oop}\ strain was calculated from both asymmetric (green triangle) and symmetric (yellow squares) reflections.
+A detailed view on the strain for those samples is given in Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt} which is based on the evaluation of \glspl{RSM} that were performed as described in section \ref{Sec:Results_3_Experiment}.
+The \gls{oop}\ strain was calculated from both asymmetric (\textcolor{col-brightGreen}{$\blacktriangle$}) and symmetric (\textcolor{col-brightOrange}{$\blacksquare$}) reflections.
 The latter is equivalent to the calculation from the peak position in \thetaomega\ diffraction patterns.
-It can be observed that the increasing tensile \gls{oop}\ strain comes along with an increasing \gls{ip}\ compressive strain, ranging from \qty{-0.2}{\percent} to \qty{-0.8}{\percent}.
+It can be observed that the increasing tensile \gls{oop}\ strain comes along with an increasing \gls{ip}\ compressive strain (\textcolor{col-purple}{$\blacktriangleleft$}), ranging from \qty{-0.2}{\percent} to \qty{-0.8}{\percent}.
 Therefore, the \gls{oop} strain may be attributed to a partial pseudomorphic growth mode, because the \ce{Al2O3} lattice constants are smaller than the ones for \cro.
 The compressive strain is then due to an aligning of in-plane lattice constants.
 
 Note that the values for \gls{oop}\ strain obtained from \thetaomega-scans (cf.\ Fig.\,\ref{Fig:Results_3_pulseStrain}) are only qualitatively confirmed:
 the strain measured from the symmetric \gls{RSM} is approx.\ 0.2 percentage points below the value obtained from \thetaomega-scans.
-A comparison of both methods is given in Fig.\,\ref{Fig:Results_3_r_strainDiscrepancy}, where both a \thetaomega\ pattern and a symmetric \acrshort{RSM} of the are depicted for one sample ($F=\qty{1.1}{\J\per\cm\squared}$), as well as the calculated strain for all samples with different laser pulse energy.
+A comparison of both methods is given in Fig.\,\ref{Fig:Results_3_r_strainDiscrepancy}, where both a \thetaomega\ pattern and a symmetric \acrshort{RSM} of the (02.4) reflection are depicted for one sample ($F=\qty{1.1}{\J\per\cm\squared}$), as well as the calculated strain for all samples with different laser pulse energy.
 \begin{figure}[ht]
     \centering
     \includegraphics{3_misc_pulse_r_discrepancy.png}
@@ -39,7 +39,7 @@ The latter was done for the evaluation of \thetaomega-scans on which Fig.\,\ref{
 But the correction of thin film tilt which is done for \glspl{RSM} was not done for the \thetaomega-scans.
 This can be seen in Fig.\,\ref{Fig:Results_3_r_strainDiscrepancy}, where the \thetaomega\ pattern corresponds to a line with $q_\parallel=\mathrm{const.}=0$ in the reciprocal space.
 The peak on this line has the same $q_\perp$ coordinate as the RSM peak not corrected to thin film tilt (both visualized as black diamonds, $\blacklozenge$).
-But if the (03.0) peak is rotated by the value of thin film tilt (counterclockwise), the $q_\perp$ component slightly increases.
+But if the (02.4) peak is rotated by the value of thin film tilt (counterclockwise), the $q_\perp$ component slightly increases.
 Therefore it follows that
 $$q_\perp^\mathrm{RSM, corrected}
 >q_\perp^\mathrm{RSM, uncorrected}
@@ -56,17 +56,18 @@ These values are subject to a certain amount of uncertainity, which results in a
 % This may result in an undefined error.
 
 {\sloppy % fix problems with the word "squares"
-Another observation is that the \gls{oop}\ strain obtained from symmetric (yellow squares) and asymmetric reflections (green triangles) aligns for the two samples fabricated with higher fluences only (cf.\ Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt}).
+Another observation is that the \gls{oop}\ strain obtained from symmetric (\textcolor{col-brightOrange}{$\blacksquare$}) and asymmetric reflections (\textcolor{col-brightGreen}{$\blacktriangle$}) aligns for the two samples fabricated with higher fluences only (cf.\ Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt}).
 The discrepancy observed for the lower fluences is unexpected.
 In Fig.\,\ref{Fig:Res_3_RSMs_r}, all symmetric and asymmetric RSMs are displayed.
 For the samples fabricated with \qtylist{650;800}{\milli\J}, accounting for the thin film tilt will result in a counterclockwise rotation of the reciprocal space.
 Therefore, the observed (03.0) reflection (\textcolor{red}{$\blacksquare$}) has a smaller $q_\perp$ component compared to the predicted ($\blacklozenge$) peak position (after rotation).
 This results in tensile (positive) strain -- which is in accordance with the values obtained from both symmetric RSM reflections and \thetaomega\ patterns.
 For the samples with \qtylist{300;450}{\milli\J}, however, the thin film tilt is sufficiently small to result in compressive (negative) strain, i.e.\ the rotation of reciprocal space does not result in a smaller out-of-plane component $q_\perp$ of the thin film (\textcolor{red}{$\blacksquare$}) compared to the bulk value ($\blacklozenge$).
-
-and is probably due to an error in evaluation of the \glspl{RSM}.
-This is supported by the fact that for those two data points, the strain obtained from asymmetric reflections is almost exactly mirroring the value obtained from the symmetric reflections.
-% This also confirms the previously stated hypothesis that the evaluation of either \gls{RSM} or \thetaomega-pattern exhibits a systematic error.
+Note that the definition of positive or negative strain is strongly depending on what is defined as bulk value.
+Because in Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt}a, in- and out-of-plane strain align for low fluences, it is possible that the assumed bulk constant is too large, and the observed compressive strain of \qty{-0.2}{\percent} actually corresponds to an unstrained thin film.
+% and is probably due to an error in evaluation of the \glspl{RSM}.
+% This is supported by the fact that for those two data points, the strain obtained from asymmetric reflections is almost exactly mirroring the value obtained from the symmetric reflections.
+% 
 \par}
 \begin{figure}
     \centering
@@ -85,13 +86,13 @@ This is supported by the fact that for those two data points, the strain obtaine
 
 %! RSM: tilt
 As predicted by \textcite{grundmann2020b}, partially relaxed \textit{r}-plane thin films should exhibit a tilt of the thin film with respect to the substrate.
-This tilt is indeed observed along the $x$-axis for all values of fluence, ranging from approx.\ \qty{10}{\arcminute} to \qty{40}{\arcminute} (purple triangles in Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt}).
-A corresponding tilt along the $y$-axis is not observed: there, the tilt angles are two orders of magnitude lower and below \qty{0.4}{\arcminute}.
+This tilt is indeed observed along the $x$-axis for all values of fluence, ranging from approx.\ \qty{10}{\arcminute} to \qty{40}{\arcminute} (\textcolor{col-purple}{$\blacktriangleleft$} in Fig.\,\ref{Fig:Results_3_pulse_r_StrainTilt}).
+A corresponding tilt along the $y$-axis is not observed: there, the tilt angles are two orders of magnitude lower and below \qty{0.4}{\arcminute} (\textcolor{blue}{$\blacktriangleright$}).
 This is in agreement with elasticity theory which predicts a tilt only along the $x$-axis, because the prismatic slip systems responsible for relaxation along the $y$-axis yield tilt components of the \gls{bv} that cancel out on average (cf.\ section \ref{Sec:Theory_Relaxed}).
 But note that the thin film tilt increases for higher fluences, which also results in a higher \gls{oop}\ strain.
 This observation is unexpected, because the thin film tilt is a result of \emph{relaxation}, whereas strain is a result of partial \emph{pseudomorphic} growth.
 So according to strain, higher fluences result in less relaxed layers -- according to tilt, higher fluences result in more relaxed layers.
-This result indicates that an interplay of both processes is present and that for growth modes that exhibit no partially relaxed behavior, more sophisticated models for the relaxation mechanism must be applied.
+This result indicates that an interplay of both processes is present and that for growth modes that exhibit only partially relaxed behavior, more sophisticated models for the relaxation mechanism must be applied.
 
 %! omega
 The \textomega-FWHM of the \textit{r}-plane samples of the 2nd batch is approx.\ \qty{50}{\arcminute} and has no significant dependence on both fluence or thickness (Fig.\,\ref{Fig:Results_3_pulseOmega}).

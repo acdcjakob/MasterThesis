@@ -9,48 +9,51 @@
 
 \input{tex-files/_specs/preamble.tex}
 
-% \includeonly{tex-files/_chapters/methods}
-% \includeonly{tex-files/Results/Energy/Energy}
-% \includeonly{tex-files/Results/Energy/Energy,
-%     tex-files/Appendix/appendix,
-%     tex-files/_chapters/methods}
-% \includeonly{tex-files/Results/Doping/Doping}
-% \includeonly{tex-files/Results/Preliminary/Preliminary}
-% \includeonly{tex-files/_chapters/theory}
-% \includeonly{tex-files/Results/Buffer/Buffer}
-% \includeonly{tex-files/_chapters/methods}
-% \includeonly{tex-files/_chapters/Introduction}
+% \includeonly{tex-files/_chapters/Summary}
 
 \begin{document}
 %! Title Page
 \input{tex-files/_specs/titlepage}
-\clearpage
-\thispagestyle{empty}
+\clearpage{\thispagestyle{empty}}
+\cleardoublepage
 
 %! TOC
 % \dominitoc
 \tableofcontents
-\clearpage
+\cleardoublepage
 
 
 %! main text
     \include{tex-files/_chapters/Introduction}
+        \cleardoublepage
     \include{tex-files/_chapters/theory}
+        \cleardoublepage
     \include{tex-files/_chapters/methods}
-    \input{tex-files/_chapters/results}
+        \cleardoublepage
+    \include{tex-files/_chapters/results}
+        \cleardoublepage
+    \include{tex-files/_chapters/Summary}
+        \cleardoublepage
 
 %! Appendix
 \include{tex-files/Appendix/appendix}
-\clearpage
+\cleardoublepage
 
 %! bibliography
 \sloppy % increases probability of hyphenation in the bibliography
 \printbibliography[heading=bibintoc]
-\clearpage
+\cleardoublepage
 %! List of figures
 % \listoffigures
 %! Glossary
 % \printglossaries
 % does not work?
 %! Danksagung
+\clearpage
+\thispagestyle{empty}
+\input{tex-files/_chapters/Danksagung}
+%! Selbststaendigkeitserklaerung
+\clearpage
+\thispagestyle{empty}
+\input{tex-files/_chapters/MyOwnWork.tex}
 \end{document}

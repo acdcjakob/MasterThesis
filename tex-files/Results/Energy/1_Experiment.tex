@@ -6,11 +6,11 @@ A first series of samples was produced by only varying the pulse number to achie
 Therefore, the influence of thickness and growth rate can be deconvoluted.
 % This is necessary, because the series of thicknesses that was achieved in the prior experiments was correlated to a series of growth rates.
 The pulse energy was set to \qty{650}{\milli\joule} and the lens position to \qty{-2}{\cm}, resulting in a laser spot size of \qty{8}{\mm\squared}.
-As described in section \ref{Sec:Methods_pld}, the laser pulse energy inside the PLD chamber is significantly lower than \qty{650}{\milli\joule}, due to absorption at the mirror, UV lens and laser entrance window.
+As described in section \ref{Sec:Methods_pld}, the laser pulse energy inside the PLD chamber is significantly lower than \qty{650}{\milli\joule}, due to passing a mask and absorption at the mirror, UV lens and laser entrance window.
 By accounting for this attenuation, the resulting fluence on the PLD target is approx.\ \qty{2}{\joule\per\cm\squared}.
-This corresponds to the standard configuration during all previous processes (pink square in Fig.\,\ref{Fig:Methods_fluence}).
+This corresponds to the standard configuration during all previous processes (\textcolor{magenta}{$\blacksquare$} in Fig.\,\ref{Fig:Methods_fluence}).
 This was repeated for three other lens positions, namely \qtylist{0;1;2}{\cm}, resulting in lower fluences of \qtylist{1.1;0.8;0.6}{\J\per\cm\squared}, respectively.
-In Fig.\,\ref{Fig:Methods_fluence}, the yellow circles represent the probed laser fluences.
+In Fig.\,\ref{Fig:Methods_fluence}, the yellow circles represent those laser fluences.
 This set of samples is referred to as the 1st batch and is listed in Tab.\,\ref{Tab:Results_3_batch1}.
 The laser spot sizes for different lens positions are depicted in Fig.\,\ref{Fig:Results_3_laserSpotSize}.
 
@@ -108,7 +108,7 @@ For every orientation, lattice planes have been chosen that have both a rather s
     % Note that no shear is calculated due to the asymmetric nature of the (03.0) reflection with respect to the \textit{r}-orientation\footnote{
         % For \textit{m}- and \textit{a}-plane rhombohedral structures, the crystal is symmetric under the transformation $\phi\rightarrow\phi+\qty{180}{\degree}$, which is not the case for \textit{r}-plane.
     % }.
-    After performing the various corrections described in \ref{Sec:Methods_RSM}, the tilt angles can be calculated for both azimuths by
+    After performing the various corrections described in section \ref{Sec:Methods_RSM}, the tilt angles can be calculated for both azimuths by
     \begin{eqnarray}
         \theta = \arccos\left(
             \frac{q_\perp}{|\mathbf{q}|}
@@ -164,7 +164,7 @@ For every orientation, lattice planes have been chosen that have both a rather s
             a_\perp = \frac{\sqrt{12}}{q_\perp^{(03.0)}}\,.
     \end{align}
     $a_\parallel$ denotes the $a$ lattice constant parallel to the $y$-axis.
-    For detailed calculations of the former equations, see\ \ref{Sec:App_Calc_mPlane}.
+    For detailed calculations of the former equations, see appendix \ref{Sec:App_Calc_mPlane}.
     Note that all 6 measured reflections yield a value for $a_\perp$, and 2 measured reflections each yield 2 values for $c$ and $a_\parallel$, respectively.
     Therefore, for each lattice constant, the mean value is evaluated and the error is estimated by the standard deviation (cf.\ Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}a).
 \paragraph{\textit{a}-plane}
@@ -192,5 +192,5 @@ For every orientation, lattice planes have been chosen that have both a rather s
         (22.0):&\quad
             a_\perp = \frac{4}{q_\perp^{(22.0)}}\,.
     \end{align}
-    For detailed calculations, see\ \ref{Sec:App_Calc_aPlane}.
+    For detailed calculations, see appendix \ref{Sec:App_Calc_aPlane}.
     Again, for the lattice constants obtained from several reflections, the mean and standard deviation are calculated (cf.\ Fig.\,\ref{Fig:Results_3_pulse_ma_strainTilt}b).

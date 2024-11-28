@@ -1,12 +1,6 @@
 %!
 \subsection{Pseudomorphic Growth}
 \label{sec:Theory_PseudomorphicGrowth}
-% \comment{
-%     Ist der folgende Absatz zu lang, dafür dass ich (wahrscheinlich) nur bei \emph{c}-Orientierung pseudomorphic growth beobachte?
-%     Aber ich wollte gerne ausrechnen, was denn der out of plane strain \emph{wäre}, falls es so sein sollte, damit ich später argumentieren kann, ob ich relaxed oder pseudomorphic beobachte; oder was dazwischen.
-%     Dementsprechend hab ich mich dann gezwungen gefühlt, das ganze noch mal aufzurollen.
-%     Vielleicht wäre eine Lösung, (\ref{euq:e3-a}), (\ref{euq:e3-m}) und (\ref{euq:e3-c}) in eine Art appendix zu tun?
-%     }
 When a body is deformed (\emph{strained}) from its original state of equilibrium (\emph{bulk}), forces will arise that tend to return the body to this equilibrium.
 Molecular forces are the driving element behind these stresses
     \cite{landau1970}.
@@ -17,7 +11,7 @@ In continuum mechanics, stress $\sigma_{ij}$ and strain $\epsilon_{kl}$ are symm
 \end{equation}
 Note that \eqref{equ:stress-strain} represents a set of 9 linear equations.
 
-If the \gls{ip}\ lattice constants of two isomorphic compounds match at the interface of a heterostructure, one refers to \enquote{\gls{pseudomorphic}} growth.
+If the \gls{ip}\ lattice constants of two isomorphic compounds match at the interface of a heterostructure, one refers to \emph{\gls{pseudomorphic}} growth.
 This confines a part of the system of equations (\ref{equ:stress-strain}):
 \begin{enumerate}
     \item The thin film \gls{ip}\ lattice constants $a_\parallel^F$ have to match the substrate \gls{ip}\ lattice constants $a_\parallel^S$.
@@ -49,7 +43,7 @@ The entries of the elasticity tensor of the two sesquioxides important for this 
     \label{tab:Cr2O3-elasticityConstants}
 \end{table}
 
-Because of its direct influence on the \gls{oop}\ lattice plane distance and thus on the \gls{XRD} patterns of \thetaomega-scans (cf.~\ref{Sec:Methods_XRD}), the strain component perpendicular to the sample surface, $\epsilon_{zz}$, is of particular interest.
+Because of its direct influence on the \gls{oop}\ lattice plane distance and thus on the \gls{XRD} patterns of \thetaomega-scans (cf.\ section \ref{Sec:Methods_XRD}), the strain component perpendicular to the sample surface, $\epsilon_{zz}$, is of particular interest.
 In the following, the formulas for the case of rhombohedral crystal structures are stated as derived in \textcite{grundmann2018}.
 They depend on the respective \gls{ip}\ strains $\epsilon_{xx}$ and $\epsilon_{yy}$ caused by the lattice mismatch between film and substrate.
 Note that here, $\mathbf{r}=(x,y,z)$ describes coordinates in the laboratory system -- in contrary to Ref.\,\cite{grundmann2018}, where $\mathbf{r}$ and $\mathbf{r}'$ are used to describe cartesian coordinates in the crystal and laboratory system, respectively.
@@ -93,7 +87,7 @@ The distance of lattice planes $d$ orthogonal to the sample surface are then str
     \label{equ:d_strained}
     d_\mathrm{strained}=d(1+\epsilon_{zz})\,.
 \end{equation}
-Assuming pseudomorphic growth of \ce{Cr2O3} on \ce{Al2O3}, one can compare the strained lattice plance distances to the unstrained bulk values, by utilizing (\ref{equ:d_strained}).
+Assuming pseudomorphic growth of \ce{Cr2O3} on \ce{Al2O3}, one can compare the strained lattice plance distances to the unstrained bulk values, by utilizing \eqref{equ:d_strained}.
 The numerical values, calculated from the lattice constants (Tab.\,\ref{Tab:sesquiLatticeConstants}) and the elasticity tensor (Tab.\,\ref{tab:Cr2O3-elasticityConstants}), are listed in Tab.\,\ref{tab:d_strained}a.
 \begin{table}
     % \setlength{\tabcolsep}{12pt}
@@ -127,7 +121,7 @@ The numerical values, calculated from the lattice constants (Tab.\,\ref{Tab:sesq
 \subsection{Relaxed Growth}
 \label{Sec:Theory_Relaxed}
 \subsubsection{Dislocations}
-When the lattice mismatch is not resolved by adaption to the substrate (cf.~\ref{sec:Theory_PseudomorphicGrowth}), the strain is relieved by formation of \emph{dislocations}, which faciliate a relaxed growth mode of the film
+When the lattice mismatch is not resolved by adaption to the substrate (cf.\ section \ref{sec:Theory_PseudomorphicGrowth}), the strain can be relieved by formation of \emph{dislocations}, which faciliate a relaxed growth mode of the film
     \cite{kneiss2021}.
 The highest disturbance from equilibrium spacing occurs close to the \emph{dislocation line} which extends through the material --
 far away from this line, the crystallinity is restored.
@@ -135,16 +129,16 @@ In which fashion the distortion happens, can be characterized by the \gls{bv} $\
 The relation of the \gls{bv} to the dislocation line determines the type of the dislocation:
     if they are orthogonal, one refers to an \emph{edge} dislocation;
     if they are parallel, one refers to a \emph{screw} dislocation.
-For a \enquote{perfect} dislocation\footnote{
-    Also referred to as \enquote{full} dislocation \cite{grundmann2016}.
+For a \emph{perfect} dislocation\footnote{
+    Also referred to as \emph{full} dislocation \cite{grundmann2016}.
 }, the \gls{bv} is a lattice translation vector.
 Note that in general, dislocations exhibit both edge- and screw-character
     \cite{hull2011}.
 
-Dislocations are not static, but can move (\enquote{glide}) inside the crystal.
-The movement happens typically inside a plane which has highest density of atoms (\enquote{glide plane}) and along the \gls{bv} which is responsible for the dislocation
+Dislocations are not static, but can move (\emph{glide}) inside the crystal.
+The movement happens typically inside a plane which has highest density of atoms (\emph{glide plane}) and along the \gls{bv} which is responsible for the dislocation
     \cite{hull2011}.
-The arrangement of glide plane and direction of movement is called \enquote{slip system}, e.g.\ for hexagonal structures, one finds $\{00.1\}/\langle11.0\rangle$ to be one prevailing slip system
+The arrangement of glide plane and direction of movement is called \emph{slip system}, e.g.\ for hexagonal structures, one finds $\{00.1\}/\langle11.0\rangle$ to be one prevailing slip system
     \cite{hull2011}.
 
 For some slip systems occuring on heterostructures, the relaxation results in an additional tilt of the deposited film.
@@ -156,7 +150,7 @@ but if $\mathbf{b}$ also exhibits a component $b_\perp$ orthogonal to the sample
 \end{equation}
 where $i$ denotes the axis of strain relaxation.
 This is schematically depicted in Fig.\,\ref{fig:Theory_tiltDislocation}.
-Note that \eqref{equ:Theory_tiltDislocation} is formulated for partially relaxed systems in \textcite{kneiss2021}, but here the relaxation parameter $\rho_i$ was omitted, therefore assuming fully relaxed thin films. 
+% Note that \eqref{equ:Theory_tiltDislocation} is formulated for partially relaxed systems in \textcite{kneiss2021}, but here the relaxation parameter $\rho_i$ was omitted, therefore assuming fully relaxed thin films. 
 
 \begin{figure}
     \centering
@@ -181,7 +175,7 @@ Note that the $x$-axis points along the $c$-axis for \textit{m}- and \textit{a}-
 
 % r-orientation
 \paragraph{(01.2)-plane (\textit{r}-orientation)}
-The two relevant slip systems are $\{00.1\}/\frac{1}{3}\langle11.0\rangle$ and $\{11.0\}/\frac{1}{3}\langle1\bar{1}.1\rangle$, which contain the \enquote{basal} and \enquote{prismatic} glide plane, respectively
+The two relevant slip systems are $\{00.1\}/\frac{1}{3}\langle11.0\rangle$ and $\{11.0\}/\frac{1}{3}\langle1\bar{1}.1\rangle$, which contain the \emph{basal} and \emph{prismatic} glide plane, respectively
     \cite{grundmann2020b}.
 The former allows relaxation along the direction containing the projection of the \textit{c}-axis ($x$-axis), whereas the latter allows relaxation perpendicular to it ($y$-axis).
 For the basal system, one can determine two possible independent \glspl{bv} $\mathbf{b}_c$ with differing screw components but otherwise same tilt and edge components $b_{c,\perp}$ and $b_{c,\parallel}$, respectively.
@@ -201,18 +195,18 @@ But for strain release along $x$, the \gls{bv} should have non-zero component in
 The prismatic planes, on the other hand, are perpendicular to the surface but parallel to the $x$-axis.
 This results in a dislocation line along the $x$-direction.
 To release strain, the \gls{bv} would have $x$-component, which does not apply for edge dislocations.
-So the prevailing slip system must have (01.2)-plane (\textit{r}-orientation) or (11.2)-plane (\textit{s}-orientation) character, which are called \enquote{pyramidal} slip systems.
+So the prevailing slip system must have (01.2)-plane (\textit{r}-orientation) or (11.2)-plane (\textit{s}-orientation) character, which are called \emph{pyramidal} slip systems.
 Three different \textit{r}-planes contribute to strain release, because there is dislocation line component along the $y$-axis and \gls{bv}'s components along the $x$-axis.
 With \eqref{equ:Theory_tiltDislocation} and substituting the possible \glspl{bv} one finds:
 \begin{equation}
-    \theta_{T,x}=\frac{2}{3}\frac{\sqrt{3}}{\frac{20\zeta}{24+6\zeta^2}+\zeta}\left(\frac{c_S}{c_F}-1\right)
+    \theta_{T,x}=\frac{2}{3}\frac{\sqrt{3}}{\frac{20\zeta}{24+6\zeta^2}+\zeta}\left(\frac{c_S}{c_F}-1\right)\,.
 \end{equation}
 
 % a-orientation
 \paragraph{(11.0)-plane (\textit{a}-orientation)}
 The same argument as for the \textit{m}-oriented hetereostructure holds, why only pyramidal slip systems are possible.
 But in this case, only two \textit{r}-planes contribute to strain relaxation, because the third plane is perpendicular to the surface, thus can only exhibit \glspl{bv} without in-plane components which results in no possible edge dislocations.
-Furthermore, in this case, the \glspl{bv} of the two remaining \textit{r}-planes have opposite tilt components, i.e. they point outwards and inwards of the surface, respectively.
+Furthermore, in this case, the \glspl{bv} of the two remaining \textit{r}-planes have opposite tilt components, i.e.\ they point outwards and inwards of the surface, respectively.
 Regarding \eqref{equ:Theory_tiltDislocation}, this will result in no net tilt of the thin film.
 
 % \begin{table}

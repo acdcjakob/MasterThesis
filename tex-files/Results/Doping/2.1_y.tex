@@ -20,7 +20,8 @@ However, note that the growth rate still varies from approx.\ \qtyrange{2.5}{6.5
 So this variation in growth rate must be traced back to another effect.
 Only the first sample was fabricated with \qty{40000}{pulses}, which explains the increment of growth rate between the first and second process:
 % Due to the higher number of pulses, the laser entrance window gets more coated and thus the last \qty{10000}{pulses} reduce the average growth rate.
-The condensation of material on the laser entrance window yields a decreasing growth rate over time. This has a strong effect on the overall growth rate calculated for the complete process.
+The condensation of material on the laser entrance window yields a decreasing growth rate over time.
+This has a strong effect on the overall growth rate calculated for the complete process, which is higher for processes with less pulses in total.
 Furthermore, the second process was done with $r_\mathrm{PLD}=\qty{6}{\mm}$, which is rather outside compared to the 1st, 3rd and 4th process with \qtylist{3;4;2}{\mm}, respectively.
 This results in a larger total ablated area and in less target degradation.
 Therefore, the hypothesis is that target degradation during deposition has an influence on the growth rate.
@@ -45,8 +46,8 @@ This is probably the reason for a crucial change in plasma dynamics and therefor
 \end{figure}
 
 %! resistivity
-\newpage
-To probe the conductivity of the fabricated samples, resistivity measurements were performed using the \textsc{Pauw} methods.
+% \newpage
+To probe the conductivity of the fabricated samples, resistivity measurements were performed using the \textsc{Pauw} method.
 Only \textit{r}- and \textit{c}-plane samples were investigated, because the prismatic planes exhibited resistances of several \unit{\giga\ohm} or higher, when measured with a multimeter, as the \textsc{Hall}-effect measurement setup at the semiconductors group is not designed to measure such high resistivities.
 In Fig.\,\ref{Fig:Results_2_rho}a, the measured resistivity $\rho$ at room temperature depending on the predicted dopant concentration $x_D$ is depicted. 
 From the unsystematic variation in resistivity (\qtyrange{2}{500}{\ohm\cm}), it can be concluded that the attempt of doping the \cro\ thin films resulted in no improvement of conductivity.
@@ -75,8 +76,8 @@ Because those samples showed different growth rates due to target degradation, i
 Because in the previous chapter \ref{Sec:Results_Preliminary} it was shown that the growth rate is correlating to the \textomega-FWHM, Rocking scans were performed on the (00.6) and (02.4) reflection for \textit{c}-plane and \textit{r}-plane samples, respectively.
 The extracted \textomega-FWHMs are depicted in Fig.\,\ref{Fig:Results_2_omega} depending on the growth rate for the respective process.
 A general trend is that the crystallinty increases for lower growth rates, namely for a growth rate of \qty{3.4}{\pm\per\pulse}, a \textomega-FWHM of \qty{4}{\arcminute} (\qty{240}{\arcsecond}) can be achieved.
-It is irrelevent, whether this reduction in growth rate is due to lower fluence on the laser target due to infrequent window cleaning (CuO-doped and ZnO-doped (low) target) or due to target degradation (ZnO-doped (high) target).
-The better FWHM is achieved for \textit{c}-plane samples.
+It is irrelevent, whether this reduction in growth rate is due to lower fluence on the laser target due to infrequent window cleaning (CuO-doped \textcolor{green}{$\blacksquare$} and ZnO-doped (low) target \textcolor{magenta}{$\blacksquare$}) or due to target degradation (ZnO-doped (high) target \textcolor{purple}{$\blacktriangle$}).
+The best FWHM is achieved for \textit{c}-plane samples.
 Note that for the deposition of \cro\ on \textit{r}-plane sapphire from the ZnO-doped (high) target, no thin film peaks in \thetaomega-scans were observed (Fig.\,\ref{Fig:App_2_ZnO_H_rAmorphous}).
 Those X-ray-amorphous films are presumably a result of the drastically altered plasma dynamics due to target degradation.
 \begin{figure}
@@ -93,6 +94,8 @@ It becomes clear that a higher mosaicity results in higher conductivity.
 Since more dislocations correspond to more crystal defects (cf.\ section \ref{Sec:Theory_Relaxed}), this result is in accordance to the predicted influence of crystal defects on the electrical properties of \cro\ thin films (cf.\ section \ref{Sec:Cr2O3}).
 It has to be noted that this effect is less pronounced for \textit{r}-plane samples compared to \textit{c}-plane samples, where resistivies as low as \qty{1.9}{\ohm\cm} can be achieved for an \textomega-FWHM of \qty{40}{\arcminute}.
 Furthermore, this does not explain why \textit{m}- and \textit{a}-plane \cro\ exhibit such high resistivity, because their \textomega-FWHM is comparable to the basal and pyramidal orientations (cf.\ Tab.\,\ref{Tab:Results_1_w6788}).
+However, note that the Rocking curves of samples of different orientation are not comaparable per se, because different dislocations and scattering planes result in different \textomega-FWHM.
+Furthermore, the discrepancy should not be attributed to another density of point defects, because their formation during the growth process should not depend on the crystal orientation.
 \par}
 
 %! temperature-dependent Hall
@@ -130,7 +133,7 @@ Therefore, the data in Fig.\,\ref{Fig:Results_2_TdH} does not indicate that samp
 \end{table}
 
 %! Theta-omega
-\newpage
+% \newpage
 Even though the doping resulted in no improvement of the electrical properties of the thin films, the several samples fabricated at different growth conditions -- due to infrequent laser window cleaning and target degradation -- may serve as an insight into the \gls{oop}\ strain that was already observed in chapter \ref{Sec:Results_Preliminary}.
 The \gls{oop}\ strain dependent on the growth rate is depicted in Fig.\,\ref{Fig:Results_2_strain}a and was determined from \cro\ peak positions in \thetaomega\ patterns.
 For \textit{m}- and \textit{a}-plane, the hypothesis of increasing strain with increasing growth rate can be confirmed.
@@ -165,5 +168,5 @@ For \textit{r}-plane samples, the overall strain is smaller and shows a less pro
 Because \textit{r}-plane has both basal and prismatic character, both thickness and plasma dynamics effects may contribute to the observed strain.
 
 %! Correlation
-The qualitative difference between \textit{c}-plane and the other orientations can also be observed in Fig.\,\ref{Fig:Results_2_strain}b, where the \textomega-FWHM is shown depending on the \gls{oop}\ strain.
-Compared to the previous results (cf. Fig.\,\ref{Fig:Results_1_growthRate_process}a), both factors characterizing crystal quality (strain and \textomega-FWHM) are not minimized simultaneously.
+The qualitative difference between \textit{c}-plane and the other orientations can also be observed in Fig.\,\ref{Fig:Results_2_strain}b, where the \textomega-FWHM of \textit{c}- and \textit{r}-plane samples is shown depending on the \gls{oop}\ strain.
+Compared to the previous results (cf.\ Fig.\,\ref{Fig:Results_1_growthRate_process}a), both factors characterizing crystal quality (strain and \textomega-FWHM) are not minimized simultaneously.

@@ -1,4 +1,4 @@
-\gls{pld} is a \gls{pvd} technique, which utilizes absorption of laser energy by a target and subsequent condensation of evaporated target material on a substrate.
+\acrfull{pld} is a \acrfull{pvd} technique, which utilizes absorption of laser energy by a target and subsequent condensation of evaporated target material on a substrate.
 Like \gls{mbe} or \gls{cvd}, it is used for deposition of thin film materials.
 Although not true in general \cite{lorenz2019}, a stoichiometric transfer of target composition to the substrate is attributed to \gls{pld}.
 In the following, the \gls{pld} setup used for this work (Fig.\,\ref{Fig:Methods_pld}a) is described.
@@ -7,15 +7,17 @@ Furthermore, an overview of the basic physical processes interplaying during a \
 \subsection{Setup}\label{Sec:Methods_pld}
 The desired thin film material is provided by a ceramic pellet of the respective compound called \emph{target}.
 It is fabricated by pressing powder with high pressure into cylindrical form, before it is sintered at high temperatures.
-The crystal growth takes place on a substrate, and in this work, the substrate is chosen to be sapphire (\ce{Al2O3}) of different crystal orientation: \textit{c}-, \textit{r}-, \textit{m}- and \textit{a}-plane.
-\alo\ is chosen because it matches the symmetry of the here investigated sesquioxides.
+The crystal growth takes place on a substrate, and in this work, the substrate is chosen to be sapphire (\ce{Al2O3}) of different crystal orientation (\textit{c}-, \textit{r}-, \textit{m}- and \textit{a}-plane), because it matches the symmetry of the here investigated sesquioxides.
 They are \qty{500}{\um} thick with an edge length of \qty{5}{\mm}.
 %
 In this work, oxygen is chosen as background gas and to control the partial pressure, the process takes place in a vacuum chamber, called \emph{\gls{pld} chamber}.
-Inside the chamber, a target holder is placed \qty{90}{\cm} opposite a sample holder, which both are capable of carrying up to four pellets and substrates, respectively.
-The latter is equipped with a resistive heater, allowing growth temperatures above \qty{700}{\celsius}.
+Inside the chamber, a target holder is placed \qty{90}{\mm} opposite a sample holder, which both are capable of carrying up to four pellets and substrates, respectively.
+The latter is equipped with a resistive heater, achieving temperatures above \qty{700}{\celsius}.
+Note that this value is read by a thermocouple located at the heater, and that the real growth temperature at the substrate is lower.
+To gain more information about the real growth temperature, one should use a reference sample equipped with a \ce{Pt}-temperature sensor.
+The tempeartures stated within this thesis are always referring to the heater temperature.
 To ensure homogenous ablation and deposition, both target and substrate can be rotated, whereby a frequency of \qty{120}{\min^{-1}} and \qty{8}{\min^{-1}} is chosen, respectively.
-Furthermore, an offset $\varepsilon$ between the rotation centers of target and substrate is applied, i.e. the plasma plume does not hit the center of the substrate holder.
+Furthermore, an offset $\varepsilon$ between the rotation centers of target and substrate is applied, i.e.\ the plasma plume does not hit the center of the substrate holder.
 To achieve homogeneous thickness distributions of the deposited material, $\varepsilon=\qty{7.5}{\mm}$ is chosen.
 Outside the \gls{pld} chamber, a \ce{KrF} excimer laser produces pulsed radiation, which is redirected by a mirror and enters the chamber through a fused silica window.
 With a wavelength of \qty{248}{\nm}, a UV lens is needed to project the beam on the target surface, where the laser energy is absorbed.
@@ -52,7 +54,7 @@ The \gls{pld} procedure can be broken down into three physical processes: (i) en
     \item A material cloud expands perpendicular to the target surface due to Coulomb repulsion and recoil.
     Absorption of remaining laser radiation results in a plasma plume which is strongly forward directed for low background pressures below \qty{e-4}{\milli\bar}.
     The target is rotating and laterally moving during this process to minimize the deflection of the plasma due to target degradation.
-    The kinetic energy of the material in the plasma plume is crucial for the deposition process and can be controlled by background partial pressure and laser energy density on the target.
+    The kinetic energy of the material in the plasma plume is crucial for the deposition process and can be controlled by background gas partial pressure and laser energy density on the target.
     \item The plasma plume hits the substrate which can result in resputtering of already deposited material, which condensates together with the plasma, resulting in thermal equilibrium and thus thin film nucleation.
     A large number of adatoms results in many nucleation centers which are responsible for smooth films.
 \end{enumerate}
@@ -76,4 +78,4 @@ where $\delta$ and $b$ are eccentricity and semi-minor axis of the ellipse, resp
 }.
 Small and large $R$ will result in a composition equal to the composition of the inner and outer segment, respectively.
 To model the process more accurately one has to take into account that the laser illuminates a finite area rather than a point-like spot.
-This is done in~\ref{Sec:Results_Doping}, in particular refer to Fig.\,\ref{Fig:Results_2_yToComposition}. 
+This is done in chapter \ref{Sec:Results_Doping}, in particular refer to Fig.\,\ref{Fig:Results_2_yToComposition}. 

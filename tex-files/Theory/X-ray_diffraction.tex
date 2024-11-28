@@ -1,11 +1,11 @@
 \subsection{Scattering at Lattices}
-To elucidate the working principles behind \gls{XRD} as a measurement method (cf.~\ref{Sec:Methods_XRD}), a brief description of reciprocal space and constructive interference will be provided.
+To elucidate the working principles behind \gls{XRD} as a measurement method (cf.\ section \ref{Sec:Methods_XRD}), a brief description of reciprocal space and constructive interference will be provided.
 Those derivations are based on \textcite{ashcroft1976}.
 
-A periodic point-like structure with translational symmetry (\enquote{\gls{bl}}) can be described by three vectors $\mathbf{a}_i$ that span a so-called \enquote{unit cell}.
+A periodic point-like structure with translational symmetry (\emph{\gls{bl}}) can be described by three vectors $\mathbf{a}_i$ that span a \emph{unit cell}.
 Every lattice point $\mathbf{R}$ is a linear combination of those unit cell vectors.
-For such a lattice, there exists a so-called \enquote{reciprocal lattice}, which consists of all vectors $\mathbf{K}$ satisfying the condition\footnote{
-    The definition of $\textbf{K}$ by (\ref{equ:Theory_DefReciprocal}) is a consequence of demanding that the plane wave described by $f_\mathbf{K}(\mathbf{r})=\exp(i\langle\mathbf{K},\mathbf{r}\rangle)$ has the same symmetry as the \gls{bl}
+For such a lattice, there exists a so-called \emph{reciprocal lattice}, which consists of all vectors $\mathbf{K}$ satisfying the condition\footnote{
+    The definition of $\textbf{K}$ by \eqref{equ:Theory_DefReciprocal} is a consequence of demanding that the plane wave described by $f_\mathbf{K}(\mathbf{r})=\exp(i\langle\mathbf{K},\mathbf{r}\rangle)$ has the same symmetry as the \gls{bl}
         \cite{ashcroft1976}.
 }:
 \begin{align}
@@ -25,13 +25,13 @@ It follows that for any $i,j$:
 \end{equation}
 with the \textsc{Kronecker} delta $\delta_{ij}$.
 A major application of reciprocal space vectors is their ability to describe lattice planes.
-Any lattice plane can be described by the shortest possible reciprocal space vector $\mathbf{K}_{hkl}$ perpendicular to it.
+Any lattice plane can be parametrized by the shortest possible reciprocal space vector $\mathbf{K}_{hkl}$ perpendicular to it.
 Consequently, the lattice plane is denoted by $(hkl)$.
 The distance between equivalent lattice planes can be calculated via
 \begin{equation}\label{Equ:Theory_planeDistance}
     d_{hkl}=|\mathbf{K}_{hkl}|^{-1}\,.
 \end{equation}
-Note that for non-cubic crystals, the lattice plane (hkl) is in general \textit{not} perpendicular to the lattice direction [hkl].
+Note that for non-cubic crystals, the lattice plane ($hkl$) is in general \textit{not} perpendicular to the lattice direction [$hkl$].
 
 \begin{figure}
     \centering
@@ -46,7 +46,7 @@ Consider two scattering centers separated by $\mathbf{d}$ (Fig.\,\ref{Fig:Theory
 \end{equation}
 with wavelength $\lambda$ and direction $\hat{\mathbf{n}}$.
 For the case of elastic scattering, the outcoming wave vector $\mathbf{k}'$ has the same wavelength $\lambda$ but different direction $\hat{\mathbf{n}}'$.
-The phase difference of two photons scattered at the 1st and 2nd scattering center, respectively, can be calculated from their path difference, which reads
+The phase difference of two photons scattered at the 1st and 2nd scattering center, respectively, can be calculated from their path difference (Fig.\,\ref{Fig:Theory_XRD_ashcroft1976}), which reads
 \begin{equation}\label{Equ:Theory_PathDifference}
     \langle\mathbf{d},\hat{\mathbf{n}}\rangle+\langle-\mathbf{d},\hat{\mathbf{n}}'\rangle\,.
 \end{equation}
@@ -79,7 +79,7 @@ The following description of X-rays is based on \textcite{spiess2009}.
 
 The basis of any X-ray tube are high-energy electrons which are produced by thermionic emission in a cathode, which is usally made out of tungsten\footnote{
     Tungsten is the element with the second highest melting point of around \qty{3400}{\celsius}.
-    This ensures a low contamination of the anode with cathode material, reducing the intensity of observed peaks in \gls{XRD} patterns that correspond to tungsten (cf.\ \ref{Sec:Methods_XRD}). 
+    This ensures a low contamination of the anode with cathode material, reducing the intensity of observed peaks in \gls{XRD} patterns that correspond to tungsten (cf.\  section \ref{Sec:Methods_XRD}). 
 }.
 An electric field of several \si{\kV} accelerates the electrons to the anode, where they are stopped such that around \qty{99}{\percent} of their kinetic energy dissipates.
 The momentum change of electrons, which are charged particles, leads to emission of bremsstrahlung.
